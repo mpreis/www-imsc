@@ -13,14 +13,15 @@
 		<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
 		
         <link href="./css/lightbox_dark.css" rel="stylesheet">
-		
+    	
 		<script type="text/javascript" src="./js/jquery.min.js"></script>
 		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="./js/lightbox.js"></script>
 		
 		<link rel="stylesheet" href="./css/style.css">
 		
-		<?php include './php/lib.php'; ?>
+		<?php include './php/fb_lib.php'; ?>
+		<?php include './php/carousel_lib.php'; ?>
 	</head>
 
 	<body>
@@ -151,7 +152,7 @@
 				</div>
 			</div>
 		</section><!-- end section home -->
-
+		
 		<!-- ************************************************************************************ -->
 		<!-- * NEWS -->
 		<!-- ************************************************************************************ -->
@@ -421,6 +422,30 @@
 				</div>
 			</div>
 		</section><!-- end section honorary members -->
+		
+		<!-- ************************************************************************************ -->
+		<!-- * DRIVERS -->
+		<!-- ************************************************************************************ -->
+		<section class="my_section" id="drivers">
+			<div class="background">&nbsp;</div>
+				<div class="container">
+					<h2>Fahrer</h2>
+					<div class="row">
+						<div class="box">
+							<div id="fb-feeds" class="row">	
+								<div class="col-sm-2">&nbsp;</div>
+								<div class="my_section fb-feed col-sm-12">
+									<div class="fb-feed-background">&nbsp;</div>
+									<div class="container">
+										<?php print(getDriverCarousel()); ?>
+									</div>
+								</div>
+								<div class="col-sm-2">&nbsp;</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
 		
 		<!-- ************************************************************************************ -->
 		<!-- * DRIVERS -->

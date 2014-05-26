@@ -81,17 +81,7 @@ img {
 	-ms-interpolation-mode: bicubic;
 }
 
-.crop {
-    width: 200px;
-    height: 150px;
-    overflow: hidden;
-}
-
-.crop img {
-    width: 400px;
-    height: 300px;
-    margin: -75px 0 0 -100px;
-}
+.img-thumbnail { height:250px; width:auto;}
 
 #header {
 	position:fixed; 
@@ -668,6 +658,7 @@ body > header .header-background {
     }
 	
     .logos { display: none; }
+	.img-thumbnail { height:120px; width:auto;}
 	
     .footer {
 		padding-top: 28px;
@@ -712,4 +703,6 @@ body > header .header-background {
 		width:300px; 
 		height:300px;
 	}
+	.img-thumbnail { height:90px; width:auto;}
+	
 }
