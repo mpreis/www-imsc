@@ -2,15 +2,15 @@
 $cars_dir = './imgs/cars/';
 $persons_dir = './imgs/persons/';
 
-function getControls() {
+function getControls($id) {
     return
 		'<!-- Controls -->
-   		 <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-        	<span class="icon-prev"></span>
-    	</a>
-    	<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-        	<span class="icon-next"></span>
-    	</a>';
+		<a class="left carousel-control" href="#' . $id . '" data-slide="prev">
+			<span class="icon-prev"></span>
+		</a>
+		<a class="right carousel-control" href="#' . $id . '" data-slide="next">
+			<span class="icon-next"></span>
+		</a>';
 }
 
 function getDriverCarousel() {

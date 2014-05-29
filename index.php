@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>IMSC</title>
-
+		
 		<meta name="apple-mobile-web-app-capable" content="yes"/>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
 		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
@@ -12,8 +12,8 @@
 		<link rel="stylesheet" href="./css/bootstrap.min.css">
 		<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
 		
-        <link href="./css/lightbox_dark.css" rel="stylesheet">
-    	
+		<link href="./css/lightbox_dark.css" rel="stylesheet">
+		
 		<script type="text/javascript" src="./js/jquery.min.js"></script>
 		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="./js/lightbox.js"></script>
@@ -23,21 +23,20 @@
 		<?php include './php/fb_lib.php'; ?>
 		<?php include './php/carousel_lib.php'; ?>
 	</head>
-
+	
 	<body>
-				
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
-		<nav role="navigation" class="navbar navbar-default bg-midnight-blue" id="header">
+		<nav role="navigation" class="navbar navbar-default  bg-midnight-blue" id="header">
 			<div class="navbar-header">
-	            <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-	                <span class="sr-only">Toggle navigation</span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	                <span class="icon-bar"></span>
-	            </button>
-	            <a class="navbar-brand brand" href="#home">
+				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand brand" href="#home">
 					<img src="imgs/favicon.png" class="navbar-brand-img my-brand-img" />
 					<div class="navbar-brand-text my-brand-text">
 						Innviertler<br />
@@ -79,13 +78,13 @@
 					</li>					
 				</ul>
 			</div>
-		</nav>
+		</nav><!-- end navigation -->
 		                             		
 		<!-- ************************************************************************************ -->
 		<!-- * CONTENT -->
 		<!-- ************************************************************************************ -->
 		<div class="page-wrapper">
-
+			
 		<!-- ************************************************************************************ -->
 		<!-- * HOME -->
 		<!-- ************************************************************************************ -->
@@ -158,13 +157,14 @@
 		<!-- ************************************************************************************ -->
 		<section class="my_section" id="news">
 			<div class="background">&nbsp;</div>
-			<div class="container">
-				<h2>News</h2>
-				<?php print(getFacebookFeed()); ?>
-			</div> 
+			<div class="container"><h2>News</h2><br /></div>
+			<?php 
+				print(getControls('carousel-fb-feeds')); 
+				print(getFacebookFeedAsCarousel('carousel-fb-feeds')); 
+			?> 
 		</section><!-- end section news -->
 		
-        <!-- ************************************************************************************ -->
+		<!-- ************************************************************************************ -->
 		<!-- * CALENDAR -->
 		<!-- ************************************************************************************ -->
 		<section class="my_section" id="calendar">
@@ -178,6 +178,7 @@
 					</a>
 					-->
 				</h2>
+				<br /><br />
 				<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23e3e9ff&amp;src=imsc.ried%40gmail.com&amp;color=%23182C57&amp;src=4lbippnpc3kecmdmlcfmu7c0b4%40group.calendar.google.com&amp;color=%23A32929&amp;src=1q0fnqg9mnib8nebph0d6aaop4%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FVienna" class="cal_div cal_div_month cal" frameborder="0" scrolling="no"></iframe>
 			 	
 				<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=imsc.ried%40gmail.com&amp;color=%23182C57&amp;src=4lbippnpc3kecmdmlcfmu7c0b4%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=1q0fnqg9mnib8nebph0d6aaop4%40group.calendar.google.com&amp;color=%23A32929&amp;ctz=Europe%2FVienna" class="cal_div cal_div_events cal_events" frameborder="0" scrolling="no"></iframe>
@@ -227,13 +228,13 @@
 					<div class="col-sm-4">
 						<div>
 							<h6>G&uuml;nter Weilbold</h6>
-							g.weilbold@aon.at<br />
-							+43 660 5793350
+							<span class="glyphicon glyphicon-envelope"></span> g.weilbold@aon.at<br />
+							<span class="glyphicon glyphicon-earphone"></span> +43 660 5793350
 						</div>
 						<div>
 							<h6>G&uuml;nther Preishuber<br />(Stellvertreter)</h6>
-							g.preishuber@aon.at<br />
-							+43 650 2747445
+							<span class="glyphicon glyphicon-envelope"></span> g.preishuber@aon.at<br />
+							<span class="glyphicon glyphicon-earphone"></span> +43 650 2747445
 						</div>
 					</div>
 					<div class="col-sm-4">
@@ -257,13 +258,13 @@
 					<div class="col-sm-4">
 						<div>
 							<h6>Mario Preishuber</h6>
-							imsc.ried@gmail.com <br />
-							+43 650 6733007
+							<span class="glyphicon glyphicon-envelope"></span> imsc.ried@gmail.com <br />
+							<span class="glyphicon glyphicon-earphone"></span> +43 650 6733007
 						</div>
 						<div>
 							<h6>Markus Zechmeister <br />(Stellvertreter)</h6>
-							meister@reich-kfz.at <br />
-							+43 664 5405475
+							<span class="glyphicon glyphicon-envelope"></span> meister@reich-kfz.at <br />
+							<span class="glyphicon glyphicon-earphone"></span> +43 664 5405475
 						</div>
 					</div>
 					<div class="col-sm-4">
@@ -426,6 +427,7 @@
 		<!-- ************************************************************************************ -->
 		<!-- * DRIVERS -->
 		<!-- ************************************************************************************ -->
+		<!--
 		<section class="my_section" id="drivers">
 			<div class="background">&nbsp;</div>
 				<div class="container">
@@ -437,7 +439,7 @@
 								<div class="my_section fb-feed col-sm-12">
 									<div class="fb-feed-background">&nbsp;</div>
 									<div class="container">
-										<?php print(getDriverCarousel()); ?>
+										<?php //print(getDriverCarousel()); ?>
 									</div>
 								</div>
 								<div class="col-sm-2">&nbsp;</div>
@@ -446,6 +448,7 @@
 					</div>
 				</div>
 		</section>
+		-->
 		
 		<!-- ************************************************************************************ -->
 		<!-- * DRIVERS -->
@@ -631,40 +634,40 @@
 		<!-- ************************************************************************************ -->
 		<!-- * CONTACT / FOOTER -->
 		<!-- ************************************************************************************ -->
-        <div class="footer" id="contact">
+		<div class="footer" id="contact">
             <div class="container">
-				<h2>Kontakt</h2>
+				<h1>Kontakt</h1>
 				<div class="pull-left row">
 					<div class="col-sm-3">
 						<div>
 							<h5>Obmann</h5>
 							<h6>G&uuml;nter Weilbold</h6>
-							g.weilbold@aon.at<br />
-							+43 660 5793350
+							<span class="glyphicon glyphicon-envelope"></span> g.weilbold@aon.at<br />
+							<span class="glyphicon glyphicon-earphone"></span> +43 660 5793350
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div>
 							<h5>Obmann-Stellvertreter</h5>
 							<h6>G&uuml;nther Preishuber</h6>
-							g.preishuber@aon.at<br />
-							+43 650 2747445
+							<span class="glyphicon glyphicon-envelope"></span> g.preishuber@aon.at<br />
+							<span class="glyphicon glyphicon-earphone"></span> +43 650 2747445
 						</div>
 					</div>
 					<div class="col-sm-3">
 						<div>
 							<h5>Amateursportleiter</h5>
 							<h6>Mario Preishuber</h6>
-							imsc.ried@gmail.com <br />
-							+43 650 6733007
+							<span class="glyphicon glyphicon-envelope"></span> imsc.ried@gmail.com <br />
+							<span class="glyphicon glyphicon-earphone"></span> +43 650 6733007
 						</div>						
 					</div>
 					<div class="col-sm-3">
 						<div>
 							<h5>Amateursportleiter-Stellverterter</h5>
 							<h6>Markus Zechmeister</h6>
-							meister@reich-kfz.at <br />
-							+43 664 5405475
+							<span class="glyphicon glyphicon-envelope"></span> meister@reich-kfz.at <br />
+							<span class="glyphicon glyphicon-earphone"></span> +43 664 5405475
 						</div>
 					</div>
 				</div>
@@ -683,21 +686,26 @@
                 </div>
             </div>
 		</div>
-
+		
 		</div><!-- end content -->
 		
 		<!-- ************************************************************************************ -->
 		<!-- * ADDITIONAL CONTENT -->
 		<!-- ************************************************************************************ -->
+		<!-- facebook btns -->
 		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		<script type="text/javascript">$(document).ready(function ($) {
+		<script>
+			function(d, s, id) {
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) return;
+				js = d.createElement(s); js.id = id;
+				js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
+				fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));
+		</script>
+		<!-- lightbox - images -->
+		<script type="text/javascript">
+			$(document).ready(function ($) {
 				// delegate calls to data-toggle="lightbox"
 				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
 					event.preventDefault();
@@ -705,90 +713,18 @@
 						always_show_close: true
 					});
 				});
-			});</script>
-		<script>$(function() {
-		    	$('.nav a').on('click', function(){ 
-		        	if($('.navbar-toggle').css('display') !='none'){
-		            	$(".navbar-toggle").trigger( "click" );
-		        	}
-		    	});
-			});</script>
-	
-		
-		<!-- ************************************************************************************ -->
-		<!-- * NOT USED -->
-		<!-- ************************************************************************************ -->
-		
-		<!-- ************************************************************************************ -->
-		<!-- * PARTNER -->
-		<!-- ************************************************************************************ -->
-        <!-- <section id="partner" class="logos">
-			<div class="container">
-				<div>
-					<a href="http://www.autoslalom.at/">
-						<img src="./imgs/partner/autoslalom.gif" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="http://www.ooe-cup.at/">
-						<img src="./imgs/partner/ooe_cup/ooe_cup.jpg" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="http://www.slm-autoslalom.at/">
-						<img src="./imgs/partner/slm/slm.jpg" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="http://www.msc-rosenau.com/">
-						<img src="./imgs/partner/ooe_cup/msc_rosenau.jpg" alt="">
-					</a>
-            	</div>
-			</div>
-		</div> -->
-        
-		<!-- ************************************************************************************ -->
-		<!-- * SOCIAL -->
-		<!-- ************************************************************************************ -->
-		<!-- <section id="social" class="logos">
-			<div class="container">
-				<div>
-					<a href="http://www.stolli-motorsport.at/">
-						<img src="./imgs/partner/ooe_cup/stolli_motorsport.jpg" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="http://www.hc-motorsport.at/">
-						<img src="./imgs/partner/slm/hc_motorsport.jpg" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="">
-						<img src="./imgs/partner/slm/msc_flachgau.jpg" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="">
-						<img src="./imgs/partner/slm/msc_gastein.jpg" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="http://www.geomix.at/verein/msc-muehlbach-hkg/">
-						<img src="./imgs/partner/slm/msc_muehlbach.jpg" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="http://www.msc-schloessl.at/">
-						<img src="./imgs/partner/slm/msc_schloessel.jpg" alt="">
-					</a>
-            	</div>
-				<div>
-					<a href="https://www.facebook.com/pages/Motorsportclub-Sch%C3%B6nau-am-K%C3%B6nigssee/462970823806957">
-						<img src="./imgs/partner/slm/msc_schoenau.jpg" alt="">
-					</a>
-            	</div>
-			</div>
-        </section> -->
-		
+			});
+		</script>
+		<!-- navigation -->
+		<script>
+			$(function() {
+				$('.nav a').on('click', function(){ 
+					if($('.navbar-toggle').css('display') !='none')
+					{
+						$(".navbar-toggle").trigger( "click" );
+					}
+				});
+			});
+		</script>
 	</body>
 </html>
