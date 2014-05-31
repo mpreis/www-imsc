@@ -1,3 +1,19 @@
+<?php
+	/**
+	 *
+ 	 * @author	Mario Preishuber <preishuber.mario@gmail.com>
+ 	 */
+	namespace IMSC;
+	use \IMSC\php\FBHtmlTags;
+	use \IMSC\php\Facebook\Informations;
+	require_once 'php/FBHtmlTags.php';
+	require_once 'php/Facebook/Informations.php';
+	
+	$fb_htmltags = new FBHtmlTags();
+	$fb_infos = new Informations();
+	
+?>
+
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
 	<head>
@@ -8,23 +24,20 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
 		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 		
-		<link rel="shortcut icon" href="./imgs/favicon.png">
-		<link rel="stylesheet" href="./css/bootstrap.min.css">
-		<link rel="stylesheet" href="./css/bootstrap-theme.min.css">
+		<link rel="shortcut icon" href="../imgs/favicon.png">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
 		
-		<link href="./css/lightbox_dark.css" rel="stylesheet">
+		<link href="../css/lightbox_dark.css" rel="stylesheet">
 		
-		<script type="text/javascript" src="./js/jquery.min.js"></script>
-		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="./js/lightbox.js"></script>
+		<script type="text/javascript" src="../js/jquery.min.js"></script>
+		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="../js/lightbox.js"></script>
 		
-		<link rel="stylesheet" href="./css/style.css">
-		
-		<?php include './php/fb_lib.php'; ?>
-		<?php include './php/carousel_lib.php'; ?>
+		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	
-	<body>
+	<body>		
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
@@ -53,7 +66,7 @@
 					</li>
 					<li>
 						<a href="#calendar" data-toggle="collapse" data-target=".nav-collapse">
-							KALENDAR
+							KALENDER
 						</a>
 					</li>
 					<li>
@@ -95,7 +108,7 @@
 					<div class="col-sm-4">
 						<h1>Innviertler Motor Sport Club</h1>
 						<p>
-							<?php print(getFacebookAbout()); ?>
+							<?php print($fb_infos->getAbout()); ?>
 							<br /><br />
 							...Motorsport f&uuml;r Jedermann und Jedefrau
 							<br />
@@ -159,8 +172,8 @@
 			<div class="background">&nbsp;</div>
 			<div class="container"><h2>News</h2><br /></div>
 			<?php 
-				print(getControls('carousel-fb-feeds')); 
-				print(getFacebookFeedAsCarousel('carousel-fb-feeds')); 
+				print($fb_htmltags->getCarouselControls('carousel-fb-feeds')); 
+				print($fb_htmltags->getFacebookFeedAsCarousel('carousel-fb-feeds')); 
 			?> 
 		</section><!-- end section news -->
 		
@@ -171,7 +184,7 @@
 			<div class="background">&nbsp;</div>
 			<div class="container">
 				<h2>
-					Kalendar 
+					Kalender 
 					<!--
 					<a href="https://www.google.com/calendar/ical/imsc.ried%40gmail.com/public/basic.ics">
 						<img src="./imgs/icallogo.png" width="50px" />

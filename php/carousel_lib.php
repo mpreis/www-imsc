@@ -1,4 +1,9 @@
 <?php
+/**
+ * 
+ * @author	Mario Preishuber <preishuber.mario@gmail.com>
+ */
+
 $cars_dir = './imgs/cars/';
 $persons_dir = './imgs/persons/';
 
@@ -6,10 +11,10 @@ function getControls($id) {
     return
 		'<!-- Controls -->
 		<a class="left carousel-control" href="#' . $id . '" data-slide="prev">
-			<span class="icon-prev"></span>
+			<span class="glyphicon glyphicon-chevron-left"></span>
 		</a>
 		<a class="right carousel-control" href="#' . $id . '" data-slide="next">
-			<span class="icon-next"></span>
+			<span class="glyphicon glyphicon-chevron-right"></span>
 		</a>';
 }
 

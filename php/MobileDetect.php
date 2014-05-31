@@ -23,7 +23,9 @@
  * @version     2.8.0
  */
 
-class Mobile_Detect
+namespace IMSC\php;
+
+class MobileDetect
 {
     /**
      * Mobile detection type.
@@ -1129,7 +1131,7 @@ class Mobile_Detect
             // Windows Phone 7-7.5 - Tested on the HTC Surround (7.0) HTC Trophy (7.5), LG-E900 (7.5), Nokia Lumia 800
             $this->version('Windows Phone OS', self::VERSION_TYPE_FLOAT)>=7.0 ||
 
-            // Blackberry 7 - Tested on BlackBerry® Torch 9810
+            // Blackberry 7 - Tested on BlackBerry Torch 9810
             // Blackberry 6.0 - Tested on the Torch 9800 and Style 9670
             $this->is('BlackBerry') && $this->version('BlackBerry', self::VERSION_TYPE_FLOAT)>=6.0 ||
             // Blackberry Playbook (1.0-2.0) - Tested on PlayBook
