@@ -82,8 +82,7 @@ img {
 	-ms-interpolation-mode: bicubic;
 }
 
-.img-thumbnail { height:250px; width:auto;}
-.carousel-inner { min-height: 600px; }
+/* .carousel-inner { min-height: 600px; } */
 
 #header {
 	position:fixed; 
@@ -195,18 +194,22 @@ body > header .header-background {
     filter: alpha(opacity=80);
 }
 
-#home .background { background-image: url("../imgs/bg/section_home.png"); }
-#news .background { background-image: url("../imgs/bg/section_news.png"); }
-#drivers .background { background-image: url("../imgs/bg/section_drivers.png"); }
+.background-1 { background-image: url("../imgs/bg/section_home_1.png"); }
+.background-2 { background-image: url("../imgs/bg/section_home_2.png"); }
+.background-3 { background-image: url("../imgs/bg/section_home_3.png"); }
+
+#home .background { /*background-image: url("../imgs/bg/section_home.png"); */ }
+#news .background { background-color:#beac89; /* background-image: url("../imgs/bg/section_news.png"); */ }
+#drivers .background { background-color:#beac89; /* background-image: url("../imgs/bg/section_drivers.png"); */ }
 #management .background { 
-	background-color: #487bbd; 
+	background-color: #beac89; 
 	opacity: 90;
     filter: alpha(opacity=9000);
     opacity: 0.9;
     filter: alpha(opacity=90);
 }
 #calendar .background {
-	background-image: url("../imgs/bg/section_calendar.png");  
+	background-image: url("../imgs/bg/section_calendar.png");
 	opacity: 90;
     filter: alpha(opacity=9000);
     opacity: 0.9;
@@ -215,6 +218,12 @@ body > header .header-background {
 #honorary_members .background {
 	background-color: #beac89; 
 }
+
+.img-thumbnail
+{
+	max-height: 250px;
+	width:auto;
+} 
 
 #fb-feeds .fb-feed-background {
 	background-color:#fff;
@@ -349,7 +358,7 @@ body > header .header-background {
 .my_section {
 	padding-top:100px;
 	padding-bottom: 110px;
-  	position: relative;
+	position: relative;
 }
 .my_section * { z-index: 2; }
 .my_section h3 {
@@ -673,11 +682,11 @@ body > header .header-background {
     }
 	
 	#home .background { background: #beac89; /* imsc-gold */ }
-	#news .background { background: #487bbd; /* imsc-blue */ }
+	#news .background {  background: #beac89; /* imsc-gold */ /*background: #487bbd; /* imsc-blue */ }
 	#calendar .background { background: #beac89; /* imsc-gold */ }
-	#management .background { background: #487bbd; /* imsc-blue */ }
+	#management .background {  background: #beac89; /* imsc-gold */ /*background: #487bbd; /* imsc-blue */ }
 	#honorary_members .background { background: #beac89; /* imsc-gold */}
-	#drivers .background { background: #487bbd; /* imsc-blue */ }
+	#drivers .background {  background: #beac89; /* imsc-gold */ /*background: #487bbd; /* imsc-blue */ }
 	
 	.fb-feed-video {
 		width:420px;
@@ -763,7 +772,7 @@ body > header .header-background {
 	.img-thumbnail { height:90px; width:auto;}
 	
 	.fb-feed-video {
-		width:210px;
-		height:157px;
+		width:110px;
+		height:57px;
 	}
 }

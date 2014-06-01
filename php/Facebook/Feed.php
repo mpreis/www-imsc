@@ -28,9 +28,9 @@ class Feed
 	private $comments_count;
 	
 	private $message;
-	//private $images;
-	//private $videos;
 	
+	private $valid;
+		
 	public function __construct($data) {
 		$this->backingData = $data;
 		
@@ -38,7 +38,11 @@ class Feed
 		
 		$this->object_id = $this->backingData->object_id;
 		$this->title = $this->backingData->name;		
-		$this->cover_img = Constants::$facebook_url_http . $this->backingData->object_id . "/picture?type=normal";
+		$this->cover_img = array();
+		if(strcmp($this->backingData->object_id, "") != 0)
+		{
+			$this->cover_img[] = Constants::$facebook_url_http . $this->backingData->object_id . "/picture?type=normal";
+		}
 		$this->date = date_format(date_create($this->backingData->updated_time), 'd.F');
 		$this->fb_link = $this->backingData->link;
 		
@@ -56,6 +60,16 @@ class Feed
 		$this->comments_count = count($this->backingData->comments);
 		
 		$this->message = $this->buildMsg();
+		
+		if( strcmp($this->message, "") == 0 
+			&& strcmp($this->title, "") == 0) 
+		{
+			$this->valid = false;
+		} 
+		else 
+		{
+			$this->valid = true;
+		}
 	}
 	
 	private function buildMsg() 
@@ -79,7 +93,7 @@ class Feed
 		return $final_msg;
 	}
 	
-	
+	public function isValid			() { return $this->valid; }
 	public function getBackingData	() { return $this->backingData; }
 	public function getObjectId		() { return $this->object_id; }
 	public function getTitle		() { return $this->title; }
@@ -99,15 +113,22 @@ class Feed
 	
 	public function equals($otherFeed) 
 	{
-		return ( strcmp($this->title, $otherFeed->title) == 0 )
-			&& ( strcmp($this->author_id, $otherFeed->author_id) == 0 )
-			&& ( strcmp($this->message, $otherFeed->message) == 0 )
-			&& ( strcmp($this->date, $otherFeed->date) == 0 );
+		return ( strcmp($this->title, $otherFeed->getTitle()) == 0 )
+			&& ( strcmp($this->author_id, $otherFeed->getAuthorId()) == 0 )
+			&& ( strcmp($this->message, $otherFeed->getMessage()) == 0 );
+			//&& ( strcmp($this->date, $otherFeed->getDate()) == 0 );
 	}
 	
 	public function merge($otherFeed)
 	{
-		$this->source[] = $otherFeed->source[1];
+		foreach($otherFeed->getSource() as $src)
+		{
+			$this->source[] = $src;
+		}
+		foreach($otherFeed->getCoverImg() as $imgsrc)
+		{
+			$this->cover_img[] = $imgsrc;
+		}
 	}
 }
 ?>

@@ -102,7 +102,10 @@
 		<!-- * HOME -->
 		<!-- ************************************************************************************ -->
 		<section class="my_section" id="home">
-			<div class="background">&nbsp;</div>
+			<?php
+				$cssclass = 'background-' . rand(1,3);
+				echo '<div class="background ' . $cssclass . '">&nbsp;</div>';
+			?>
 			<div class="container">
 				<div id="fb-feeds" class="rows">
 					<div class="col-sm-4">
@@ -407,8 +410,7 @@
 						<div class="container">
 							<h3 class="fb-feed-title">Peter Hofinger</h3>
 							<div class="fb-feed-message">
-								<b>30 Jahre Obmann</b> <br />
-								von 1983 bis 2013 <br />
+								<b>30 Jahre Obmann von 1983 bis 2013</b><br />
 								seit 1973 im Verein <br />
 								<a href="./imgs/persons/anonym.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Peter Hofinger">
 									<img class="img-thumbnail img-responsive" src="imgs/persons/anonym.jpg"/>
@@ -422,8 +424,7 @@
 						<div class="container">
 							<h3 class="fb-feed-title">Johann Berschl</h3>
 							<div class="fb-feed-message">
-								<b>29 Jahre Amateursportleiter</b><br />
-								von 1984 bis 2013 <br />
+								<b>29 Jahre Amateursportleiter von 1984 bis 2013</b><br />
 								seit 1983 im Verein <br />
 								<a href="./imgs/persons/berschl_johann.jpg" data-toggle="lightbox" 
 									data-gallery="multiimages" data-title="Johann Berschl">
@@ -436,32 +437,6 @@
 				</div>
 			</div>
 		</section><!-- end section honorary members -->
-		
-		<!-- ************************************************************************************ -->
-		<!-- * DRIVERS -->
-		<!-- ************************************************************************************ -->
-		<!--
-		<section class="my_section" id="drivers">
-			<div class="background">&nbsp;</div>
-				<div class="container">
-					<h2>Fahrer</h2>
-					<div class="row">
-						<div class="box">
-							<div id="fb-feeds" class="row">	
-								<div class="col-sm-2">&nbsp;</div>
-								<div class="my_section fb-feed col-sm-12">
-									<div class="fb-feed-background">&nbsp;</div>
-									<div class="container">
-										<?php //print(getDriverCarousel()); ?>
-									</div>
-								</div>
-								<div class="col-sm-2">&nbsp;</div>
-							</div>
-						</div>
-					</div>
-				</div>
-		</section>
-		-->
 		
 		<!-- ************************************************************************************ -->
 		<!-- * DRIVERS -->
@@ -689,10 +664,12 @@
 						<div><img src="./imgs/social/fb.png" alt=""></div>
 						<div><img src="./imgs/social/fb.png" alt=""></div>
 					</a>
-                    <a href="#">
+					<!--
+					<a href="#">
 						<div><img src="./imgs/social/g+.png" alt=""></div>
 						<div><img src="./imgs/social/g+.png" alt=""></div>
 					</a>
+					-->
                 </div>
                 <div class="additional-links">
                     <!--Be sure to take a look to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a><br />-->

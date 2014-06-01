@@ -15,7 +15,7 @@ class Feeds
 	public function __construct() 
 	{
 		/* get data from facebook */
-		$request = Constants::$facebook_url_https . Constants::$page_id . '/posts?access_token=' . Constants::$access_token;
+		$request = Constants::$facebook_url_https . Constants::$page_id . '/posts?since=0&access_token=' . Constants::$access_token;
 		$json_object = @file_get_contents($request);
 		$this->backingData = json_decode($json_object);
 		
@@ -24,7 +24,11 @@ class Feeds
 		
 		foreach ($this->backingData->data as $feed)
 		{
-			$tmp_feeds[] = new Feed($feed);
+			$f = new Feed($feed);
+			if($f->isValid())
+			{
+				$tmp_feeds[] = $f;
+			}
 		}
 		
 		$tmp_feed = $tmp_feeds[1];
@@ -41,6 +45,7 @@ class Feeds
 			}
 		}
 		$this->feeds = $feeds;
+		
 		//$this->feeds = $tmp_feeds;
 	}
 	

@@ -73,15 +73,43 @@ class FBHtmlTags
 							. '</a>'
 							. '</h6>';
 			
-			if($feed->getObjectId() != null && strcmp($feed->getObjectId(),"") != 0) { 
-				$carousel_inner .= '<a href="' . $feed->getCoverImg() .'" data-toggle="lightbox" data-gallery="multiimages" data-title="' 
-							. $feed->getAuthorName() . '">'
-							. '<img src="' . $feed->getCoverImg() . '" class="img-thumbnail img-responsive center-block" />'
-							. '</a><br />';
-			}
+			$carousel_inner .= '<div class="fb-feed-message">'. $feed->getMessage() . '<br /><br /></div>';
 			
-			if($feed->getSource() != null && strcmp($feed->getSource(),"") != 0 /*&& strcmp($post->type,"video") == 0*/) {
-				$video_src = str_replace("autoplay=1", "autoplay=0", $feed->getSource()[1]);
+			$imgGallery = '';
+			$imgCover = '';
+			foreach($feed->getCoverImg() as $imgsrc)
+			{
+				if(strcmp($imgCover,'') == 0)
+				{
+					$imgCover .= '<a href="' . $imgsrc
+								. '" data-toggle="lightbox" data-gallery="multiimages" data-title="' 
+								. $feed->getAuthorName() . '">'
+								. '<img src="' . $imgsrc . '" class="img-thumbnail img-responsive center-block" />'
+							. '</a><br />';
+				}
+				else
+				{
+					$imgGallery .= '<div class="col-sm-4">';
+					$imgGallery .= '<a href="' . $imgsrc
+								. '" data-toggle="lightbox" data-gallery="multiimages" data-title="' 
+								. $feed->getAuthorName() . '">'
+								. '<img src="' . $imgsrc . '" class="img-thumbnail img-responsive center-block" />'
+							. '</a>';
+					$imgGallery .= '</div>';
+					
+				}
+				
+			}
+			$imgGallery = '<div class="row">' . $imgGallery . '</div>';
+			$imgGallery = '<div class="container">' . $imgGallery . '</div>';
+			$carousel_inner .= $imgCover;
+			$carousel_inner .= $imgGallery;
+			
+			foreach($feed->getSource() as $src)
+			{
+				if($src == null || strcmp($src, "") == 0) continue;
+					
+				$video_src = str_replace("autoplay=1", "autoplay=0", $src);
 				$carousel_inner .= 
 					'<object class="fb-feed-video center-block">
 						<param name="movie" value="' . $video_src . '"></param>
@@ -96,13 +124,10 @@ class FBHtmlTags
 				$carousel_inner .= '<br />';
 			}
 			
-			$carousel_inner .= '<div class="fb-feed-message">'. $feed->getMessage() . '</div>';
 			$carousel_inner .= 
 					'<div class="fb-feed-like">'
-						. '<span class="glyphicon glyphicon-thumbs-up"></span> ' 
+						. '<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;' 
 						. $feed->getLikesCount() 
-						. '<span class="glyphicon glyphicon-comment"></span>' 
-						. $feed->getCommentsCount()
 					. '</div>';
 			
 			
