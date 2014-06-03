@@ -11,7 +11,7 @@ require_once 'Facebook/Feeds.php';
  *
  * @author	Mario Preishuber <preishuber.mario@gmail.com>
  */
-class FBHtmlTags
+class HtmlTags
 {
 	public function getCarouselControls($id) {
 		return
@@ -22,6 +22,19 @@ class FBHtmlTags
 			<a class="right carousel-control" href="#' . $id . '" data-slide="next">
 				<span class="glyphicon glyphicon-chevron-right"></span>
 			</a>';
+	}
+	
+	public function getHomeBackgroundAsCarousel($id) {
+		
+		$detect = new MobileDetect();
+		if($detect->isMobile()) {
+			return '<div class="background">&nbsp;</div>';
+		}
+		
+		$carousel = '<div id="' . $id . '" class="carousel slide">';
+		$carousel_inner = '<div class="carousel-inner">';
+		$indicators = '<ol class="carousel-indicators">';
+		
 	}
 	
 	public function getFacebookFeedAsCarousel($id) { 

@@ -4,14 +4,13 @@
  	 * @author	Mario Preishuber <preishuber.mario@gmail.com>
  	 */
 	namespace IMSC;
-	use \IMSC\php\FBHtmlTags;
+	use \IMSC\php\HtmlTags;
 	use \IMSC\php\Facebook\Informations;
-	require_once 'php/FBHtmlTags.php';
+	require_once 'php/HtmlTags.php';
 	require_once 'php/Facebook/Informations.php';
 	
 	$fb_htmltags = new FBHtmlTags();
 	$fb_infos = new Informations();
-	
 ?>
 
 <!DOCTYPE html>
@@ -103,14 +102,15 @@
 		<!-- ************************************************************************************ -->
 		<section class="my_section" id="home">
 			<?php
-				$cssclass = 'background-' . rand(1,3);
+				$cssclass = 'background-' . rand($minBGImgId,$maxBGImgId);
 				echo '<div class="background ' . $cssclass . '">&nbsp;</div>';
 			?>
 			<div class="container">
 				<div id="fb-feeds" class="rows">
 					<div class="col-sm-4">
 						<h1>Innviertler Motor Sport Club</h1>
-						<p>
+						<div class="fb-feed-background">&nbsp;</div>
+						<div class="my_section fb-feed">
 							<?php print($fb_infos->getAbout()); ?>
 							<br /><br />
 							...Motorsport f&uuml;r Jedermann und Jedefrau
@@ -122,8 +122,7 @@
 								data-show-faces="true" 
 								data-share="true">
 							</div>
-
-						</p>
+						</div>
 					</div>
 					<!-- important informations -->
 					<div class="col-sm-7 col-sm-offset-1">

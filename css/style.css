@@ -194,29 +194,47 @@ body > header .header-background {
     filter: alpha(opacity=80);
 }
 
-.background-1 { background-image: url("../imgs/bg/section_home_1.png"); }
-.background-2 { background-image: url("../imgs/bg/section_home_2.png"); }
-.background-3 { background-image: url("../imgs/bg/section_home_3.png"); }
+.background-1 { background-image: url("../imgs/bg/section_home_1.jpg"); }
+.background-2 { background-image: url("../imgs/bg/section_home_2.jpg"); }
+.background-3 { background-image: url("../imgs/bg/section_home_3.jpg"); }
+.background-4 { background-image: url("../imgs/bg/section_home_4.jpg"); }
+.background-5 { background-image: url("../imgs/bg/section_home_5.jpg"); }
+.background-6 { background-image: url("../imgs/bg/section_home_6.jpg"); }
+.background-7 { background-image: url("../imgs/bg/section_home_7.jpg"); }
+.background-8 { background-image: url("../imgs/bg/section_home_8.jpg"); }
+.background-9 { background-image: url("../imgs/bg/section_home_9.jpg"); }
+.background-10 { background-image: url("../imgs/bg/section_home_10.jpg"); }
+.background-11 { background-image: url("../imgs/bg/section_home_11.jpg"); }
+.background-12 { background-image: url("../imgs/bg/section_home_12.jpg"); }
+.background-13 { background-image: url("../imgs/bg/section_home_13.jpg"); }
+.background-14 { background-image: url("../imgs/bg/section_home_14.jpg"); }
+.background-15 { background-image: url("../imgs/bg/section_home_15.jpg"); }
+.background-16 { background-image: url("../imgs/bg/section_home_16.jpg"); }
+.background-17 { background-image: url("../imgs/bg/section_home_17.jpg"); }
+.background-18 { background-image: url("../imgs/bg/section_home_18.jpg"); }
+.background-19 { background-image: url("../imgs/bg/section_home_19.jpg"); }
+.background-20 { background-image: url("../imgs/bg/section_home_20.jpg"); }
 
-#home .background { /*background-image: url("../imgs/bg/section_home.png"); */ }
-#news .background { background-color:#beac89; /* background-image: url("../imgs/bg/section_news.png"); */ }
-#drivers .background { background-color:#beac89; /* background-image: url("../imgs/bg/section_drivers.png"); */ }
+#news .background { background-color:#beac89; /* imsc-gold */ }
+#drivers .background { background-color:#beac89; /* imsc-gold */ }
 #management .background { 
-	background-color: #beac89; 
-	opacity: 90;
+	background-color: #beac89; /* imsc-gold */
+/*	opacity: 90;
     filter: alpha(opacity=9000);
     opacity: 0.9;
     filter: alpha(opacity=90);
+*/
 }
 #calendar .background {
-	background-image: url("../imgs/bg/section_calendar.png");
-	opacity: 90;
+	background-image: url("../imgs/bg/section_calendar.jpg");
+/*	opacity: 90;
     filter: alpha(opacity=9000);
     opacity: 0.9;
     filter: alpha(opacity=90);
+*/
 }
 #honorary_members .background {
-	background-color: #beac89; 
+	background-color: #beac89; /* imsc-gold */
 }
 
 .img-thumbnail
