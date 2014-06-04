@@ -13,7 +13,9 @@ require_once 'Facebook/Feeds.php';
  */
 class HtmlTags
 {
-	public function getCarouselControls($id) {
+	
+	public function getCarouselControls($id) 
+	{
 		return
 		'<!-- Controls -->
 			<a class="left carousel-control" href="#' . $id . '" data-slide="prev">
@@ -24,19 +26,29 @@ class HtmlTags
 			</a>';
 	}
 	
-	public function getHomeBackgroundAsCarousel($id) {
-		
+	public function getHomeBackground() 
+	{	
+		$bgImg = '';
 		$detect = new MobileDetect();
-		if($detect->isMobile()) {
-			return '<div class="background">&nbsp;</div>';
+		if(!$detect->isMobile()) {
+		
+			$path = './imgs/bg/home/';
+			$imgs = array();
+			
+			if ($handle = opendir($path)) {
+				while (false !== ($file = readdir($handle))) {
+					if ($file != "." && $file != "..") {
+						$imgs[] = $file;
+					}
+				}
+				closedir($handle);
+			}
+			$bgImgIdx = rand(0, count($imgs)-1);
+			$bgImg = 'style="background-image: url(\'' . $path . $imgs[$bgImgIdx] . '\');"';
 		}
-		
-		$carousel = '<div id="' . $id . '" class="carousel slide">';
-		$carousel_inner = '<div class="carousel-inner">';
-		$indicators = '<ol class="carousel-indicators">';
-		
+		return '<div class="background" ' . $bgImg . ' >&nbsp;</div>';
 	}
-	
+
 	public function getFacebookFeedAsCarousel($id) { 
 	
 		$f = new Feeds();
@@ -124,7 +136,7 @@ class HtmlTags
 					
 				$video_src = str_replace("autoplay=1", "autoplay=0", $src);
 				$carousel_inner .= 
-					'<object class="fb-feed-video center-block">
+					'<object class="player fb-feed-video center-block">
 						<param name="movie" value="' . $video_src . '"></param>
 						<param name="allowFullScreen" value="true"></param>
 						<param name="allowscriptaccess" value="always"></param>

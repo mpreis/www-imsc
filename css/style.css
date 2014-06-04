@@ -28,6 +28,7 @@ a:hover {
 	color: #dc2a1b;
 	text-decoration: none;
 }
+
 h1, .h1 { font-size: 48px /* 64px */; text-shadow: 0px 0px 5px #ffffff; }
 h2, .h2 { font-size: 41px /* 52px */; text-shadow: 0px 0px 5px #ffffff; }
 h3, .h3 { font-size: 32px /* 40px */; }
@@ -180,12 +181,14 @@ body > header .header-background {
 	z-index: 2;
 }
 
-#home { padding-top:250px; }
+#home {	padding-top:250px; }
 
 #home .background,
 #news .background,
 #drivers .background,
 #honorary_members .background,
+#management .background,
+#calendar .background,
 #fb-feeds .fb-feed-background {
 	padding-top:250px;  
 	opacity: 80;
@@ -194,47 +197,18 @@ body > header .header-background {
     filter: alpha(opacity=80);
 }
 
-.background-1 { background-image: url("../imgs/bg/section_home_1.jpg"); }
-.background-2 { background-image: url("../imgs/bg/section_home_2.jpg"); }
-.background-3 { background-image: url("../imgs/bg/section_home_3.jpg"); }
-.background-4 { background-image: url("../imgs/bg/section_home_4.jpg"); }
-.background-5 { background-image: url("../imgs/bg/section_home_5.jpg"); }
-.background-6 { background-image: url("../imgs/bg/section_home_6.jpg"); }
-.background-7 { background-image: url("../imgs/bg/section_home_7.jpg"); }
-.background-8 { background-image: url("../imgs/bg/section_home_8.jpg"); }
-.background-9 { background-image: url("../imgs/bg/section_home_9.jpg"); }
-.background-10 { background-image: url("../imgs/bg/section_home_10.jpg"); }
-.background-11 { background-image: url("../imgs/bg/section_home_11.jpg"); }
-.background-12 { background-image: url("../imgs/bg/section_home_12.jpg"); }
-.background-13 { background-image: url("../imgs/bg/section_home_13.jpg"); }
-.background-14 { background-image: url("../imgs/bg/section_home_14.jpg"); }
-.background-15 { background-image: url("../imgs/bg/section_home_15.jpg"); }
-.background-16 { background-image: url("../imgs/bg/section_home_16.jpg"); }
-.background-17 { background-image: url("../imgs/bg/section_home_17.jpg"); }
-.background-18 { background-image: url("../imgs/bg/section_home_18.jpg"); }
-.background-19 { background-image: url("../imgs/bg/section_home_19.jpg"); }
-.background-20 { background-image: url("../imgs/bg/section_home_20.jpg"); }
-
-#news .background { background-color:#beac89; /* imsc-gold */ }
-#drivers .background { background-color:#beac89; /* imsc-gold */ }
-#management .background { 
-	background-color: #beac89; /* imsc-gold */
-/*	opacity: 90;
-    filter: alpha(opacity=9000);
-    opacity: 0.9;
-    filter: alpha(opacity=90);
-*/
+#news .background,
+#drivers .background,
+#management .background,
+#honorary_members .background {
+	background-color: #beac89; /* imsc-gold */ 
 }
 #calendar .background {
 	background-image: url("../imgs/bg/section_calendar.jpg");
-/*	opacity: 90;
+	opacity: 90;
     filter: alpha(opacity=9000);
     opacity: 0.9;
     filter: alpha(opacity=90);
-*/
-}
-#honorary_members .background {
-	background-color: #beac89; /* imsc-gold */
 }
 
 .img-thumbnail
@@ -281,7 +255,7 @@ body > header .header-background {
 
 .fb-feed-video {
 	width:320px;
-	height:215px;
+	height:215px !important;
 }
 
 .navbar-brand-img {
@@ -293,31 +267,6 @@ body > header .header-background {
 .navbar-brand-text {
 	position: relative;
 	left: 70px;
-}
-
-.img-rounded {
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-}
-
-.img-border {
-	border:solid 2px white;
-	-moz-box-shadow: 0 0 7px #888;
-	-webkit-box-shadow: 0 0 7px#888;
-	box-shadow: 0 0 7px #888;
-	margin:10px;
-	width:200px;
-}
-
-.player {
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	border-radius: 6px;
-	background: #bdc3c7;
-	position: relative;
-	overflow: hidden;
-	height: 360px;
 }
 
 /****************************************************************************
@@ -477,9 +426,9 @@ body > header .header-background {
 	padding:2px;
 	
 	background-color:#e3e9ff;
-	-webkit-box-shadow: 0px 4px 4px #beac89;
-	-moz-box-shadow: 0px 4px 4px #beac89; 
-	box-shadow: 0px 4px 4px #beac89;
+	-webkit-box-shadow: 0px 4px 4px #333333;
+	-moz-box-shadow: 0px 4px 4px #333333; 
+	box-shadow: 0px 4px 4px #333333;
 	
 	opacity: 80; 
 	filter: alpha(opacity=8000); 
@@ -628,7 +577,7 @@ body > header .header-background {
 @media (max-width: 1050px) {
 	.fb-feed-video {
 		width:280px;
-		height:165px;
+		height:165px !important;
 	}
 }
 
@@ -636,7 +585,7 @@ body > header .header-background {
 @media (max-width: 930px) {
 	.fb-feed-video {
 		width:250px;
-		height:135px;
+		height:135px !important;
 	}
 }
 
@@ -650,7 +599,7 @@ body > header .header-background {
 @media (max-width: 810px) {
 	.fb-feed-video {
 		width:220px;
-		height:115px;
+		height:115px !important;
 	}
 }
 
@@ -708,7 +657,7 @@ body > header .header-background {
 	
 	.fb-feed-video {
 		width:420px;
-		height:315px;
+		height:315px !important;
 	}
 }
 
@@ -766,7 +715,7 @@ body > header .header-background {
 	
 	.fb-feed-video {
 		width:320px;
-		height:215px;
+		height:215px !important;
 	}
 }
 
@@ -791,6 +740,6 @@ body > header .header-background {
 	
 	.fb-feed-video {
 		width:110px;
-		height:57px;
+		height:57px !important;
 	}
 }

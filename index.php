@@ -4,13 +4,15 @@
  	 * @author	Mario Preishuber <preishuber.mario@gmail.com>
  	 */
 	namespace IMSC;
+	
 	use \IMSC\php\HtmlTags;
 	use \IMSC\php\Facebook\Informations;
 	require_once 'php/HtmlTags.php';
 	require_once 'php/Facebook/Informations.php';
 	
-	$fb_htmltags = new FBHtmlTags();
+	$htmltags = new HtmlTags();
 	$fb_infos = new Informations();
+	
 ?>
 
 <!DOCTYPE html>
@@ -40,7 +42,7 @@
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
-		<nav role="navigation" class="navbar navbar-default  bg-midnight-blue" id="header">
+		<nav role="navigation" class="navbar navbar-default" id="header">
 			<div class="navbar-header">
 				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
 					<span class="sr-only">Toggle navigation</span>
@@ -59,38 +61,44 @@
 			<div id="navbarCollapse" class="collapse navbar-collapse pull-right">
 				<ul class="nav navbar-nav">
 					<li>
+						<br />
 						<a href="#news" data-toggle="collapse" data-target=".nav-collapse">
 							NEWS
 						</a>
 					</li>
 					<li>
+						<br />
 						<a href="#calendar" data-toggle="collapse" data-target=".nav-collapse">
 							KALENDER
 						</a>
 					</li>
 					<li>
+						<br />
 						<a href="#management" data-toggle="collapse" data-target=".nav-collapse">
 							VORSTAND
 						</a>
 					</li>
 					<li>
+						<br />
 						<a href="#honorary_members" data-toggle="collapse" data-target=".nav-collapse">
 							EHRENMITGLIEDER
 						</a>
 					</li>
 					<li>
+						<br />
 						<a href="#drivers" data-toggle="collapse" data-target=".nav-collapse">
 							FAHRER
 						</a>
 					</li>
 					<li>
+						<br />
 						<a href="#contact" data-toggle="collapse" data-target=".nav-collapse">
 							KONTAKT
 						</a>
 					</li>					
 				</ul>
 			</div>
-		</nav><!-- end navigation -->
+		</nav> <!-- end navigation -->
 		                             		
 		<!-- ************************************************************************************ -->
 		<!-- * CONTENT -->
@@ -101,16 +109,13 @@
 		<!-- * HOME -->
 		<!-- ************************************************************************************ -->
 		<section class="my_section" id="home">
-			<?php
-				$cssclass = 'background-' . rand($minBGImgId,$maxBGImgId);
-				echo '<div class="background ' . $cssclass . '">&nbsp;</div>';
-			?>
+			<?php print( $htmltags->getHomeBackground() ); ?>
 			<div class="container">
 				<div id="fb-feeds" class="rows">
-					<div class="col-sm-4">
-						<h1>Innviertler Motor Sport Club</h1>
-						<div class="fb-feed-background">&nbsp;</div>
+					<div class="col-sm-5">
+						<div class="fb-feed-background img-cycle">&nbsp;</div>
 						<div class="my_section fb-feed">
+							<h1>Innviertler Motor Sport Club</h1>
 							<?php print($fb_infos->getAbout()); ?>
 							<br /><br />
 							...Motorsport f&uuml;r Jedermann und Jedefrau
@@ -125,7 +130,8 @@
 						</div>
 					</div>
 					<!-- important informations -->
-					<div class="col-sm-7 col-sm-offset-1">
+					<!--
+					<div class="col-sm-6 col-sm-offset-1">
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
 							<h3>WICHTIG</h3>
@@ -134,10 +140,11 @@
 							Der Slalom findet in Wildenau am Badesee Parkplatz statt. 
 						</div>
 					</div>
+					-->
 					
 					<!-- event calendar -->
-					<!--
-					<div class="col-sm-7 col-sm-offset-1 player-wrapper">
+					
+					<div class="col-sm-6 col-sm-offset-1 player-wrapper">
 						<div class="player">
 							<iframe 								src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=imsc.ried%40gmail.com&amp;color=%23182C57&amp;src=4lbippnpc3kecmdmlcfmu7c0b4%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=1q0fnqg9mnib8nebph0d6aaop4%40group.calendar.google.com&amp;color=%23A32929&amp;ctz=Europe%2FVienna" 
 								style=" border-width:0;
@@ -152,11 +159,11 @@
 							</iframe>
 						</div>
 					</div>
-					-->
+					
 					
 					<!-- player / youtube video -->
 					<!--
-					<div class="col-sm-7 col-sm-offset-1 player-wrapper">
+					<div class="col-sm-6 col-sm-offset-1 player-wrapper">
 						<div class="player">
 							<iframe width="560" height="315" allowfullscreen frameborder="0"
 								src="//www.youtube.com/embed/INdVRC2nqzM"></iframe>
@@ -174,8 +181,8 @@
 			<div class="background">&nbsp;</div>
 			<div class="container"><h2>News</h2><br /></div>
 			<?php 
-				print($fb_htmltags->getCarouselControls('carousel-fb-feeds')); 
-				print($fb_htmltags->getFacebookFeedAsCarousel('carousel-fb-feeds')); 
+				print($htmltags->getCarouselControls('carousel-fb-feeds')); 
+				print($htmltags->getFacebookFeedAsCarousel('carousel-fb-feeds')); 
 			?> 
 		</section><!-- end section news -->
 		
@@ -714,6 +721,13 @@
 					}
 				});
 			});
+		</script>
+		
+		<script>
+		$scope.isActive = function (viewLocation) {
+		     var active = (viewLocation === $location.path());
+		     return active;
+		};
 		</script>
 	</body>
 </html>
