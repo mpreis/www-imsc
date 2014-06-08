@@ -187,6 +187,11 @@ body > header .header-background {
 	margin-top: 70px;
 }
 
+.top-space-small {
+	margin-top: 30px;
+}
+
+
 #home,
 #home .background,
 #news .background,

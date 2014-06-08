@@ -41,6 +41,16 @@
 	</head>
 	
 	<body onresize="resizeSections()">
+		
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=481834645275259&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
@@ -107,22 +117,13 @@
 		<section class="my_section" id="home" >
 			<?php print( $htmltags->getHomeBackground() ); ?>
 			<div class="container">
-				<div id="fb-feeds" class="rows">
+				<div id="fb-feeds" class="row">
 					<div class="col-sm-5">
-						<div class="fb-feed-background img-cycle">&nbsp;</div>
+						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
 							<h1>Innviertler Motor Sport Club</h1>
 							<?php print($fb_infos->getAbout()); ?>
-							<br /><br />
-							...Motorsport f&uuml;r Jedermann und Jedefrau
 							<br />
-							<div class="fb-like" 
-								data-href="http://imsc-ried.com/" 
-								data-layout="button_count" 
-								data-action="like" 
-								data-show-faces="true" 
-								data-share="true">
-							</div>
 						</div>
 					</div>
 					<!-- important informations -->
@@ -141,7 +142,6 @@
 							Der Slalom findet in Wildenau am Badesee Parkplatz statt. 
 						</div>
 					</div>
-					
 					
 					<!-- event calendar -->
 					<!--
@@ -174,6 +174,16 @@
 						
 					<!-- empty box -->
 					<div class="col-sm-6 col-sm-offset-1 player-wrappe">&nbsp;</div>
+				</div>
+				<div id="fb-feeds" class="row" style="margin-top:30px">
+					<div class="col-sm-5 btn btn-default">
+						<div class="my_section fb-feed">
+							<div class="fb-like" data-href="https://www.facebook.com/imsc.ried" 
+								data-layout="standard" data-action="like" data-show-faces="true" 
+								data-share="true" data-width="300">
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section><!-- end section home -->
@@ -392,22 +402,25 @@
 				</div>
 				
 				<div class="row">
+					<!-- andreas preishuber -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/preishuber_andreas.jpg" 
+						<a href="./imgs/persons/anonym.jpg" 
 							data-toggle="lightbox" data-gallery="multiimages" 
 							data-title="Andreas Preishuber">
-							<img class="img-thumbnail" src="imgs/persons/preishuber_andreas.jpg"/>
+							<img class="img-thumbnail" src="imgs/persons/anonym.jpg"/>
 						</a>
 						<h6>Andreas Preishuber</h6>
 					</div>
+					<!-- christoph preishuber -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/preishuber_christoph.jpg" 
+						<a href="./imgs/persons/anonym.jpg" 
 							data-toggle="lightbox" data-gallery="multiimages" 
 							data-title="Christop Preishuber">
-							<img class="img-thumbnail" src="imgs/persons/preishuber_christoph.jpg"/>
+							<img class="img-thumbnail" src="imgs/persons/anonym.jpg"/>
 						</a>
 						<h6>Christoph Preishuber</h6>
 					</div>
+					<!-- mario preishuber -->
 					<div class="col-sm-3">
 						<a href="./imgs/persons/preishuber_mario.jpg" 
 							data-toggle="lightbox" data-gallery="multiimages" 
@@ -416,6 +429,7 @@
 						</a>
 						<h6>Mario Preishuber</h6>
 					</div>
+					<!-- engelbert salomon -->
 					<div class="col-sm-3">
 						<a href="./imgs/persons/salomon_engelbert.jpg" 
 							data-toggle="lightbox" data-gallery="multiimages" 
@@ -426,6 +440,7 @@
 					</div>
 				</div>
 				<div class="row">
+					<!-- markus schwarz -->
 					<div class="col-sm-3">
 						<a href="./imgs/persons/schwarz_markus.jpg"
 							data-toggle="lightbox" data-gallery="multiimages" 
@@ -434,6 +449,7 @@
 						</a>
 						<h6>Markus Schwarz</h6>
 					</div>
+					<!-- roland wagner -->
 					<div class="col-sm-3">
 						<a href="./imgs/persons/wagner_roland.jpg" 
 							data-toggle="lightbox" data-gallery="multiimages" 
@@ -442,14 +458,16 @@
 						</a>
 						<h6>Roland Wagner</h6>
 					</div>
+					<!-- daniel wielaender -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/wielaender_daniel.jpg" 
+						<a href="./imgs/persons/anonym.jpg" 
 							data-toggle="lightbox" data-gallery="multiimages" 
 							data-title="Daniel Wiel&auml;nder">
-							<img class="img-thumbnail" src="imgs/persons/wielaender_daniel.jpg"/>
+							<img class="img-thumbnail" src="imgs/persons/anonym.jpg"/>
 						</a>
 						<h6>Daniel Wiel&auml;nder</h6>
 					</div>
+					<!-- markus zechmeister -->
 					<div class="col-sm-3">
 						<a href="./imgs/persons/zechmeister_markus.jpg" 
 							data-toggle="lightbox" data-gallery="multiimages" 
@@ -539,41 +557,6 @@
 		<!-- ************************************************************************************ -->
 		<!-- * ADDITIONAL CONTENT -->
 		<!-- ************************************************************************************ -->
-		<!-- facebook btns -->
-		<div id="fb-root"></div>
-		<script>
-			function(d, s, id) {
-				var js, fjs = d.getElementsByTagName(s)[0];
-				if (d.getElementById(id)) return;
-				js = d.createElement(s); js.id = id;
-				js.src = "//connect.facebook.net/de_DE/all.js#xfbml=1";
-				fjs.parentNode.insertBefore(js, fjs);
-			}(document, 'script', 'facebook-jssdk'));
-		</script>
-		<!-- lightbox - images -->
-		<script type="text/javascript">
-			$(document).ready(function ($) {
-				// delegate calls to data-toggle="lightbox"
-				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-					event.preventDefault();
-					return $(this).ekkoLightbox({
-						always_show_close: true
-					});
-				});
-			});
-		</script>
-		<!-- navigation -->
-		<script>
-			$(function() {
-				$('.nav a').on('click', function(){ 
-					if($('.navbar-toggle').css('display') !='none')
-					{
-						$(".navbar-toggle").trigger( "click" );
-					}
-				});
-			});
-		</script>
-		
 		<script>
 		$scope.isActive = function (viewLocation) {
 		     var active = (viewLocation === $location.path());
