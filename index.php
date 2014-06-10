@@ -23,34 +23,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>IMSC</title>
-		
 		<meta name="apple-mobile-web-app-capable" content="yes"/>
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
 		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
 		
 		<link rel="shortcut icon" href="../imgs/favicon.png">
 		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<!-- <link rel="stylesheet" href="../css/bootstrap-theme.min.css"> -->
 		
 		<link href="../css/lightbox_dark.css" rel="stylesheet">
 		
 		<script type="text/javascript" src="../js/jquery.min.js"></script>
 		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="../js/lightbox.js"></script>
-		
+	
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 	
 	<body onresize="resizeSections()">
-		
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=481834645275259&version=v2.0";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-		
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
@@ -132,17 +122,16 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
 							<div class="col-sm-12 text-center">
-								<h3 class="btn btn-info">WICHTIG</h3><br />
+								<h2>
+									Autoslalom Wildenau
+								</h2>
+								<h4>Badesee Parkplatz</h4>
+								<h3 class="btn btn-info">12. Oktober 2014</h3>
+								<h4>Start 09:00 Uhr</h4>
 							</div>
-							Der f&uuml;r <b>01. Juni 2014</b> 
-							geplante Autoslalom (O&Ouml;-Cup) findet <b>nicht</b> statt! 
-							<br />
-							<h5 class="btn btn-info">Ersatztermin</h5><br />
-							 ist der <b>12. Oktober 2014</b>. 
-							Der Slalom findet in Wildenau am Badesee Parkplatz statt. 
 						</div>
 					</div>
-					
+				
 					<!-- event calendar -->
 					<!--
 					<div class="col-sm-6 col-sm-offset-1 player-wrapper">
@@ -175,7 +164,7 @@
 					<!-- empty box -->
 					<div class="col-sm-6 col-sm-offset-1 player-wrappe">&nbsp;</div>
 				</div>
-				<div id="fb-feeds" class="row" style="margin-top:30px">
+				<div id="fb-feeds" class="row" style="margin-top:10px">
 					<div class="col-sm-5 btn btn-default">
 						<div class="my_section fb-feed">
 							<div class="fb-like" data-href="https://www.facebook.com/imsc.ried" 
@@ -370,9 +359,9 @@
 				
 				<div class="row">
 					<div class="col-sm-3">
-						<a href="./imgs/persons/anonym.jpg" data-toggle="lightbox" data-gallery="multiimages" 
+						<a href="./imgs/persons/hofinger_peter.jpg" data-toggle="lightbox" data-gallery="multiimages" 
 							data-title="Peter Hofinger">
-							<img class="img-thumbnail img-responsive" src="imgs/persons/anonym.jpg"/>
+							<img class="img-thumbnail img-responsive" src="imgs/persons/hofinger_peter.jpg"/>
 						</a>
 						<h6>Peter Hofinger</h6>
 						<b>
@@ -557,12 +546,14 @@
 		<!-- ************************************************************************************ -->
 		<!-- * ADDITIONAL CONTENT -->
 		<!-- ************************************************************************************ -->
-		<script>
-		$scope.isActive = function (viewLocation) {
-		     var active = (viewLocation === $location.path());
-		     return active;
-		};
-		</script>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=481834645275259&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		
 		<?php
 		if(!$detect->isMobile()) {
@@ -579,5 +570,30 @@
 		resizeSections();
 		</script>
 		<?php } ?>
+		
+		<!-- lightbox - images -->
+		<script type="text/javascript">
+			$(document).ready(function ($) {
+				// delegate calls to data-toggle="lightbox"
+				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
+					event.preventDefault();
+					return $(this).ekkoLightbox({
+						always_show_close: true
+					});
+				});
+			});
+		</script>
+		
+		<!-- navigation -->
+		<script>
+			$(function() {
+				$('.nav a').on('click', function(){ 
+					if($('.navbar-toggle').css('display') !='none')
+					{
+						$(".navbar-toggle").trigger( "click" );
+					}
+				});
+			});
+		</script>
 	</body>
 </html>
