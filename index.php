@@ -366,7 +366,7 @@
 						<h6>Peter Hofinger</h6>
 						<b>
 							30 Jahre Obmann<br />
-							von 1983 bis 2013
+							von 1983 bis 2014
 						</b><br />
 						seit 1973 im Verein
 						<br />&nbsp;
@@ -379,7 +379,7 @@
 						<h6>Johann Berschl</h6>
 						<b>
 							29 Jahre Amateursportleiter<br />
-							von 1984 bis 2013
+							von 1984 bis 2014
 						</b><br />
 						seit 1983 im Verein <br />
 					</div>
