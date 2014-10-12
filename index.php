@@ -76,6 +76,12 @@
 					</li>
 					<li>
 						<br />
+						<a href="#sponsoren" data-toggle="collapse" data-target=".nav-collapse">
+							SPONSOREN
+						</a>
+					</li>
+					<li>
+						<br />
 						<a href="#calendar" data-toggle="collapse" data-target=".nav-collapse">
 							KALENDER
 						</a>
@@ -129,7 +135,7 @@
 								<h3 class="btn btn-info">12. Oktober 2014</h3>
 								<h4>Start 09:00 Uhr</h4>
 
-								<a href="./aus_08_imsc_ried.pdf" target="_blank">Ausschreibung</a><br />
+								<a href="./aus_08_imsc_ried.pdf" target="_blank" class="btn btn-info">Ausschreibung</a><br />
 								<br />
 								Vorgezogener Start:<br />
 								<table>
@@ -138,22 +144,21 @@
 										<td>Startnr.</td>
 										<td>Name</td>
 										<td>Verein</td>
-										<td>Auto</td>
 									</tr>
 									<tr>
 										<td>09:00 Uhr / 1 / 1+2</td>
 										<td>815</td>
 										<td>Roland T&uuml;rkis</td>
 										<td>SK V&ouml;st-Motorsport</td>
-										<td>Subaru Impreza WRX STI</td>
 									</tr>
 									<tr>
 										<td>10:00 Uhr / 1 / 3+4</td>
 										<td>911</td>
 										<td>Roland T&uuml;rkis</td>
 										<td>SK V&ouml;st-Motorsport</td>
-										<td>Subaru Impreza WRX STI</td>
 									</tr>
+								</table>
+								<br />
 							</div>
 						</div>
 					</div>
@@ -214,6 +219,79 @@
 				</div>
 			</div>
 			<?php print( $htmltags->getFacebookFeed() );  ?>
+		</section><!-- end section news -->
+
+		<!-- ************************************************************************************ -->
+		<!-- * NEWS -->
+		<!-- ************************************************************************************ -->
+		<section class="my_section" id="sponsoren">
+			<div class="background">&nbsp;</div>
+			<div class="container">
+				<div class="col-sm-12 text-center">
+					<h3 class="btn btn-danger">Sponsoren</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					Aichinger Haustechnik
+					Autohaus Edinger
+					Autohaus Ford Destinger
+					Autohaus Forthuber
+					Autohaus Karl Deschberger GmbH
+					Autohaus Mühlbacher
+					Autohaus Opel Hatzmann
+					Autohaus Renault Kriegner
+					Autohaus Skoda Schröcker
+					Autohaus VW Priewasser
+					Baier Erwin Metallverarbeitung
+					Bauunternehmen Huber Wimmer
+					Berni's Backstube
+					Cafe Lavazza
+					Christian Reich GmbH Nutzfahrzeug
+					Elektro Moser GmbH
+					Esterer Geräteverleih
+					ETL
+					Fa. Brambeger Engelbert Transportunternehmen
+					Fa. Neonex Werkzeuge, Maschienen, Arbeitsschutz
+					Fahrschule yo-yo
+					Faschang Karl
+					Faschang Werkzeugbau GmbH
+					Ferdinand Frauscher Wohnkeramik
+					FKS Industrieböden
+					FOX HOLZ Fußboden und Objektsysteme GesmbH
+					Führer Holzbau GmbH
+					Gärtnerrei Irran
+					Georg Katzlberger GmbH & Co KG
+					Haus der Frisur Gerlinde Kremser
+					Holzmarkt Moser
+					KFZ Hubinger
+					KFZ Reisinger Gottfied Reisinger
+					KFZ Zubehör Brand
+					KFZ Zubehör Schrattenecker
+					Kletzl Der Innviertler Metzger
+					Lagerhaus Aspach
+					Land Lebt Auf Diermaier
+					Moden Mittermayr
+					ÖAMTC Ortsgruppe
+					Priller Hermann Gas, Wasser, Heizung
+					Raiffeisen Bank Aspach
+					Reifen & KFZ-Teile Johannes Lengauer
+					Revital Aspach
+					Schönberger Alternative Haustechnik
+					Sparkasse
+					Starzinger GmbH & Co KG
+					Stegmühl Baustoffhandel u. Baugeräteverleih
+					Strabag
+					Tiefenthaler Landtechnik
+					Tischlerei Leimhofer
+					Toyota Innviertel GmbH
+					Turbo Drive
+					Volksbank Aspach
+					Weiermann
+					Werbeagentur creartive Gufler
+					Zweirad Ginzinger
+				</div>
+			</div>
 		</section><!-- end section news -->
 
 		<!-- ************************************************************************************ -->
