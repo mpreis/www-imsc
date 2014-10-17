@@ -128,36 +128,18 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
 							<div class="col-sm-12 text-center">
-								<h2>
-									Autoslalom Wildenau
-								</h2>
-								<h4>Badesee Parkplatz</h4>
-								<h3 class="btn btn-info">12. Oktober 2014</h3>
-								<h4>Start 09:00 Uhr</h4>
-
-								<a href="./aus_08_imsc_ried.pdf" target="_blank" class="btn btn-info">Ausschreibung</a><br />
+								<h2>Danke!</h2>
+								<div class="player">
+									<img src="./imgs/we.jpg" />
+								</div>
+								<p>
+									<h6>
+										<a href="https://plus.google.com/photos/109124545640923797926/albums/6069379009484849441?banner=pwa&authkey=CLPIyu-2qsHawgE"
+											target="_blank" class="btn btn-info">Hier</a>
+										sind Fotos vom Slalom zu finden. <br />
+										<small>(Fotograf: Robert Kreuzer)</small>
+									</h6><br />
 								<br />
-								Vorgezogener Start:<br />
-								<table>
-									<tr>
-										<td>Startzeit / Div / Klasse</td>
-										<td>Startnr.</td>
-										<td>Name</td>
-										<td>Verein</td>
-									</tr>
-									<tr>
-										<td>09:00 Uhr / 1 / 1+2</td>
-										<td>815</td>
-										<td>Roland T&uuml;rkis</td>
-										<td>SK V&ouml;st-Motorsport</td>
-									</tr>
-									<tr>
-										<td>10:00 Uhr / 1 / 3+4</td>
-										<td>911</td>
-										<td>Roland T&uuml;rkis</td>
-										<td>SK V&ouml;st-Motorsport</td>
-									</tr>
-								</table>
 								<br />
 							</div>
 						</div>
@@ -225,71 +207,80 @@
 		<!-- * NEWS -->
 		<!-- ************************************************************************************ -->
 		<section class="my_section" id="sponsoren">
-			<div class="background">&nbsp;</div>
+			<?php print( $htmltags->getHomeBackground() ); ?>
 			<div class="container">
 				<div class="col-sm-12 text-center">
 					<h3 class="btn btn-danger">Sponsoren</h3>
+					<br />
+					<h3 class="btn btn-default">Ein herzliches Dankesch&ouml;n an alle die uns unterst&uuml;tzt haben!</h3>
+					<br />
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-12">
-					Aichinger Haustechnik
-					Autohaus Edinger
-					Autohaus Ford Destinger
-					Autohaus Forthuber
-					Autohaus Karl Deschberger GmbH
-					Autohaus Mühlbacher
-					Autohaus Opel Hatzmann
-					Autohaus Renault Kriegner
-					Autohaus Skoda Schröcker
-					Autohaus VW Priewasser
-					Baier Erwin Metallverarbeitung
-					Bauunternehmen Huber Wimmer
-					Berni's Backstube
-					Cafe Lavazza
-					Christian Reich GmbH Nutzfahrzeug
-					Elektro Moser GmbH
-					Esterer Geräteverleih
-					ETL
-					Fa. Brambeger Engelbert Transportunternehmen
-					Fa. Neonex Werkzeuge, Maschienen, Arbeitsschutz
-					Fahrschule yo-yo
-					Faschang Karl
-					Faschang Werkzeugbau GmbH
-					Ferdinand Frauscher Wohnkeramik
-					FKS Industrieböden
-					FOX HOLZ Fußboden und Objektsysteme GesmbH
-					Führer Holzbau GmbH
-					Gärtnerrei Irran
-					Georg Katzlberger GmbH & Co KG
-					Haus der Frisur Gerlinde Kremser
-					Holzmarkt Moser
-					KFZ Hubinger
-					KFZ Reisinger Gottfied Reisinger
-					KFZ Zubehör Brand
-					KFZ Zubehör Schrattenecker
-					Kletzl Der Innviertler Metzger
-					Lagerhaus Aspach
-					Land Lebt Auf Diermaier
-					Moden Mittermayr
-					ÖAMTC Ortsgruppe
-					Priller Hermann Gas, Wasser, Heizung
-					Raiffeisen Bank Aspach
-					Reifen & KFZ-Teile Johannes Lengauer
-					Revital Aspach
-					Schönberger Alternative Haustechnik
-					Sparkasse
-					Starzinger GmbH & Co KG
-					Stegmühl Baustoffhandel u. Baugeräteverleih
-					Strabag
-					Tiefenthaler Landtechnik
-					Tischlerei Leimhofer
-					Toyota Innviertel GmbH
-					Turbo Drive
-					Volksbank Aspach
-					Weiermann
-					Werbeagentur creartive Gufler
-					Zweirad Ginzinger
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						Aichinger Haustechnik<br />
+						Autohaus Edinger<br />
+						Autohaus Ford Destinger<br />
+						Autohaus Forthuber<br />
+						Autohaus Karl Deschberger GmbH<br />
+						Autohaus Mühlbacher<br />
+						Autohaus Opel Hatzmann<br />
+						Autohaus Renault Kriegner<br />
+						Autohaus Skoda Schröcker<br />
+						Autohaus VW Priewasser<br />
+						Baier Erwin Metallverarbeitung<br />
+						Bauunternehmen Huber Wimmer<br />
+						Berni's Backstube<br />
+						Cafe Lavazza<br />
+						Christian Reich GmbH Nutzfahrzeug<br />
+						Elektro Moser GmbH<br />
+						Esterer Geräteverleih<br />
+						ETL<br />
+						Fa. Brambeger Engelbert Transportunternehmen<br />
+					</div>
+					<div class="col-md-4">
+						Fa. Neonex Werkzeuge, Maschienen, Arbeitsschutz<br />
+						Fahrschule yo-yo<br />
+						Faschang Karl<br />
+						Faschang Werkzeugbau GmbH<br />
+						Ferdinand Frauscher Wohnkeramik<br />
+						FKS Industrieböden<br />
+						FOX HOLZ Fußboden und Objektsysteme GesmbH<br />
+						Führer Holzbau GmbH<br />
+						Gärtnerrei Irran<br />
+						Georg Katzlberger GmbH & Co KG<br />
+						Haus der Frisur Gerlinde Kremser<br />
+						Holzmarkt Moser<br />
+						KFZ Hubinger<br />
+						KFZ Reisinger Gottfied Reisinger<br />
+						KFZ Zubehör Brand<br />
+						KFZ Zubehör Schrattenecker<br />
+						Kletzl Der Innviertler Metzger<br />
+						Lagerhaus Aspach<br />
+						Land Lebt Auf Diermaier<br />
+					</div>
+					<div class="col-md-4">
+						Moden Mittermayr<br />
+						ÖAMTC Ortsgruppe<br />
+						Priller Hermann Gas, Wasser, Heizung<br />
+						Raiffeisen Bank Aspach<br />
+						Reifen & KFZ-Teile Johannes Lengauer<br />
+						Revital Aspach<br />
+						Schönberger Alternative Haustechnik<br />
+						Sparkasse<br />
+						Starzinger GmbH & Co KG<br />
+						Stegmühl Baustoffhandel u. Baugeräteverleih<br />
+						Strabag<br />
+						Tiefenthaler Landtechnik<br />
+						Tischlerei Leimhofer<br />
+						Toyota Innviertel GmbH<br />
+						Turbo Drive<br />
+						Volksbank Aspach<br />
+						Weiermann<br />
+						Werbeagentur creartive Gufler<br />
+						Zweirad Ginzinger<br />
+					</div>
 				</div>
 			</div>
 		</section><!-- end section news -->
