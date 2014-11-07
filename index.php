@@ -135,11 +135,12 @@
 										<a href="https://plus.google.com/photos/109124545640923797926/albums/6069379009484849441?banner=pwa&authkey=CLPIyu-2qsHawgE"
 											target="_blank" class="btn btn-info">Hier</a>
 										sind weitere Fotos vom Slalom zu finden. <br />
-										<a href="./erg_08_imsc_ried.pdf" target="_blank" class="btn btn-info">Ergebnis IMSC</a>
-										<a href="./ooe_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis O&Ouml;-Cup</a>
-										<a href="./slm_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Division) </a>
-										<a href="./slm_gesamt_klassen.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Klassen) </a>
 										<small>(Fotograf: Robert Kreuzer)</small>
+										<br /><br />
+										<a href="./erg_08_imsc_ried.pdf" target="_blank" class="btn btn-info">Ergebnis IMSC</a>
+										<a href="./ooe_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis O&Ouml;-Cup</a><br />
+										<a href="./slm_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Division) </a>
+										<a href="./slm_gesamt_klassen.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Klassen) </a><br />
 									</h6><br />
 								<br />
 								<br />
