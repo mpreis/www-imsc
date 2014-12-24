@@ -128,8 +128,7 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
 							<div class="col-sm-12 text-center">
-								<h2>Danke!</h2>
-								<img src="./imgs/we.jpg" class="img-rounded" />
+								<img src="./imgs/we_xmas.jpg" class="img-rounded" />
 								<p>
 									<h6>
 										<a href="https://plus.google.com/photos/109124545640923797926/albums/6069379009484849441?banner=pwa&authkey=CLPIyu-2qsHawgE"
