@@ -85,7 +85,7 @@
 					<li>
 						<br />
 						<a href="./sponsors.php" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+							<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
 							SPONSOREN
 						</a>
 					</li>
@@ -470,7 +470,7 @@
 		if(!$detect->isMobile()) {
 		?>
 		<script>
-
+/*
 		function resizeSections() {
 			if(window.screen.width > 480) {
 				 document.getElementById('home').style.minHeight = window.screen.height + "px";
@@ -479,6 +479,7 @@
 		}
 
 		resizeSections();
+*/
 		</script>
 		<?php } ?>
 

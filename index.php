@@ -85,7 +85,7 @@
 					<li>
 						<br />
 						<a href="./sponsors.php" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="glyphicon glyphicon-gift" aria-hidden="true"></span>
+							<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
 							SPONSOREN
 						</a>
 					</li>
@@ -256,16 +256,7 @@
 					<!--<div class="col-sm-6 col-sm-offset-1 player-wrappe">&nbsp;</div>-->
 				</div>
 				<div id="fb-feeds" class="row">
-					<div class="col-sm-5 btn btn-default">
-						<div class="my_section fb-feed">
-							<div class="fb-like" data-href="https://www.facebook.com/imsc.ried"
-								data-layout="standard" data-action="like" data-show-faces="true"
-								data-share="true" data-width="200">
-							</div>
-						</div>
-					</div>
-
-					<div class="col-sm-6 col-sm-offset-1">
+					<div class="col-sm-6">
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
 							<h3>Ergebnisse 2014:</h3>
@@ -277,6 +268,25 @@
 							<a href="./docs/slm_gesamt_klassen.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Klassen) </a>
 							<br />
 							<br />
+						</div>
+					</div>
+
+					<div class="col-sm-5 col-sm-offset-1">
+						<?php if($detect->isMobile()) { ?>
+							<div class="my_section fb-feed">
+								<div class="fb-like" data-href="https://www.facebook.com/imsc.ried"
+									data-layout="standard" data-action="like" data-show-faces="true"
+									data-share="true" data-width="200">
+								</div>
+							</div>
+						<?php } else { ?>
+							<div class="my_section fb-feed">
+								<div class="fb-like" data-href="https://www.facebook.com/imsc.ried"
+									data-layout="standard" data-action="like" data-show-faces="true"
+									data-share="true" data-width="300">
+								</div>
+							</div>
+						<?php } ?>
 						</div>
 					</div>
 				</div>
@@ -377,7 +387,7 @@
 		function resizeSections() {
 			if(window.screen.width > 480) {
 				 document.getElementById('home').style.minHeight = window.screen.height + "px";
-				 document.getElementById('calendar').style.minHeight = window.screen.height + "px";
+				 //document.getElementById('calendar').style.minHeight = window.screen.height + "px";
 			}
 		}
 
