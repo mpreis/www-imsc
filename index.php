@@ -192,11 +192,13 @@
 						<div class="my_section fb-feed">
 							<div class="col-sm-6">
 								<h3>Vorläufige Termin: OÖ-Cup 2015</h3>
+								Der Termin des MSC Rossenau hat sich von 13.06. auf 06.06. verschoben!
+								<br />
 								<ol>
 									<li>Lauf SO 19.04.2015 Stolli Motorsport (Haag)</li>
 									<li>Lauf SO 26.04.2015 PSV Linz (Grossraum Linz)</li>
 									<li>Lauf SO 31.05.2015 IMSC Ried (Andorf)</li>
-									<li>Lauf SO 13.06.2015 MSC Rosenau (Wurzeralm)</li>
+									<li>Lauf SO 06.06.2015 MSC Rosenau (Wurzeralm)</li>
 									<li>Lauf SO 28.06.2015 AMS-Team Rottenmann (Rottenmann)</li>
 									<li>Lauf SO 12.07.2015 Arbö Team Steyr / Stolli Motorsport (St. Valentin)</li>
 									<li>Lauf SO 26.07.2015 SK Voest (Linz)</li>

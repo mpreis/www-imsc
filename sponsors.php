@@ -148,6 +148,7 @@
 							Elektro Moser GmbH<br />
 							Esterer Geräteverleih<br />
 							ETL<br />
+							EUROL<br />
 							Fa. Brambeger Engelbert Transportunternehmen<br />
 							Fa. Neonex Werkzeuge, Maschienen, Arbeitsschutz<br />
 							Fahrschule yo-yo<br />
