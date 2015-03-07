@@ -40,7 +40,7 @@
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 
-	<body onresize="resizeSections()">
+	<body>  <!-- onresize="resizeSections()"-->
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
@@ -127,6 +127,26 @@
 			<div class="container">
 				<div class="col-sm-12 text-center">
 					<h3 class="btn btn-danger">News</h3>
+					<div id="fb-feeds" class="row">
+						<div class="col-sm-4 col-sm-offset-4">
+							<div class="fb-feed-background">&nbsp;</div>
+							<div class="my_section fb-feed text-center">
+								Weitere Infos, Fotos und viels mehr unter<br />
+								<a href="https://www.facebook.com/imsc.ried">
+									https://www.facebook.com/imsc.ried
+								</a>
+								<br />
+								<br />
+								<a href="https://www.facebook.com/imsc.ried">
+									<img src="./imgs/social/fb.png" width="50em" class="img-rounded" />
+								</a>
+								<br /><br />
+								(Auch ohne Facebook-Account!!!).
+								<br />
+							</div>
+						</div>
+					</div>
+					
 				</div>
 			</div>
 			<?php print( $htmltags->getFacebookFeed() );  ?>

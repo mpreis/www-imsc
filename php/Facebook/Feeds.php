@@ -15,7 +15,7 @@ class Feeds
 	public function __construct() 
 	{
 		/* get data from facebook */
-		$request = Constants::$facebook_url_https . Constants::$page_id . '/posts?since=0&access_token=' . Constants::$access_token;
+		$request = Constants::$facebook_url_https . Constants::$page_id . '/posts?limit=25&access_token=' . Constants::$access_token;
 		$json_object = @file_get_contents($request);
 		$this->backingData = json_decode($json_object);
 		
