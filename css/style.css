@@ -4,17 +4,22 @@
  * @author: mario preishuber
  * 
  ****************************************************************************/
+@charset "utf-8";
 body {
 	color: #34495e;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
+	font-weight: 300;
 	font-size: 14px;
 	line-height: 1.231;
 }
+nav {
+	font-weight: 400;
+}
+
 input,
 button,
 select,
 textarea {
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 14px;
 }
 a {
@@ -38,6 +43,7 @@ h6, .h6 { font-size: 19px /* 24px */; }
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 	line-height: 1.2em;
 	color: #ffffff;/* #34495e; /* #487bbd */ 
+	font-family: "Fira Sans", Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -390,7 +396,6 @@ body > header .header-background {
 	font-weight: normal;
 	/*color: #beac89;/* #dc2a1b; */
 	margin-bottom: 15px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 300;
 	z-index:3;
 	position:relative;
@@ -399,7 +404,6 @@ body > header .header-background {
 	font-size: 16px;
 	font-weight: normal;
 	color: #34495e;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .my_section .additional-links {
 	opacity: 50;

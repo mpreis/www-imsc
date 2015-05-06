@@ -38,6 +38,7 @@
 		<script type="text/javascript" src="../js/lightbox.js"></script>
 
 		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
 	</head>
 
 	<body onresize="resizeSections()">
