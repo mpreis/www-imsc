@@ -160,6 +160,11 @@ body > header .header-background {
 	left: -230px !important;
 	right: auto;
 }
+
+.row {
+	margin-top:10px;
+}
+
 .background,
 .fb-feed-background {
 	position: absolute;
@@ -197,8 +202,9 @@ body > header .header-background {
 #news .background,
 #calendar .background,
 #members .background,
+#sponsors .background,
 #fb-feeds .fb-feed-background {
-	padding-top:250px; 
+/*	padding-top:250px; */
 }
 
 #home .background,
@@ -220,7 +226,8 @@ body > header .header-background {
     opacity: 1.0;
     filter: alpha(opacity=100);
 }
-#calendar .background {
+#calendar .background,
+#sponsors .background {
 	background-image: url("../imgs/bg/section_calendar.jpg");
 	opacity: 90;
     filter: alpha(opacity=9000);
@@ -237,7 +244,7 @@ body > header .header-background {
     filter: alpha(opacity=100);
 }
 
-#home #fb-feeds {
+#home #fb-feeds, #sponsors #fb-feeds {
 	color: #ffffff;
 }
 
@@ -256,10 +263,18 @@ body > header .header-background {
 	-moz-box-shadow: 0px 2px 6px #333333;  
 	box-shadow: 0px 2px 6px #333333;
 	*/
+    /*
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
-	
+	border: solid 1px rgb(61, 117, 189);
+	border: 1px solid;
+	border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+	*/
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	border: solid 1px rgb(61, 117, 189);
 	opacity: 90;
     filter: alpha(opacity=9000);
     opacity: 0.9;
@@ -690,6 +705,7 @@ body > header .header-background {
     }
 	
 	#home .background { background: #beac89 !important; /* imsc-gold */ }
+	#sponsors .background { background: #beac89 !important; /* imsc-gold */ }
 	#news .background {  background: #487bbd; /* imsc-blue */ }
 	#members .background { background: #487bbd; /* imsc-blue */}
 	#calendar .background { 

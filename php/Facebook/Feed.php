@@ -86,8 +86,8 @@ class Feed
 		
 		$final_msg = $msg;
 		
-		if (strpos($final_msg, $cap) === false) $final_msg .= $cap;
-		if (strpos($final_msg, $des) === false) $final_msg .= $des;
+		if (!empty($cap) && strpos($final_msg, $cap) === false) $final_msg .= $cap;
+		if (!empty($des) && strpos($final_msg, $des) === false) $final_msg .= $des;
 		//if (strpos($final_msg, $sty) === false) $final_msg .= $sty;
 		
 		return $final_msg;

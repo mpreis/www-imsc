@@ -1,4 +1,6 @@
 .DS_Store
 .metadata/
 .project
-.settings/
+Icon*
+imgs/persons/origin/*
+*.psd

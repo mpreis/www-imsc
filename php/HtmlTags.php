@@ -195,6 +195,9 @@ class HtmlTags
 		$data = $f->getFeeds();
 		
 		$row_items = 0;
+
+		// if(true)
+		// 	return '<span>TEST</span>';
 	
 		$feeds = '<div  class="container">';
 		$inner = '';
@@ -272,6 +275,16 @@ class HtmlTags
 				$inner .= '<br />';
 			}
 			
+			/*
+			$inner .= '<button type="button" 
+						class="btn btn-default" 
+						data-toggle="popover" 
+						data-placement="bottom" 
+						data-content="' . $feed->getMessage() . '">
+						mehr
+						</button>';
+			*/
+
 			$inner .= 
 					'<div class="fb-feed-like">'
 						. '<span class="glyphicon glyphicon-thumbs-up"></span>&nbsp;' 

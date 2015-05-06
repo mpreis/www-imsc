@@ -40,7 +40,7 @@
 		<link rel="stylesheet" href="../css/style.css">
 	</head>
 
-	<body onresize="resizeSections()">
+	<body>  <!-- onresize="resizeSections()"-->
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
@@ -117,183 +117,40 @@
 		<!-- ************************************************************************************ -->
 		<!-- * CONTENT -->
 		<!-- ************************************************************************************ -->
-		<!-- <div class="page-wrapper"> -->
+		<div class="page-wrapper">
 
 		<!-- ************************************************************************************ -->
-		<!-- * HOME -->
+		<!-- * NEWS -->
 		<!-- ************************************************************************************ -->
-		<section class="my_section" id="home" >
-			<?php print( $htmltags->getHomeBackground() ); ?>
+		<section class="my_section" id="news">
+			<div class="background">&nbsp;</div>
 			<div class="container">
-				<div id="fb-feeds" class="row">
-					<div class="col-sm-12">
-						<div class="fb-feed-background">&nbsp;</div>
-						<div class="my_section fb-feed text-center">
-							<h1>Innviertler Motor Sport Club</h1>
-							<?php print($fb_infos->getAbout()); ?>
-							<br />
-						</div>
-					</div>
-				</div>
-
-				<div id="fb-feeds" class="row">
-
-					<!-- important informations -->	
-					<div class="col-sm-12">
-						<div class="fb-feed-background">&nbsp;</div>
-						<div class="my_section fb-feed">
-							<div class="col-sm-6">
-								<h3>Vorläufige Termin: SLM 2015</h3>
-								<ol>
-									<li>Lauf SA 02.05.2015	MSC Mühlbach am Hochkönig (Mühlbach)</li>
-									<li>Lauf SO 07.06.2015	HC Motorsport (Geretsberg)</li>
-									<li>Lauf SO 14.06.2015	MSC Schönau a. Königssee e.V. (Schönau)</li>
-									<li>Lauf SO 19.07.2015	MSC Gastein (Wagrein)</li>
-									<li>Lauf SO 02.08.2015	CUP-Slalom (Berndorf)</li>
-									<li>Lauf SO 23.08.2015	MSC Flachgau (Obertrum)</li>
-									<li>Lauf SO 06.09.2015	MSC Schlössl (Schlössl)</li>
-									<li>Lauf SO 20.09.2015	MSC Lochen (noch offen)</li>
-									<li>Lauf SO 11.10.2015	IMSC Ried (Wildenau)</li>
-								</ol>
-							</div>
-							<div class="col-sm-6">
-								<h6>Reglementänderungen (DIV 1):</h6>
-								<ul>
-									<li>Spurplatten sind nur noch mit ABE/EG-BE erlaubt</li>
-									<li>
-										Aufteilung der Klasse 4 in Klasse 4A (2001ccm bis 3000ccm) 
-										und Klasse 4B (über 3001ccm)
-									</li>
-									<li>
-										Die Spurbreite laut Typenschein/Fahrzeugbrief darf um maximal 7,5% überschritten werden, 
-										ab der Saison 2016 sind keine Kotflügelverbreiterungen mehr erlaubt
-									</li>
-									<li>
-										Fixe Startnummern gibt es nur für die ersten 3 Platzierten der Klassenwertung 
-										der Vorsaison
-									</li>
-								</ul>
-
-								<h6>Weitere Infos unter:</h6>
-								<a href="http://www.slm-autoslalom.at" target="_blank" class="btn btn-info">http://www.slm-autoslalom.at</a>
+				<div class="col-sm-12 text-center">
+					<h3 class="btn btn-danger">News</h3>
+					<div id="fb-feeds" class="row">
+						<div class="col-sm-4 col-sm-offset-4">
+							<div class="fb-feed-background">&nbsp;</div>
+							<div class="my_section fb-feed text-center">
+								Weitere Infos, Fotos und viels mehr unter<br />
+								<a href="https://www.facebook.com/imsc.ried">
+									https://www.facebook.com/imsc.ried
+								</a>
 								<br />
 								<br />
+								<a href="https://www.facebook.com/imsc.ried">
+									<img src="./imgs/social/fb.png" width="50em" class="img-rounded" />
+								</a>
+								<br /><br />
+								(Auch ohne Facebook-Account!!!).
 								<br />
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<div id="fb-feeds" class="row">
-
-					<!-- important informations -->	
-					<div class="col-sm-12">
-						<div class="fb-feed-background">&nbsp;</div>
-						<div class="my_section fb-feed">
-							<div class="col-sm-6">
-								<h3>Vorläufige Termin: OÖ-Cup 2015</h3>
-								Der Termin des MSC Rossenau hat sich von 13.06. auf 06.06. verschoben!
-								<br />
-								<ol>
-									<li>Lauf SO 19.04.2015 Stolli Motorsport (Haag)</li>
-									<li>Lauf SO 26.04.2015 PSV Linz (Grossraum Linz)</li>
-									<li>Lauf SO 31.05.2015 IMSC Ried (Andorf)</li>
-									<li>Lauf SO 06.06.2015 MSC Rosenau (Wurzeralm)</li>
-									<li>Lauf SO 28.06.2015 AMS-Team Rottenmann (Rottenmann)</li>
-									<li>Lauf SO 12.07.2015 Arbö Team Steyr / Stolli Motorsport (St. Valentin)</li>
-									<li>Lauf SO 26.07.2015 SK Voest (Linz)</li>
-									<li>Lauf SO 13.09.2015 Cup-Slalom (Pichling)</li>
-									<li>Lauf SO 20.09.2015 SPÖ Power Team Wolfern (Wolfern) Ersatztermin: SO 04.10.</li>
-								</ol>
-							</div>
-							<div class="col-sm-6">
-								<h6>Reglementänderungen (DIV 1):</h6>
-								In der Saison 2015 ist erstmals das verbauen von einem Gewindefahrwerk in der DIV 1 erlaubt.
-								Jedoch muss dieses typisiert sein um an den Start gehen zu dürfen. 
-								Im Zuge dieser Erweiterung wird auch der Sturz ALLER Division 1 Fahrzeuge vermehrt kontrolliert. 
-								Selbiges gilt für die Bodenfreiheit.
-								<br />
-
-								<h6>Weitere Infos unter:</h6>
-								<a href="http://www.ooe-cup.at" target="_blank" class="btn btn-info">http://www.ooe-cup.at</a>
-								<br />
-								(Die neue Homepage geht Ende Februar online)
-								<br />
-								<br />
-								<br />
-							</div>
-						</div>
-					</div>
-
-					<!-- event calendar -->
-					<!--
-					<div class="col-sm-6 col-sm-offset-1 player-wrapper">
-						<div class="player">
-							<iframe 								src="https://www.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=imsc.ried%40gmail.com&amp;color=%23182C57&amp;src=4lbippnpc3kecmdmlcfmu7c0b4%40group.calendar.google.com&amp;color=%23AB8B00&amp;src=1q0fnqg9mnib8nebph0d6aaop4%40group.calendar.google.com&amp;color=%23A32929&amp;ctz=Europe%2FVienna"
-								style=" border-width:0;
-								opacity: 60;
-								filter: alpha(opacity=6000);
-    							opacity: 0.6;
-    							filter: alpha(opacity=60);"
-								width="400"
-								height="600"
-								frameborder="0"
-								scrolling="no" class="calendar">
-							</iframe>
-						</div>
-					</div>
-					-->
-
-					<!-- player / youtube video -->
-					<!--
-					<div class="col-sm-6 col-sm-offset-1 player-wrapper">
-						<div class="player">
-							<iframe width="560" height="315" allowfullscreen frameborder="0"
-								src="//www.youtube.com/embed/INdVRC2nqzM"></iframe>
-						</div>
-					</div>
-					-->
-
-					<!-- empty box -->
-					<!--<div class="col-sm-6 col-sm-offset-1 player-wrappe">&nbsp;</div>-->
-				</div>
-				<div id="fb-feeds" class="row">
-					<div class="col-sm-6">
-						<div class="fb-feed-background">&nbsp;</div>
-						<div class="my_section fb-feed">
-							<h3>Ergebnisse 2014:</h3>
-							<a href="./docs/erg_08_imsc_ried.pdf" target="_blank" class="btn btn-info">Ergebnis IMSC</a>
-							<a href="./docs/ooe_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis O&Ouml;-Cup</a>
-							<br />
-							<br />
-							<a href="./docs/slm_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Division) </a>
-							<a href="./docs/slm_gesamt_klassen.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Klassen) </a>
-							<br />
-							<br />
-						</div>
-					</div>
-
-					<div class="col-sm-5 col-sm-offset-1">
-						<?php if($detect->isMobile()) { ?>
-							<div class="my_section fb-feed">
-								<div class="fb-like" data-href="https://www.facebook.com/imsc.ried"
-									data-layout="standard" data-action="like" data-show-faces="true"
-									data-share="true" data-width="200">
-								</div>
-							</div>
-						<?php } else { ?>
-							<div class="my_section fb-feed">
-								<div class="fb-like" data-href="https://www.facebook.com/imsc.ried"
-									data-layout="standard" data-action="like" data-show-faces="true"
-									data-share="true" data-width="300">
-								</div>
-							</div>
-						<?php } ?>
-						</div>
-					</div>
+					
 				</div>
 			</div>
-		</section><!-- end section home -->
+			<?php print( $htmltags->getFacebookFeed() );  ?>
+		</section><!-- end section news -->
 
 		<!-- ************************************************************************************ -->
 		<!-- * CONTACT / FOOTER -->
@@ -367,7 +224,7 @@
             </div>
 		</div>
 
-		<!--</div> end content -->
+		</div><!-- end content -->
 
 		<!-- ************************************************************************************ -->
 		<!-- * ADDITIONAL CONTENT -->
@@ -385,15 +242,16 @@
 		if(!$detect->isMobile()) {
 		?>
 		<script>
-
+/*
 		function resizeSections() {
 			if(window.screen.width > 480) {
 				 document.getElementById('home').style.minHeight = window.screen.height + "px";
-				 //document.getElementById('calendar').style.minHeight = window.screen.height + "px";
+				 document.getElementById('calendar').style.minHeight = window.screen.height + "px";
 			}
 		}
 
 		resizeSections();
+*/
 		</script>
 		<?php } ?>
 
@@ -419,6 +277,13 @@
 						$(".navbar-toggle").trigger( "click" );
 					}
 				});
+			});
+		</script>
+
+		<!-- popover -->
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $('[data-toggle="popover"]').popover();   
 			});
 		</script>
 	</body>
