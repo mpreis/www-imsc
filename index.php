@@ -304,7 +304,7 @@
 
 				<div class="row">
 					<div class="col-sm-12 text-center top-space">
-						<h3 class="btn btn-danger">Kontakt</h3>
+						<div class="btn btn-danger"><h3>Kontakt</h3></div>
 					</div>
 				</div>
 

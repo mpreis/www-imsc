@@ -183,7 +183,7 @@
 			<?php print( $htmltags->getHomeBackground() ); ?>
 			<div class="container">
 				<div class="col-sm-12 text-center">
-					<h3 class="btn btn-danger">Kalender</h3>
+					<div class="btn btn-danger"><h3>Kalendar</h3></div>
 				</div>
 				<br /><br />
 				<iframe src="https://www.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=600&amp;wkst=2&amp;bgcolor=%23e3e9ff&amp;src=imsc.ried%40gmail.com&amp;color=%23182C57&amp;src=4lbippnpc3kecmdmlcfmu7c0b4%40group.calendar.google.com&amp;color=%23A32929&amp;src=1q0fnqg9mnib8nebph0d6aaop4%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Europe%2FVienna" class="cal_div cal_div_month cal" frameborder="0" scrolling="no"></iframe>
@@ -202,7 +202,7 @@
 
 				<div class="row">
 					<div class="col-sm-12 text-center top-space">
-						<h3 class="btn btn-danger">Kontakt</h3>
+						<div class="btn btn-danger"><h3>Kontakt</h3></div>
 					</div>
 				</div>
 

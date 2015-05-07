@@ -127,7 +127,8 @@
 			<div class="background">&nbsp;</div>
 			<div class="container">
 				<div class="col-sm-12 text-center">
-					<h3 class="btn btn-danger">News</h3>
+					<div class="btn btn-danger"><h3>News</h3></div>
+
 					<div id="fb-feeds" class="row">
 						<div class="col-sm-4 col-sm-offset-4">
 							<div class="fb-feed-background">&nbsp;</div>
@@ -161,7 +162,7 @@
 
 				<div class="row">
 					<div class="col-sm-12 text-center top-space">
-						<h3 class="btn btn-danger">Kontakt</h3>
+						<div class="btn btn-danger"><h3>Kontakt</h3></div>
 					</div>
 				</div>
 

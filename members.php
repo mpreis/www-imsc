@@ -128,7 +128,7 @@
 			<div class="container text-center" id="fb-feeds">
 
 				<div class="col-sm-12 text-center">
-					<h3 class="btn btn-danger">Vorstand</h3>
+					<div class="btn btn-danger"><h3>Vorstand</h3></div>
 				</div>
 
 				<!-- praesisent / obmann -->
@@ -266,7 +266,7 @@
 
 				<!-- honorary members -->
 				<div class="col-sm-12 text-center top-space">
-					<h3 class="btn btn-danger">Ehrenmitglieder</h3>
+					<div class="btn btn-danger"><h3>Ehrenmitglieder</h3></div>
 				</div>
 
 				<div class="row">
@@ -299,7 +299,7 @@
 
 				<!-- drivers -->
 				<div class="col-sm-12 text-center top-space">
-					<h3 class="btn btn-danger">Fahrer</h3>
+					<div class="btn btn-danger"><h3>Fahrer</h3></div>
 				</div>
 
 				<div class="row">
@@ -389,7 +389,7 @@
 
 				<div class="row">
 					<div class="col-sm-12 text-center top-space">
-						<h3 class="btn btn-danger">Kontakt</h3>
+						<div class="btn btn-danger"><h3>Kontakt</h3></div>
 					</div>
 				</div>
 
