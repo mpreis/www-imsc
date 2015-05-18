@@ -21,104 +21,35 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
 	<head>
-		<meta charset="utf-8">
-		<title>IMSC</title>
-		<meta name="apple-mobile-web-app-capable" content="yes"/>
-		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-		<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+		<title>IMSC | Home</title>
+		<!-- ************************************************************************************ -->
+		<!-- * META DATA / STYLES -->
+		<!-- ************************************************************************************ -->
+		<?php require_once 'headinc.php'; ?>
 
-		<link rel="shortcut icon" href="../imgs/favicon.png">
-		<link rel="stylesheet" href="../css/bootstrap.min.css">
-		<!-- <link rel="stylesheet" href="../css/bootstrap-theme.min.css"> -->
+		<style>
+		    .google-maps {
+		        position: relative;
+		        padding-bottom: 50%; // This is the aspect ratio
+		        height: 0;
+		        overflow: hidden;
+		    }
+		    .google-maps iframe {
+		        position: absolute;
+		        top: 0;
+		        left: 0;
+		        width: 100% !important;
+		        height: 75% !important;
+		    }
+		</style>
 
-		<link href="../css/lightbox_dark.css" rel="stylesheet">
-
-		<script type="text/javascript" src="../js/jquery.min.js"></script>
-		<script type="text/javascript" src="../js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="../js/lightbox.js"></script>
-
-		<link rel="stylesheet" href="../css/style.css">
-		<link rel="stylesheet" href="//code.cdn.mozilla.net/fonts/fira.css">
 	</head>
 
-	<body onresize="resizeSections()">
+	<body onresize="resizeSections('home')">
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
-		<nav role="navigation" class="navbar navbar-default" id="header">
-			<div class="navbar-header">
-				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand brand" href="./index.php">
-					<?php  if(!$detect->isMobile()) { ?>
-						<img src="imgs/favicon.png" class="navbar-brand-img my-brand-img" />
-						<div class="navbar-brand-text my-brand-text">
-							Innviertler<br />Motor Sport Club
-						</div>
-					<?php } else { ?>
-						<img src="imgs/favicon_small.png" class="navbar-brand-img my-brand-img" />
-						<div class="navbar-brand-text">
-							IMSC
-						</div>
-					<?php } ?>
-				</a>
-			</div>
-			<div id="navbarCollapse" class="collapse navbar-collapse pull-right">
-				<ul class="nav navbar-nav">
-					<li>
-						<br />
-						<a href="./index.php" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-							HOME
-						</a>
-					</li>
-					<li>
-						<br />
-						<a href="./news.php" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
-							NEWS
-						</a>
-					</li>
-					<li>
-						<br />
-						<a href="./sponsors.php" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
-							SPONSOREN
-						</a>
-					</li>
-					<li>
-						<br />
-						<a href="./calendar.php" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-							KALENDER
-						</a>
-					</li>
-					<li>
-						<br />
-						<a href="./members.php" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
-							MITGLIEDER
-						</a>
-					</li>
-					<li>
-						<br />
-						<a href="#contact" data-toggle="collapse" data-target=".nav-collapse">
-							<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
-							KONTAKT
-						</a>
-					</li>
-				</ul>
-			</div>
-		</nav> <!-- end navigation -->
-
-		<!-- ************************************************************************************ -->
-		<!-- * CONTENT -->
-		<!-- ************************************************************************************ -->
-		<!-- <div class="page-wrapper"> -->
+		<?php require_once 'nav.php'; ?>
 
 		<!-- ************************************************************************************ -->
 		<!-- * HOME -->
@@ -133,6 +64,32 @@
 							<h1>Innviertler Motor Sport Club</h1>
 							<?php print($fb_infos->getAbout()); ?>
 							<br />
+						</div>
+					</div>
+				</div>
+
+				<div id="fb-feeds" class="row">
+					<!-- important informations -->	
+					<div class="col-sm-12">
+						<div class="fb-feed-background">&nbsp;</div>
+						<div class="my_section fb-feed">
+							<div class="col-sm-12 text-center">
+								<h1>Autoslalom: 31. Mai 2015</h1>
+								<h2>3. Lauf zum OÖ-Cup</h2>
+								<a href="./docs/2015/ooe_aus_03_imsc_ried.pdf" target="_blank" class="btn btn-info">Ausschreibung</a>
+								<a href="./docs/2015/ooe_strecke_03_imsc_ried.pdf" target="_blank" class="btn btn-info">Streckenplan</a>
+								<br>
+								<br>
+							</div>
+
+							<div class="col-sm-12">
+								<div class="google-maps">
+									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d169903.85522255412!2d13.721677102734011!3d48.28846881022645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477469305be473b7%3A0x87486fa7e9bdccdf!2sBasling+10%2C+4770+Andorf!5e0!3m2!1sde!2sat!4v1431943464970" 
+										width="500" height="400" 
+										frameborder="0" style="border:0">
+									</iframe>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -263,12 +220,12 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
 							<h3>Ergebnisse 2014:</h3>
-							<a href="./docs/erg_08_imsc_ried.pdf" target="_blank" class="btn btn-info">Ergebnis IMSC</a>
-							<a href="./docs/ooe_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis O&Ouml;-Cup</a>
+							<a href="./docs/2014/erg_08_imsc_ried.pdf" target="_blank" class="btn btn-info">Ergebnis IMSC</a>
+							<a href="./docs/2014/ooe_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis O&Ouml;-Cup</a>
 							<br />
 							<br />
-							<a href="./docs/slm_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Division) </a>
-							<a href="./docs/slm_gesamt_klassen.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Klassen) </a>
+							<a href="./docs/2014/slm_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Division) </a>
+							<a href="./docs/2014/slm_gesamt_klassen.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Klassen) </a>
 							<br />
 							<br />
 						</div>
@@ -295,132 +252,15 @@
 				</div>
 			</div>
 		</section><!-- end section home -->
-
+		
 		<!-- ************************************************************************************ -->
 		<!-- * CONTACT / FOOTER -->
 		<!-- ************************************************************************************ -->
-		<div class="footer my_section" id="contact">
-            <div class="container">
-
-				<div class="row">
-					<div class="col-sm-12 text-center top-space">
-						<div class="btn btn-danger"><h3>Kontakt</h3></div>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-sm-1">&nbsp;</div>
-					<div class="col-sm-1">
-						<div class="social-btns row">
-							<a href="https://www.facebook.com/imsc.ried" target="blank">
-								<div><img src="./imgs/social/fb.png" alt=""></div>
-								<div><img src="./imgs/social/fb.png" alt=""></div>
-							</a>
-							<!--
-							<a href="#">
-								<div><img src="./imgs/social/g+.png" alt=""></div>
-								<div><img src="./imgs/social/g+.png" alt=""></div>
-							</a>
-							-->
-		                </div>
-					</div>
-					<div class="col-sm-2">
-						<address>
-							<strong>Obmann<br />G&uuml;nter Weilbold</strong><br>
-							<abbr title="Phone"><span class="glyphicon glyphicon-earphone"></span></abbr>
-							&nbsp;+43 660 5793350<br />
-							<span class="glyphicon glyphicon-envelope"></span>
-							&nbsp;<a href="mailto:g.weilbold@aon.at">g.weilbold@aon.at</a>
-						</address>
-					</div>
-					<div class="col-sm-2">
-						<address>
-							<strong>Obmann-Stellvertreter<br />G&uuml;nther Preishuber</strong><br>
-							<abbr title="Phone"><span class="glyphicon glyphicon-earphone"></span></abbr>
-							&nbsp;+43 650 2747445<br />
-							<span class="glyphicon glyphicon-envelope"></span>
-							&nbsp;<a href="mailto:g.preishuber@aon.at">g.preishuber@aon.at</a>
-						</address>
-					</div>
-					<div class="col-sm-2">
-						<address>
-							<strong>Amateursportleiter<br />Mario Preishuber</strong><br>
-							<abbr title="Phone"><span class="glyphicon glyphicon-earphone"></span></abbr>
-							&nbsp;+43 650 6733007<br />
-							<span class="glyphicon glyphicon-envelope"></span>
-							&nbsp;<a href="mailto:imsc.ried@gmail.com">imsc.ried@gmail.com</a>
-						</address>
-					</div>
-					<div class="col-sm-3">
-						<address>
-							<strong>Amateursportleiter-Stellverterter<br />Markus Zechmeister</strong><br>
-							<abbr title="Phone"><span class="glyphicon glyphicon-earphone"></span></abbr>
-							&nbsp;+43 664 5405475<br />
-							<span class="glyphicon glyphicon-envelope"></span>
-							&nbsp;<a href="mailto:meister@reich-kfz.at">meister@reich-kfz.at</a>
-						</address>
-					</div>
-					<div class="col-sm-2">&nbsp;</div>
-				</div>
-				<div class="additional-links">
-                    <!--Be sure to take a look to our <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a><br />-->
-                </div>
-            </div>
-		</div>
-
-		<!--</div> end content -->
+		<?php require_once 'footer.php'; ?>
 
 		<!-- ************************************************************************************ -->
 		<!-- * ADDITIONAL CONTENT -->
 		<!-- ************************************************************************************ -->
-		<div id="fb-root"></div>
-		<script>(function(d, s, id) {
-		  var js, fjs = d.getElementsByTagName(s)[0];
-		  if (d.getElementById(id)) return;
-		  js = d.createElement(s); js.id = id;
-		  js.src = "//connect.facebook.net/de_DE/sdk.js#xfbml=1&appId=481834645275259&version=v2.0";
-		  fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));</script>
-
-		<?php
-		if(!$detect->isMobile()) {
-		?>
-		<script>
-
-		function resizeSections() {
-			if(window.screen.width > 480) {
-				 document.getElementById('home').style.minHeight = window.screen.height + "px";
-				 //document.getElementById('calendar').style.minHeight = window.screen.height + "px";
-			}
-		}
-
-		resizeSections();
-		</script>
-		<?php } ?>
-
-		<!-- lightbox - images -->
-		<script type="text/javascript">
-			$(document).ready(function ($) {
-				// delegate calls to data-toggle="lightbox"
-				$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
-					event.preventDefault();
-					return $(this).ekkoLightbox({
-						always_show_close: true
-					});
-				});
-			});
-		</script>
-
-		<!-- navigation -->
-		<script>
-			$(function() {
-				$('.nav a').on('click', function(){
-					if($('.navbar-toggle').css('display') !='none')
-					{
-						$(".navbar-toggle").trigger( "click" );
-					}
-				});
-			});
-		</script>
+		<?php require_once 'addcont.php'; ?>
 	</body>
 </html>
