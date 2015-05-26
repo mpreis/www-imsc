@@ -49,3 +49,8 @@ function resizeSections(elemId) {
 resizeSections();
 </script>
 <?php } ?>
+
+<script> 
+	$(function () { $('[data-toggle="popover"]').popover()})
+		function togglePopover () { $('[data-toggle="popover"]').popover()}
+</script>
