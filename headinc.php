@@ -5,7 +5,6 @@
 
 <link rel="shortcut icon" href="../imgs/favicon.png">
 <link rel="stylesheet" href="../css/bootstrap.min.css">
-<!-- <link rel="stylesheet" href="../css/bootstrap-theme.min.css"> -->
 
 <link href="../css/lightbox_dark.css" rel="stylesheet">
 

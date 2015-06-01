@@ -73,22 +73,37 @@
 					<div class="col-sm-12">
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
-							<div class="col-sm-12 text-center">
+							<div class="col-sm-6 text-center">
 								<h1>Autoslalom: 31. Mai 2015</h1>
 								<h2>3. Lauf zum OÖ-Cup</h2>
-								<a href="./docs/2015/ooe_aus_03_imsc_ried.pdf" target="_blank" class="btn btn-info">Ausschreibung</a>
-								<a href="./docs/2015/ooe_strecke_03_imsc_ried.pdf" target="_blank" class="btn btn-info">Streckenplan</a>
+								<a href="https://drive.google.com/file/d/0B654bLSSYZ6GdG51dWQ5VnkzU1k/view?usp=sharing" 
+									target="_blank" class="btn btn-info">Ausschreibung</a>
+								
+								<a href="https://drive.google.com/file/d/0B654bLSSYZ6GQkVDWEN3MXF2VkU/view?usp=sharing" 
+									target="_blank" class="btn btn-info">Streckenplan</a>
+								
+								<a href="https://drive.google.com/file/d/0Byem0W0PppU-dlBzMU02TGhocGM/view?usp=sharing" 
+									target="_blank" class="btn btn-info">Streckenplan mit Toren</a>
+								
+								<a href="https://www.youtube.com/watch?v=6WVxooyTIPM" 
+									target="_blank" class="btn btn-info">Streckenvideo (YouTube)</a>
+								
+								<a href="https://plus.google.com/photos/109124545640923797926/albums/6155115986562509649?banner=pwa&amp;authkey=CNbEsdbv68_E-QE" 
+									target="_blank" class="btn btn-info">Fotos</a>
+								
+								<a href="https://drive.google.com/file/d/0Byem0W0PppU-QzVXdG1NenJTTms/view?usp=sharing" 
+									target="_blank" class="btn btn-warning">Ergebnis Andorf</a>
+								
 								<br>
 								<br>
 							</div>
 
-							<div class="col-sm-12">
-								<div class="google-maps">
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d169903.85522255412!2d13.721677102734011!3d48.28846881022645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477469305be473b7%3A0x87486fa7e9bdccdf!2sBasling+10%2C+4770+Andorf!5e0!3m2!1sde!2sat!4v1431943464970" 
-										width="500" height="400" 
-										frameborder="0" style="border:0">
-									</iframe>
-								</div>
+							<div class="col-sm-6 text-center">
+								<img src="https://lh5.googleusercontent.com/-_DMv9SIwqMw/VWu2XONalvI/AAAAAAAArqE/ICChnZSzR58/w1702-h1134-no/ZR1G1761.JPG"
+									width="500" alt="Foto von Robert Kreuzer" class="img-thumbnail img-responsive">
+								<br>
+								Foto von Robert Kreuzer
+								<br>
 							</div>
 						</div>
 					</div>
@@ -220,12 +235,18 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
 							<h3>Ergebnisse 2014:</h3>
-							<a href="./docs/2014/erg_08_imsc_ried.pdf" target="_blank" class="btn btn-info">Ergebnis IMSC</a>
-							<a href="./docs/2014/ooe_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis O&Ouml;-Cup</a>
+							<a href="https://drive.google.com/file/d/0B654bLSSYZ6GZVhxaVBId2pBY3M/view?usp=sharing" 
+								target="_blank" class="btn btn-info">Ergebnis IMSC</a>
+							
+							<a href="https://drive.google.com/file/d/0B654bLSSYZ6GYjFDTjF1b3FlbUk/view?usp=sharing" 
+								target="_blank" class="btn btn-info">Ergebnis O&Ouml;-Cup</a>
+							
 							<br />
 							<br />
-							<a href="./docs/2014/slm_gesamt.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Division) </a>
-							<a href="./docs/2014/slm_gesamt_klassen.pdf" target="_blank" class="btn btn-info">Ergebnis SLM (Klassen) </a>
+							<a href="https://drive.google.com/file/d/0B654bLSSYZ6GSG1xS1lqMmllWGM/view?usp=sharing" 
+								target="_blank" class="btn btn-info">Ergebnis SLM (Division) </a>
+							<a href="https://drive.google.com/file/d/0B654bLSSYZ6GMkxnV2ItNEZadlU/view?usp=sharing" 
+								target="_blank" class="btn btn-info">Ergebnis SLM (Klassen) </a>
 							<br />
 							<br />
 						</div>
