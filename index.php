@@ -91,7 +91,7 @@
 								<a href="https://plus.google.com/photos/109124545640923797926/albums/6155115986562509649?banner=pwa&amp;authkey=CNbEsdbv68_E-QE" 
 									target="_blank" class="btn btn-info">Fotos</a>
 								
-								<a href="https://drive.google.com/file/d/0Byem0W0PppU-QzVXdG1NenJTTms/view?usp=sharing" 
+								<a href="https://drive.google.com/file/d/0Byem0W0PppU-VklqMC1GWk1rTzA/view?usp=sharing" 
 									target="_blank" class="btn btn-warning">Ergebnis Andorf</a>
 								
 								<br>
