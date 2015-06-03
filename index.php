@@ -69,6 +69,20 @@
 				</div>
 
 				<div id="fb-feeds" class="row">
+					<div class="col-sm-12">
+						<div class="fb-feed-background">&nbsp;</div>
+						<div class="my_section fb-feed text-center">
+							<h3>WICHTIG:</h3>
+							<h4>Die nächste Sitzung von 
+							<span class="btn btn-warning">12.06.</span> wird auf 
+							<span class="btn btn-warning">19.06.</span> verschoben!
+							</h4>
+							<br />
+						</div>
+					</div>
+				</div>
+
+				<div id="fb-feeds" class="row">
 					<!-- important informations -->	
 					<div class="col-sm-12">
 						<div class="fb-feed-background">&nbsp;</div>
