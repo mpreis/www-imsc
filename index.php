@@ -73,10 +73,24 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed text-center">
 							<h3>WICHTIG:</h3>
-							<h4>Die nächste Sitzung von 
+							<h4>Die nächste Sitzung von
 							<span class="btn btn-warning">12.06.</span> wird auf 
 							<span class="btn btn-warning">19.06.</span> verschoben!
 							</h4>
+							<br />
+						</div>
+					</div>
+				</div>
+
+				<div id="fb-feeds" class="row">
+					<div class="col-sm-12">
+						<div class="fb-feed-background">&nbsp;</div>
+						<div class="my_section fb-feed text-center">
+							<h3>WICHTIG:</h3>
+							<h4>Der Slalom der MSC Gastein in Wagrain ist vorerst 
+								<span class="btn btn-warning">ABGESAGT</span>!
+							</h4>
+							Es wird nach einem Ersatztermin gesucht.
 							<br />
 						</div>
 					</div>
@@ -135,7 +149,7 @@
 									<li>Lauf SA 02.05.2015	MSC Mühlbach am Hochkönig (Mühlbach)</li>
 									<li>Lauf SO 07.06.2015	HC Motorsport (Geretsberg)</li>
 									<li>Lauf SO 14.06.2015	MSC Schönau a. Königssee e.V. (Schönau)</li>
-									<li>Lauf SO 19.07.2015	MSC Gastein (Wagrein)</li>
+									<li><strike>Lauf SO 19.07.2015	MSC Gastein (Wagrein)</strike></li>
 									<li>Lauf SO 02.08.2015	CUP-Slalom (Berndorf)</li>
 									<li>Lauf SO 23.08.2015	MSC Flachgau (Obertrum)</li>
 									<li>Lauf SO 06.09.2015	MSC Schlössl (Schlössl)</li>
