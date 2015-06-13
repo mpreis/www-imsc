@@ -11,12 +11,12 @@
 		</button>
 		<a class="navbar-brand brand" href="./index.php">
 			<?php  if(!$detect->isMobile()) { ?>
-				<img src="imgs/favicon.png" class="navbar-brand-img my-brand-img" />
+				<img src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/favicon.png" class="navbar-brand-img my-brand-img" />
 				<div class="navbar-brand-text my-brand-text">
 					Innviertler<br />Motor Sport Club
 				</div>
 			<?php } else { ?>
-				<img src="imgs/favicon_small.png" class="navbar-brand-img my-brand-img" />
+				<img src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/favicon.png" class="navbar-brand-img my-brand-img" />
 				<div class="navbar-brand-text">
 					IMSC
 				</div>

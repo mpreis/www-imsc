@@ -15,8 +15,8 @@
 			<div class="col-sm-1">
 				<div class="social-btns row">
 					<a href="https://www.facebook.com/imsc.ried" target="blank">
-						<div><img src="./imgs/social/fb.png" alt=""></div>
-						<div><img src="./imgs/social/fb.png" alt=""></div>
+						<div><img src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/social/fb.png" alt=""></div>
+						<div><img src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs//social/fb.png" alt=""></div>
 					</a>
 					<!--
 					<a href="#">

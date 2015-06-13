@@ -49,16 +49,20 @@
 							<br />&nbsp;
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/kraxenberger_franz.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/kraxenberg_franz.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages"
 								data-title="Pr&auml;sident: Franz Kraxenberger">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/kraxenberger_franz.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/kraxenberger_franz.jpg"/>
 							</a>
 							<h6>Franz Kraxenberger</h6>
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/anonym.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/anonym.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages"
 								data-title="Pr&auml;sident: Franz Kreuzhuber">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/anonym.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/anonym.jpg"/>
 							</a>
 							<h6>Franz Kreuzhuber</h6>
 						</div>
@@ -69,16 +73,20 @@
 							<br />&nbsp;
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/weilbold_guenter.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/weilbold_guenter.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages"
 								data-title="Obmann: G&uuml;nter Weilbold">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/weilbold_guenter.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/weilbold_guenter.jpg"/>
 							</a>
 							<h6>G&uuml;nter Weilbold</h6>
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/preishuber_guenther.jpg" data-toggle="lightbox"
-								data-gallery="multiimages" data-title="Obmann-Stellvertreter: G&uuml;nter Preishuber">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/preishuber_guenther.jpg"/>
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/preishuber_guenther.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages" 
+								data-title="Obmann-Stellvertreter: G&uuml;nter Preishuber">
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/preishuber_guenther.jpg"/>
 							</a>
 							<h6>G&uuml;nther Preishuber</h6>
 						</div>
@@ -93,16 +101,20 @@
 							<br />&nbsp;
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/preishuber_mario.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/preishuber_mario.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages"
 								data-title="Amateursportleiter: Mario Preishuber">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/preishuber_mario.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/preishuber_mario.jpg"/>
 							</a>
 							<h6>Mario Preishuber</h6>
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/zechmeister_markus.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/zechmeister_markus.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages"
 								data-title="Amateursportleiter-Stellvertreter: Markus Zechmeister">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/zechmeister_markus.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/zechmeister_markus.jpg"/>
 							</a>
 							<h6>Markus Zechmeister</h6>
 						</div>
@@ -113,16 +125,20 @@
 							<br />&nbsp;
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/preishuber_guenther.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/preishuber_guenther.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages"
 								data-title="Kassier: G&uuml;nther Preishuber">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/preishuber_guenther.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/preishuber_guenther.jpg"/>
 							</a>
 							<h6>G&uuml;nther Preishuber</h6>
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/salomon_engelbert.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/salomon_engelbert.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages"
 								data-title="Kassier-Stellvertreter: Engelbert Salomon">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/salomon_engelbert.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/salomon_engelbert.jpg"/>
 							</a>
 							<h6>Engelbert Salomon</h6>
 						</div>
@@ -138,16 +154,20 @@
 						</div>
 
 						<div class="col-sm-6">
-							<a href="./imgs/persons/salomon_erwin.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/salomon_erwin.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages"
 								data-title="Schriftf&uuml;hrer: Erwin Salomon">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/salomon_erwin.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/salomon_erwin.jpg"/>
 							</a>
 							<h6>Erwin Salomon</h6>
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/wagner_roland.jpg" data-toggle="lightbox" data-gallery="multiimages"
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/wagner_roland.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages" 
 								data-title="Schriftf&uuml;hrer-Stellvertreter: Roland Wagner">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/wagner_roland.jpg"/>
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/wagner_roland.jpg"/>
 							</a>
 							<h6>Roland Wagner</h6>
 						</div>
@@ -158,16 +178,18 @@
 							<br />&nbsp;
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/wagner_anton.jpg" data-toggle="lightbox" data-gallery="multiimages"
-								data-title="Zeugwart: Anton Wagner">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/wagner_anton.jpg"/>
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/wagner_anton.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages" data-title="Zeugwart: Anton Wagner">
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/wagner_anton.jpg"/>
 							</a>
 							<h6>Anton Wagner</h6>
 						</div>
 						<div class="col-sm-6">
-							<a href="./imgs/persons/gruber_horst.jpg" data-toggle="lightbox" data-gallery="multiimages"
-								data-title="Zeugwart: Horst Gruber">
-								<img class="img-thumbnail img-responsive" src="imgs/persons/gruber_horst.jpg"/>
+							<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/gruber_horst.jpg" 
+								data-toggle="lightbox" data-gallery="multiimages" data-title="Zeugwart: Horst Gruber">
+								<img class="img-thumbnail img-responsive" 
+									src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/gruber_horst.jpg"/>
 							</a>
 							<h6>Horst Gruber</h6>
 						</div>
@@ -181,9 +203,10 @@
 
 				<div class="row">
 					<div class="col-sm-3">
-						<a href="./imgs/persons/hofinger_peter.jpg" data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Peter Hofinger">
-							<img class="img-thumbnail img-responsive" src="imgs/persons/hofinger_peter.jpg"/>
+						<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/hofinger_peter.jpg" 
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Peter Hofinger">
+							<img class="img-thumbnail img-responsive" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/hofinger_peter.jpg"/>
 						</a>
 						<h6>Peter Hofinger</h6>
 						<b>
@@ -194,9 +217,10 @@
 						<br />&nbsp;
 					</div>
 					<div class="col-sm-3">
-						<a href="./imgs/persons/berschl_johann.jpg" data-toggle="lightbox"
-							data-gallery="multiimages" data-title="Johann Berschl">
-							<img class="img-thumbnail img-responsive" src="imgs/persons/berschl_johann.jpg"/>
+						<a href=".https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/berschl_johann.jpg" 
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Johann Berschl">
+							<img class="img-thumbnail img-responsive" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/berschl_johann.jpg"/>
 						</a>
 						<h6>Johann Berschl</h6>
 						<b>
@@ -215,37 +239,37 @@
 				<div class="row">
 					<!-- andreas preishuber -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/anonym.jpg"
-							data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Andreas Preishuber">
-							<img class="img-thumbnail" src="imgs/persons/anonym.jpg"/>
+						<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/anonym.jpg"
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Andreas Preishuber">
+							<img class="img-thumbnail" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/anonym.jpg"/>
 						</a>
 						<h6>Andreas Preishuber</h6>
 					</div>
 					<!-- christoph preishuber -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/anonym.jpg"
-							data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Christop Preishuber">
-							<img class="img-thumbnail" src="imgs/persons/anonym.jpg"/>
+						<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/anonym.jpg"
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Christop Preishuber">
+							<img class="img-thumbnail" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/anonym.jpg"/>
 						</a>
 						<h6>Christoph Preishuber</h6>
 					</div>
 					<!-- mario preishuber -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/preishuber_mario.jpg"
-							data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Mario Preishuber">
-							<img class="img-thumbnail" src="imgs/persons/preishuber_mario.jpg"/>
+						<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/preishuber_mario.jpg"
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Mario Preishuber">
+							<img class="img-thumbnail" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/preishuber_mario.jpg"/>
 						</a>
 						<h6>Mario Preishuber</h6>
 					</div>
 					<!-- engelbert salomon -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/salomon_engelbert.jpg"
-							data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Daniel Wiel&auml;nder">
-							<img class="img-thumbnail" src="imgs/persons/salomon_engelbert.jpg"/>
+						<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/salomon_engelbert.jpg"
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Salomon Engelbert">
+							<img class="img-thumbnail" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/salomon_engelbert.jpg"/>
 						</a>
 						<h6>Engelbert Salomon</h6>
 					</div>
@@ -253,37 +277,37 @@
 				<div class="row">
 					<!-- markus schwarz -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/schwarz_markus.jpg"
-							data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Markus Schwarz">
-							<img class="img-thumbnail" src="imgs/persons/schwarz_markus.jpg"/>
+						<a href=".https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/schwarz_markus.jpg"
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Markus Schwarz">
+							<img class="img-thumbnail" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/schwarz_markus.jpg"/>
 						</a>
 						<h6>Markus Schwarz</h6>
 					</div>
 					<!-- roland wagner -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/wagner_roland.jpg"
-							data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Roland Wagner">
-							<img class="img-thumbnail" src="imgs/persons/wagner_roland.jpg"/>
+						<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/wagner_roland.jpg"
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Roland Wagner">
+							<img class="img-thumbnail" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons//wagner_roland.jpg"/>
 						</a>
 						<h6>Roland Wagner</h6>
 					</div>
 					<!-- daniel wielaender -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/anonym.jpg"
-							data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Daniel Wiel&auml;nder">
-							<img class="img-thumbnail" src="imgs/persons/anonym.jpg"/>
+						<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/anonym.jpg"
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Daniel Wiel&auml;nder">
+							<img class="img-thumbnail" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/anonym.jpg"/>
 						</a>
 						<h6>Daniel Wiel&auml;nder</h6>
 					</div>
 					<!-- markus zechmeister -->
 					<div class="col-sm-3">
-						<a href="./imgs/persons/zechmeister_markus.jpg"
-							data-toggle="lightbox" data-gallery="multiimages"
-							data-title="Markus Zechmeister">
-							<img class="img-thumbnail" src="imgs/persons/zechmeister_markus.jpg"/>
+						<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/zechmeister_markus.jpg"
+							data-toggle="lightbox" data-gallery="multiimages" data-title="Markus Zechmeister">
+							<img class="img-thumbnail" 
+								src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/zechmeister_markus.jpg"/>
 						</a>
 						<h6>Markus Zechmeister</h6>
 					</div>
