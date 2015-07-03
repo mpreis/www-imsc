@@ -59,7 +59,7 @@
 								<br />
 								<br />
 								<a href="https://www.facebook.com/imsc.ried">
-									<img src="./imgs/social/fb.png" width="50em" class="img-rounded" />
+									<img src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/social/fb.png" width="50em" class="img-rounded" />
 								</a>
 								<br /><br />
 								(Auch ohne Facebook-Account!!!).

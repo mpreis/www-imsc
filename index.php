@@ -73,9 +73,10 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed text-center">
 							<h3>WICHTIG:</h3>
-							<h4>Die nächste Sitzung von
-							<span class="btn btn-warning">12.06.</span> wird auf 
-							<span class="btn btn-warning">19.06.</span> verschoben!
+							<h4>Der Slalom des MSC Lochen wurde 
+							<span class="btn btn-warning">vorverlegt</span> von
+							<span class="btn btn-warning">20.09.</span> auf 
+							<span class="btn btn-warning">13.09.</span>!
 							</h4>
 							<br />
 						</div>
@@ -87,7 +88,7 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed text-center">
 							<h3>WICHTIG:</h3>
-							<h4>Der Slalom der MSC Gastein in Wagrain ist vorerst 
+							<h4>Der Slalom des MSC Gastein in Wagrain ist vorerst 
 								<span class="btn btn-warning">ABGESAGT</span>!
 							</h4>
 							Es wird nach einem Ersatztermin gesucht.
@@ -153,7 +154,7 @@
 									<li>Lauf SO 02.08.2015	CUP-Slalom (Berndorf)</li>
 									<li>Lauf SO 23.08.2015	MSC Flachgau (Obertrum)</li>
 									<li>Lauf SO 06.09.2015	MSC Schlössl (Schlössl)</li>
-									<li>Lauf SO 20.09.2015	MSC Lochen (noch offen)</li>
+									<li><b>Lauf SO 13.09.2015	MSC Lochen (Anthering)</b></li>
 									<li>Lauf SO 11.10.2015	IMSC Ried (Wildenau)</li>
 								</ol>
 							</div>

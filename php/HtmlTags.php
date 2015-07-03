@@ -33,11 +33,12 @@ class HtmlTags
 	
 	public function getHomeBackgroundImage() 
 	{	
+		$nrImgs = 20;
 		$bgImg = '';
+		$path = 'https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/bg/section_home_';
 		$detect = new MobileDetect();
 		if(!$detect->isMobile()) {
-		
-			$path = './imgs/bg/home/';
+			/*
 			$imgs = array();
 			
 			if ($handle = opendir($path)) {
@@ -48,8 +49,9 @@ class HtmlTags
 				}
 				closedir($handle);
 			}
-			$bgImgIdx = rand(0, count($imgs)-1);
-			$bgImg = 'style="background-image: url(\'' . $path . $imgs[$bgImgIdx] . '\');"';
+			*/
+			$bgImgIdx = rand(0, $nrImgs);
+			$bgImg = 'style="background-image: url(\'' . $path . $bgImgIdx . '.jpg\');"';
 		}
 		return $bgImg ;
 	}
