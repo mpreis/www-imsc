@@ -69,30 +69,54 @@
 				</div>
 
 				<div id="fb-feeds" class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-6">
 						<div class="fb-feed-background">&nbsp;</div>
-						<div class="my_section fb-feed text-center">
-							<h3>WICHTIG:</h3>
-							<h4>Der Slalom des MSC Lochen wurde 
-							<span class="btn btn-warning">vorverlegt</span> von
-							<span class="btn btn-warning">20.09.</span> auf 
-							<span class="btn btn-warning">13.09.</span>!
-							</h4>
-							<br />
+						<div class="my_section fb-feed">
+							<h3>An alle Vereinsmitglieder: AUSFLUG 2015</h3>
+							Auf der letzten Sitzung, Freitag 10. Juli 2015, wurde das Thema Ausflug angesprochen.
+							Unser Obmann hat folgendes vorgeschlagen:
+							<ul>
+								<li><span class="btn btn-warning">DTM Finale in Hockenheim</span></li>
+								<li><span class="btn btn-warning">Termin: Sa. 17. - So. 18. Oktober</span></li>
+								<li>Anreise via gemieteten 9-Sitzer</li>
+								<li>Grober Ablauf: 
+									<ul>
+										<li>Am Samstag reisen wir an. 
+											Dabei könnten wir auf dem Weg nach Hockenheim noch etwas unternehmen, 
+											im Moment ist noch nichts konkretes geplant. Nach der Ankunft im Hotel,
+											folgt das übliche Abendprogramm mit essen gehen und gemütlichem Beisammensein. 
+										</li>
+										<li>Am Sontag steht, dann das DTM Finale an. 
+											Im Anschluss daran machen wir uns wieder auf den Heimweg.
+										</li> 
+									</ul>
+								</li>
+							</ul>
+							<br>
+							
+							Damit wir auch sicher Tickets und ein Hotel bekommen, müssen wir bis zur
+							<strong>NÄCHSTEN SITZUNG</strong> wissen wer mitfahren möchte. 
+							
+							Sollte jemand mit dem Datum ein Problem haben: <strong>WICHTIG BESCHEID GEBEN!</strong>
+							Wir möchten natürlich, dass so viele wie nur möglich am Ausflug teilnehmen können. 
+							<br>
+							
+							<span class="btn btn-warning">Bitte meldet euch bei unserem Obmann Günter Weilbold.</span>
+							<br>
 						</div>
 					</div>
-				</div>
 
-				<div id="fb-feeds" class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-5 col-sm-offset-1">
 						<div class="fb-feed-background">&nbsp;</div>
-						<div class="my_section fb-feed text-center">
+						<div class="my_section fb-feed">
 							<h3>WICHTIG:</h3>
-							<h4>Der Slalom des MSC Gastein in Wagrain ist vorerst 
-								<span class="btn btn-warning">ABGESAGT</span>!
-							</h4>
-							Es wird nach einem Ersatztermin gesucht.
-							<br />
+							<ul>
+								<li>Der Slalom des MSC Lochen wurde vorverlegt von 20.09. auf 13.09.!</li>	
+								<li>Der Slalom des MSC Gastein in Wagrain ist vorerst ABGESAGT!
+										(Es wird nach einem Ersatztermin gesucht.)
+								</li>
+							</ul>
+							<br>
 						</div>
 					</div>
 				</div>
