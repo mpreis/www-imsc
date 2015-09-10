@@ -111,6 +111,7 @@
 						<div class="my_section fb-feed">
 							<h3>WICHTIG:</h3>
 							<ul>
+								<li><h4>Die September-Sitzung, Freitag 11.09.2015, 20:00 Uhr, findet im Gasthaus Danzer statt.</h4></li>
 								<li>Der Slalom des MSC Lochen wurde vorverlegt von 20.09. auf 13.09.!</li>	
 								<li>Der Slalom des MSC Gastein in Wagrain ist vorerst ABGESAGT!
 										(Es wird nach einem Ersatztermin gesucht.)
