@@ -69,6 +69,46 @@
 				</div>
 
 				<div id="fb-feeds" class="row">
+					<div class="col-sm-12">
+						<div class="fb-feed-background">&nbsp;</div>
+						<div class="my_section fb-feed text-center">
+							<h1>Autoslalom: 11. Oktober 2015</h1>
+
+							<div class="col-sm-6">
+								<h2>Finale der SLM</h2>
+								Verpasst auf keinen Fall das Finale der Salzburger Landesmeisterschaft im Autoslalom!
+								<br>
+								
+								Infos für Teilnehmer
+								<a href="https://drive.google.com/file/d/0B654bLSSYZ6GNVhOempxX0VfZTg/view?usp=sharing" 
+										target="_blank" class="btn btn-info">Ausschreibung</a>
+								<br>
+								
+								Infos zur SLM
+								<a href="http://www.slm-autoslalom.at" target="_blank" class="btn btn-info">http://www.slm-autoslalom.at</a>
+								<br>
+								
+								Fernsehbericht 2014
+								<a href="http://www.ht1.at/mediathek/5052/Autoslalom_des_Motorsport_Club_Ried.html"
+									target="_blank" class="btn btn-warning">HT1</a>
+								
+							</div>
+							<div class="col-sm-6">
+								<h3>Hier noch ein kleiner Vorgeschmack:</h3>
+								<br>
+								Mehr unter <a href="https://www.youtube.com/watch?v=SzupxQkW8U4&list=PLfsGuj3jVLl3uqSXn1_OM3VDfFLPseZ2t" 
+										target="_blank" class="btn btn-info"><h5><i class="fa fa-youtube" alt="YouTube"></i></h5></a>
+								<br>
+								<br>
+								<iframe class="img-thumbnail img-responsive" width="560" height="315" src="https://www.youtube.com/embed/MIHvKbwef84?list=PLfsGuj3jVLl3uqSXn1_OM3VDfFLPseZ2t&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+								<br>
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="fb-feeds" class="row">
 					<div class="col-sm-6">
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed">
@@ -111,7 +151,7 @@
 						<div class="my_section fb-feed">
 							<h3>WICHTIG:</h3>
 							<ul>
-								<li><h4>Die September-Sitzung, Freitag 11.09.2015, 20:00 Uhr, findet im Gasthaus Danzer statt.</h4></li>
+								<li>Die September-Sitzung, Freitag 11.09.2015, 20:00 Uhr, findet im Gasthaus Danzer statt.</li>
 								<li>Der Slalom des MSC Lochen wurde vorverlegt von 20.09. auf 13.09.!</li>	
 								<li>Der Slalom des MSC Gastein in Wagrain ist vorerst ABGESAGT!
 										(Es wird nach einem Ersatztermin gesucht.)
