@@ -73,6 +73,47 @@
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed text-center">
 							<h1>Autoslalom: 11. Oktober 2015</h1>
+							
+							<div class="col-sm-12">
+								<a href="https://drive.google.com/file/d/0B654bLSSYZ6GVEVtN01pUUp0VDA/view?usp=sharing"
+									target="_blank" class="btn btn-warning">ERGEBNISLISTE</a>
+							</div>
+
+							<div class="col-sm-6">
+								<h2>DANKE</h2>
+								an alle Sponsoren für ihre Unterstützung.
+
+								<h2>DANKE</h2>
+								an alle Vereinsmitglieder, die heuer mit 2 IMSC-Slalom viel zu tun hatten.
+								
+								<h2>DANKE</h2>
+								an alle nicht Vereinsmitglieder die uns tatkräftig unterstützt haben.
+							</div>
+
+							<div class="col-sm-6">
+								<h2>DANKE</h2>
+								an alle Teilnehmer, wir hoffen ihr hattet Spass :)
+
+								<h2>DANKE</h2>
+								an alle Zuschauer für's vorbei schauen.
+
+								<h2>DANKE</h2>
+								an alle die auch heuer wieder zum Erfolg dieser Veranstaltung beigetragen haben.
+							</div>
+
+							<div class="col-sm-12">
+								<br>
+								<h2>Wir sehen uns nächstes Jahr hoffentlich wieder <i class="fa fa-smile-o"></i></h2>
+								<br>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="fb-feeds" class="row">
+					<div class="col-sm-12">
+						<div class="fb-feed-background">&nbsp;</div>
+						<div class="my_section fb-feed">
 
 							<div class="col-sm-6">
 								<h2>Finale der SLM</h2>
