@@ -72,17 +72,39 @@
 					<div class="col-sm-12">
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed text-center">
+							Die
+							<h4>OOE-Cup Siegerehrung</h4>
+							findet am
+							<h4>21.11.2015</h4>
+							im
+							<a href="http://landgasthof-mayr.at/"
+										target="_blank" class="btn btn-info">Landgastof Mayr </a>
+							statt. Weiters details folgen unter 
+							<a href="http://www.ooe-cup.at" target="_blank" class="btn btn-info">http://www.ooe-cup.at</a>
+						</div>
+					</div>
+				</div>
+
+				<div id="fb-feeds" class="row">
+					<div class="col-sm-12">
+						<div class="fb-feed-background">&nbsp;</div>
+						<div class="my_section fb-feed text-center">
 							<h1>Autoslalom: 11. Oktober 2015</h1>
 							
 							<div class="col-sm-12">
 								<a href="https://drive.google.com/file/d/0B654bLSSYZ6GVEVtN01pUUp0VDA/view?usp=sharing"
 									target="_blank" class="btn btn-warning">ERGEBNISLISTE</a>
+
+									<br>
+									<br>
+									<b>Gute Neuigkeiten:</b> Hofermeister Hans ist wieder wohlauf.
 							</div>
 
 							<div class="col-sm-6">
 								<h2>DANKE</h2>
 								an alle Sponsoren für ihre Unterstützung.
-
+							</div>
+								<!--
 								<h2>DANKE</h2>
 								an alle Vereinsmitglieder, die heuer mit 2 IMSC-Slalom viel zu tun hatten.
 								
@@ -96,7 +118,8 @@
 
 								<h2>DANKE</h2>
 								an alle Zuschauer für's vorbei schauen.
-
+								-->
+							<div class="col-sm-6">
 								<h2>DANKE</h2>
 								an alle die auch heuer wieder zum Erfolg dieser Veranstaltung beigetragen haben.
 							</div>
