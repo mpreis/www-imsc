@@ -69,7 +69,7 @@
 				</div>
 
 				<div id="fb-feeds" class="row">
-					<div class="col-sm-12">
+					<div class="col-sm-6">
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed text-center">
 							Die
@@ -78,12 +78,31 @@
 							<h4>21.11.2015</h4>
 							im
 							<a href="http://landgasthof-mayr.at/"
-										target="_blank" class="btn btn-info">Landgastof Mayr </a>
-							statt. Weiters details folgen unter 
+										target="_blank" class="btn btn-info">Landgasthof Mayr </a>
+							statt. Weiters Details folgen unter 
 							<a href="http://www.ooe-cup.at" target="_blank" class="btn btn-info">http://www.ooe-cup.at</a>
 						</div>
 					</div>
+					<div class="col-sm-5 col-sm-offset-1">
+						<div class="fb-feed-background">&nbsp;</div>
+						<div class="my_section fb-feed">
+							<h3>WICHTIG:</h3>
+							<ul>
+								<li><h6>Die November-Sitzung wurde von Fr., 13. Nov. auf Fr, 20. Nov. verschoben.</h6></li>
+								<li>Die September-Sitzung, Freitag 11.09.2015, 20:00 Uhr, findet im Gasthaus Danzer statt.</li>
+								<li>Der Slalom des MSC Lochen wurde vorverlegt von 20.09. auf 13.09.!</li>	
+								<li>Der Slalom des MSC Gastein in Wagrain ist vorerst ABGESAGT!
+										(Es wird nach einem Ersatztermin gesucht.)
+								</li>
+							</ul>
+							<br>
+						</div>
+					</div>
+
 				</div>
+
+
+
 
 				<div id="fb-feeds" class="row">
 					<div class="col-sm-12">
@@ -210,20 +229,6 @@
 						</div>
 					</div>
 
-					<div class="col-sm-5 col-sm-offset-1">
-						<div class="fb-feed-background">&nbsp;</div>
-						<div class="my_section fb-feed">
-							<h3>WICHTIG:</h3>
-							<ul>
-								<li>Die September-Sitzung, Freitag 11.09.2015, 20:00 Uhr, findet im Gasthaus Danzer statt.</li>
-								<li>Der Slalom des MSC Lochen wurde vorverlegt von 20.09. auf 13.09.!</li>	
-								<li>Der Slalom des MSC Gastein in Wagrain ist vorerst ABGESAGT!
-										(Es wird nach einem Ersatztermin gesucht.)
-								</li>
-							</ul>
-							<br>
-						</div>
-					</div>
 				</div>
 
 				<div id="fb-feeds" class="row">
