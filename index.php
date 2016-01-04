@@ -76,7 +76,8 @@
 							<h4>Jahresabschlussfeier</h4>
 							am <h4>Sa, 09.01.2016 20 Uhr</h4>
 							in Neuhofen beim Sternbauer ein.<br><br>
-							(Wie immer wird dabei auch die Fahrerprämie ausgezahlt.)
+							(Wie immer wird dabei auch die Fahrerprämie ausgezahlt. 
+							Die Liste mit den Starts 2015 wurde per E-Mail ausgeschickt. Bitte kontrollieren.)
 						</div>
 					</div>
 					<div class="col-sm-5 col-sm-offset-1">
