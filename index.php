@@ -72,15 +72,11 @@
 					<div class="col-sm-6">
 						<div class="fb-feed-background">&nbsp;</div>
 						<div class="my_section fb-feed text-center">
-							Die
-							<h4>OOE-Cup Siegerehrung</h4>
-							findet am
-							<h4>21.11.2015</h4>
-							im
-							<a href="http://landgasthof-mayr.at/"
-										target="_blank" class="btn btn-info">Landgasthof Mayr </a>
-							statt. Weiters Details folgen unter 
-							<a href="http://www.ooe-cup.at" target="_blank" class="btn btn-info">http://www.ooe-cup.at</a>
+							Wir laden alle Vereinsmitglieder recht herzlich zur
+							<h4>Jahresabschlussfeier</h4>
+							am <h4>Sa, 09.01.2016 20 Uhr</h4>
+							in Neuhofen beim Sternbauer ein.<br><br>
+							(Wie immer wird dabei auch die Fahrerprämie ausgezahlt.)
 						</div>
 					</div>
 					<div class="col-sm-5 col-sm-offset-1">
@@ -88,7 +84,8 @@
 						<div class="my_section fb-feed">
 							<h3>WICHTIG:</h3>
 							<ul>
-								<li><h6>Die November-Sitzung wurde von Fr., 13. Nov. auf Fr, 20. Nov. verschoben.</h6></li>
+								<li>Die OOE-Cup Siegerehrung findet am 21.11.2015 im Landgasthof Mayr statt.</li> 
+								<li>Die November-Sitzung wurde von Fr., 13. Nov. auf Fr, 20. Nov. verschoben.</li>
 								<li>Die September-Sitzung, Freitag 11.09.2015, 20:00 Uhr, findet im Gasthaus Danzer statt.</li>
 								<li>Der Slalom des MSC Lochen wurde vorverlegt von 20.09. auf 13.09.!</li>	
 								<li>Der Slalom des MSC Gastein in Wagrain ist vorerst ABGESAGT!
