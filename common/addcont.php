@@ -35,21 +35,6 @@
 	});
 </script>
 
-<?php
-if(!$detect->isMobile()) {
-?>
-<script>
-
-function resizeSections(elemId) {
-	if(window.screen.width > 480) {
-		 document.getElementById(elemId).style.minHeight = window.screen.height + "px";
-	}
-}
-
-resizeSections();
-</script>
-<?php } ?>
-
 <script> 
 	$(function () { $('[data-toggle="popover"]').popover()})
 		function togglePopover () { $('[data-toggle="popover"]').popover()}

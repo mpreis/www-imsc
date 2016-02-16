@@ -1,0 +1,633 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201510 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.imsc-ried.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1996                
+POS_TIME 2680                
+POS_VISITOR 10891               
+POS_DAY 18803               
+POS_DOMAIN 3460                
+POS_LOGIN 3865                
+POS_ROBOT 4020                
+POS_WORMS 4965                
+POS_EMAILSENDER 5096                
+POS_EMAILRECEIVER 5239                
+POS_SESSION 19142               
+POS_SIDER 19350               
+POS_FILETYPES 5374                
+POS_DOWNLOADS 5572                
+POS_OS 5620                
+POS_BROWSER 5940                
+POS_SCREENSIZE 7099                
+POS_UNKNOWNREFERER 7173                
+POS_UNKNOWNREFERERBROWSER 7537                
+POS_ORIGIN 7667                
+POS_SEREFERRALS 7810                
+POS_PAGEREFS 7976                
+POS_SEARCHWORDS 8694                
+POS_KEYWORDS 8969                
+POS_MISC 2344                
+POS_ERRORS 9101                
+POS_CLUSTER 3721                
+POS_SIDER_404 9212                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20151011232209 1008 258396 87085702576
+FirstTime 20151001103103
+LastTime 20151011232209
+LastUpdate 20151012000932 1008 166 842 0 0
+TotalVisits 209                 
+TotalUnique 188                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 188                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 14 141692 8 9 49253
+1 0 0 0 9 11 100899
+2 13 19 105930 15 30 135785
+3 2 2 42523 10 18 104172
+4 1 1 21357 9 14 80971
+5 5 11 99063 13 27 129489
+6 3 9 100192 22 38 307619
+7 2 8 94049 13 23 135780
+8 27 69 795603 15 23 182134
+9 26 92 1035726 8 13 58582
+10 20 50 471494 5 14 42513
+11 29 95 1070487 6 10 37571
+12 12 36 400784 11 26 219033
+13 35 96 915673 7 15 40719
+14 11 41 473403 9 17 96201
+15 16 52 609662 5 10 30823
+16 17 59 684159 13 24 123034
+17 28 88 1021991 21 40 299969
+18 15 39 473920 10 22 106772
+19 20 69 716266 10 20 105837
+20 38 152 1652723 7 18 37509
+21 122 462 4472222 9 22 52333
+22 39 123 1554286 17 34 370276
+23 20 68 849368 25 30 317185
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+at 357 1300 14287503
+de 52 131 1652841
+ch 23 87 184445
+us 22 34 504282
+cn 14 56 684849
+il 12 18 99905
+ca 8 8 188576
+ru 5 5 45458
+eu 5 11 109256
+br 2 2 27382
+nl 1 1 6025
+a1 1 1 6026
+bg 1 1 6025
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 23
+googlebot 59 449903 20151011161954 0
+bingbot 56 675461 20151011213323 0
+mj12bot 32 242602 20151011015607 0
+baiduspider 31 181866 20151011204047 0
+yandex 29 175953 20151011212029 0
+sogou 14 82203 20151011070617 0
+crawl 14 64427 20151011040006 0
+seokicks\.de 11 400444 20151001230051 0
+bot[\s_+:,\.\;\/\\-] 9 194839 20151011231213 0
+ahrefsbot 8 36698 20151007060551 0
+core 1 21356 20151009235853 0
+exabot 2 12050 20151009053417 0
+no_user_agent 4 70095 20151011101804 0
+seznambot 1 2627 20151009200436 0
+bingpreview 7 106100 20151011122829 0
+ips\-agent 7 166486 20151002175100 0
+slurp 4 18361 20151010082751 0
+betabot 1 6026 20151002220353 0
+searchmetricsbot 6 146216 20151005231023 0
+360spider 2 12052 20151006072427 0
+surveybot 1 6026 20151006081742 0
+bbot 3 18340 20151006043712 0
+spbot 6 29200 20151011172231 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 7
+eot 35 711725 0 0
+css 584 3899363 0 0
+php 71 712647 0 0
+ttf 8 330240 0 0
+html 272 1946426 0 0
+js 568 7753572 0 0
+woff 117 2448600 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 19
+linuxandroid 475 144
+winxp 2 2
+macosx6 1 0
+winlong 1 0
+ios_iphone 127 35
+symbian 6 1
+macosx9 298 52
+win8 17 5
+ios_ipad 32 8
+macosx7 2 1
+winnt 63 21
+macosx5 1 1
+linuxubuntu 1 1
+linux 104 37
+win7 265 89
+macosx 99 30
+Unknown 23 17
+win8.1 136 58
+macosx8 2 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 58
+msie6.0 1 1
+chrome44.0.2403.125 1 1
+chrome34.0.1847.76 43 13
+safari7.0 16 4
+firefox5.0 6 6
+chrome40.0.2214.115 2 2
+firefox26.0 4 4
+android 31 13
+chrome12.0.742.91 1 0
+chrome28.0.1500.94 17 5
+firefox4.0 1 1
+chrome32.0.1700.41 1 1
+safari5.0.6 1 1
+chrome31.0.1650.63 5 2
+chrome43.0.2357.121 8 2
+safari10.3.2.2639 8 2
+firefox31.0 1 1
+chrome33.0.0.0 42 12
+iphone 50 13
+chrome11.0.696.34 8 2
+chrome39.0.2171.65 1 1
+chrome37.0.2062.120 3 3
+firefox41.0 104 29
+chrome41.0.2272.89 6 6
+safari8.0 25 7
+msie9.0 26 8
+chrome45.0.2454.95 94 28
+Unknown 8 8
+chrome30.0.0.0 65 17
+chrome39.0.2171.93 8 2
+opera32.0.1948.69 9 3
+chrome42.0.0.10338 8 2
+chrome44.0.2403.117 8 2
+opera12.16 1 1
+opera11.00 1 1
+firefox40.0 18 6
+chrome25.0.1349.2 11 5
+samsung 25 7
+firefox38.0 8 2
+firefox12.0 1 1
+chrome38.0.2125.102 26 8
+safari7.0.6 297 51
+safari6.0.5 1 0
+msie11.0 185 75
+chrome45.0.2454.94 83 28
+chrome18.0.1025.133 1 1
+safari9.0 74 20
+mozilla 56 26
+firefox39.0 7 1
+firefox1.0 1 1
+firefox25.0 1 1
+chrome45.0.2454.101 122 32
+chrome42.0.2311.135 1 1
+chrome37.0.0.0 16 4
+msie10.0 33 9
+safari6.1.1 2 2
+chrome44.0.2403.133 8 2
+safari 64 16
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+rootlink 20151005181047
+Mozilla/5.0_(BB10;_Kbd)_AppleWebKit/537.35__(KHTML,_like_Gecko)_Version/10.3.2.2639_Mobile_Safari/537.35_ 20151010143016
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20151010085516
+NerdyBot 20151006174747
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+rootlink 20151005181047
+NerdyBot 20151006174747
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 148 148
+From1 0 0
+From2 64 70
+From3 83 83
+From4 208 1354
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 63 69
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 16
+http://m.facebook.com 37 37
+http://m.facebook.com 8 8
+https://www.facebook.com 7 7
+https://www.facebook.com 6 6
+http://l.facebook.com/l.php 4 4
+http://www.ooe-cup.at/links.html 4 4
+http://www.slm-autoslalom.at/cms/vereine 4 4
+http://www.aspach.at/system/web/veranstaltung.aspx 2 2
+http://www.autoslalom.at/club.php 2 2
+http://rootlink.org.ru/com/imsc-ried.com.seo 2 2
+http://pizza-imperia.com 1 1
+http://hvd-store.com 1 1
+http://www.telering.at/Content.Node2/appsplorer/ 1 1
+http://burger-imperia.com 1 1
+https://m.facebook.com 1 1
+http://131.253.14.125/proxy.ashx 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 6
+autoslalom+wildenau+2015 2
+autoslalom+wildenau 2
+wildenau+ried 1
+o%c3%b6+cup+wolfern+2015 1
+autoslalom 1
+slalom+wildenau 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 8
+wildenau 6
+autoslalom 5
+2015 3
+cup 1
+o%c3%b6 1
+slalom 1
+wolfern 1
+ried 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 6 1467
+206 1 6026
+404 189 37635
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 40
+/sitemap.xml 2 -
+/Admin/fCKeditor/editor/filemanager/connectors/test.html 1 -
+/robots.txt 115 -
+/blogs/wp-admin/setup-config.php 1 -
+/readme.txt 1 -
+/admin.php 4 -
+/news/wp-admin/setup-config.php 1 -
+/feng/readme.txt 1 -
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/blog/wp-admin/setup-config.php 1 -
+/checkout/ 1 -
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+//www.youtube.com/embed/INdVRC2nqzM 1 -
+/spaw/dialogs/dialog.php 1 http://imsc-ried.com/spaw/dialogs/dialog.php
+/blog 1 -
+/Editor/editor/filemanager/browser/default/connectors/test.html 1 -
+/imgs/favicon.png 21 -
+/office/readme.txt 1 -
+/test/wp-admin/setup-config.php 1 -
+/libraries/joomla/ 1 -
+/ooe_gesamt.pdf 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/\" 1 -
+/administrator/index.php 3 -
+/Editor/editor/filemanager/connectors/test.html 1 -
+/aus_08_imsc_ried.pdf 1 -
+/imgs/bg/section_calendar.jpg 2 http://www.imsc-ried.com/css/style.css
+/Georg 1 -
+/docs/2014/ooe_gesamt.pdf 2 -
+/fengoffice/readme.txt 1 -
+/administrator/ 2 -
+/imgs/persons/preishuber_guenther.jpg 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/slm_gesamt_klassen.pdf 1 -
+/imgs/persons/preishuber_mario.jpg 2 -
+/wp-login.php 4 -
+/apple-app-site-association 2 -
+/docs/ooe_gesamt.pdf 2 -
+/imgs/persons/weilbold_guenter.jpg 1 -
+/imgs/persons/kraxenberger_franz.jpg 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 188
+178.39.151.22 23 87 184445 20151011213810
+213.174.230.149 18 36 152814 20151008081213
+82.80.230.228 12 18 99905 20151003020612
+193.83.180.244 11 59 602136 20151004213125
+91.114.85.106 8 32 376662 20151008090737
+192.99.44.141 8 8 188576 20151010085517
+193.83.183.246 7 49 495918 20151004002543
+89.144.195.110 7 19 201513 20151011221705
+192.164.27.235 7 37 366281 20151008215706
+193.83.238.119 7 31 329665 20151005230328
+77.242.79.184 3 9 100244 20151011174236
+5.104.219.63 2 8 94049 20151011162725
+188.40.112.210 1 1 36105 20151009232504
+5.159.6.4 3 9 100717 20151011214917
+213.162.68.210 3 9 99958 20151010115050
+193.228.104.100 1 1 6177 20151011215324
+89.144.208.221 2 8 94049 20151011094659
+93.196.99.135 3 3 78333 20151008234812
+93.82.32.209 2 8 94317 20151011214209
+80.240.227.53 2 8 91181 20151008163018
+36.110.147.93 2 8 112126 20151006213706
+91.205.14.79 2 8 91181 20151004143313
+81.16.104.191 2 8 94429 20151011223825 20151011223823 /fonts/glyphicons-halflings-regular.woff
+194.118.107.131 2 8 94166 20151011170851
+80.187.106.99 2 8 94049 20151009124624
+178.115.128.238 3 9 94599 20151007173910
+77.24.237.245 5 11 99063 20151009054846
+178.165.128.172 2 2 12052 20151011101532
+54.90.27.31 1 1 0 20151005083855
+85.236.238.193 2 8 91181 20151004184931
+93.212.209.77 2 3 26360 20151006224234
+212.183.75.176 2 8 94049 20151004202021
+59.58.156.63 1 1 6025 20151003184047
+213.162.68.174 2 8 94317 20151011214401
+188.23.18.149 3 9 97584 20151011201359
+93.199.64.33 2 8 94049 20151007190329
+130.211.137.30 1 1 21356 20151001174438
+178.189.136.229 2 8 94317 20151011221738
+172.245.60.160 1 1 6025 20151002150703
+213.162.68.135 2 8 94317 20151011214220
+52.23.240.68 1 1 21357 20151008044228
+213.162.68.66 2 8 94049 20151011140345
+212.95.7.60 3 9 99958 20151003172651
+194.118.100.185 3 21 212535 20151006192613
+213.162.68.27 4 10 106153 20151010120739
+94.181.184.60 1 1 21356 20151008175156
+192.164.72.6 2 8 91180 20151008153956
+213.162.68.236 2 8 94049 20151005175447
+111.202.102.69 1 7 70846 20151008213352
+107.178.222.73 1 1 21356 20151002174418
+192.164.26.182 2 14 141692 20151001182209
+77.119.130.255 2 8 94317 20151011231729 20151011231726 /fonts/glyphicons-halflings-regular.woff
+213.162.68.41 2 8 94429 20151011214227
+188.22.72.172 2 8 94317 20151011214147
+194.118.108.8 4 5 16495 20151010192441
+91.215.153.17 1 1 6025 20151010162032
+188.22.59.221 2 8 94317 20151011222018
+212.197.184.208 3 21 212537 20151007211757
+86.32.58.110 2 8 94049 20151010154040
+91.115.145.123 2 8 94049 20151010215615
+178.165.130.143 2 8 94049 20151008143734
+195.212.98.190 5 11 109256 20151005135230
+86.56.173.35 4 10 106671 20151011230857 20151011230857 /
+106.120.188.162 1 7 70845 20151004214421
+199.19.249.196 4 4 83384 20151005135237
+213.162.68.119 2 8 94049 20151009171234
+80.123.246.234 2 8 91180 20151008095628
+89.144.217.36 2 8 94049 20151010143016
+95.26.126.243 2 2 12051 20151005181047
+212.95.7.78 2 8 94049 20151011132517
+104.154.86.151 1 1 21356 20151003174622
+31.193.163.232 2 2 12578 20151008085835
+194.118.109.127 2 8 91180 20151011153257
+83.215.85.5 2 8 94317 20151011215452
+93.82.35.169 3 9 100494 20151011220228
+177.40.30.118 1 1 21357 20151002212944
+91.115.65.73 4 10 103232 20151006095310
+77.12.65.193 1 1 21356 20151008234250
+178.115.130.3 3 9 118454 20151011221242
+178.115.130.154 2 8 91181 20151004162557
+88.133.194.38 2 8 94317 20151011215219
+85.236.235.162 2 8 94317 20151011232209 20151011232207 /fonts/glyphicons-halflings-regular.woff
+80.187.100.42 2 8 94317 20151011215017
+194.118.90.53 2 8 94049 20151011095318
+89.144.218.149 2 8 112126 20151005114651
+212.95.7.40 2 8 94317 20151011214259
+89.144.197.184 3 9 99958 20151011115149
+193.154.252.232 2 8 94049 20151011134051
+213.239.211.141 6 6 146217 20151006185437
+65.55.209.54 1 1 6025 20151010225553
+188.22.57.203 2 8 94166 20151011115915
+194.118.111.224 2 8 94317 20151011214134
+213.162.68.47 2 8 94317 20151011214221
+107.189.60.69 1 7 70845 20151005173245
+54.94.241.171 1 1 6025 20151003021323
+178.115.130.59 1 1 6026 20151006175726
+89.144.226.64 2 8 91443 20151011215525
+91.115.114.150 2 8 94166 20151006215745
+94.126.96.126 4 10 99415 20151007133138
+213.174.242.130 4 4 52721 20151009105530
+213.162.68.204 2 8 94049 20151011113741
+95.90.198.213 3 9 100244 20151011110605
+93.134.105.3 2 8 94428 20151011230134 20151011230133 /fonts/glyphicons-halflings-regular.woff
+84.145.24.78 4 10 102739 20151011202155
+78.104.32.45 2 8 94317 20151011215211
+45.32.131.61 1 1 21356 20151004032556
+193.154.250.88 1 7 70845 20151010201338
+178.165.128.61 2 8 94049 20151011092314
+89.144.200.132 3 9 100494 20151011214642
+192.164.23.152 2 8 94049 20151011092718
+80.121.193.198 2 8 94428 20151011231756 20151011231755 /fonts/glyphicons-halflings-regular.woff
+213.162.68.189 2 8 94049 20151010213036
+130.211.117.91 1 1 21356 20151004174702
+178.190.23.72 2 8 94335 20151011125927
+36.110.147.78 2 8 112126 20151001211348
+91.55.185.52 1 1 36105 20151008234812
+80.146.110.228 3 9 100494 20151011215328
+84.177.240.159 2 8 94165 20151003165839
+193.81.124.78 3 21 212537 20151009170809
+188.22.56.155 4 10 105867 20151010200022
+96.47.226.20 1 1 6026 20151004061219
+80.142.201.102 2 2 26360 20151011205359
+212.95.7.115 3 9 100494 20151011214527
+89.144.206.104 2 8 94317 20151011215315
+62.212.73.49 1 1 6025 20151009172816
+193.110.129.66 2 8 91181 20151008090219
+213.240.116.85 2 8 94049 20151007195923
+123.126.68.138 1 5 59589 20151008214548
+46.229.170.197 1 1 21357 20151001194347
+91.115.118.135 2 8 91181 20151006103147
+212.152.246.128 2 8 91180 20151009080536
+92.78.142.231 1 1 10420 20151008234812
+65.52.240.20 1 1 6289 20151011213738
+79.209.84.106 2 8 94165 20151010150542
+89.144.198.149 3 9 97469 20151006220202
+178.165.131.191 4 10 155781 20151010225556
+193.154.24.201 3 9 100494 20151011214247
+77.242.77.83 2 8 94049 20151011071514
+178.165.131.152 2 8 94317 20151011215859
+83.215.183.206 2 8 94428 20151011214128
+89.144.211.13 4 10 103758 20151005211452
+194.118.92.191 2 8 94317 20151011221716
+80.75.55.136 1 6 181571 20151011220618
+77.242.70.86 1 1 5909 20151011185324
+188.22.67.122 2 8 94317 20151011214303
+123.126.68.127 2 8 112126 20151006211838
+89.144.212.135 5 11 112770 20151010190922
+91.221.61.244 1 1 6025 20151009101921
+91.115.144.233 2 8 94049 20151011142320
+94.26.140.150 1 1 6026 20151009143605
+188.23.23.178 2 8 94049 20151011112326
+194.118.91.216 2 8 94317 20151011214817
+194.118.88.231 2 8 94049 20151011115434
+104.156.228.110 1 1 21356 20151007164719
+194.118.105.8 2 8 94165 20151011133311
+178.189.3.244 2 8 91181 20151002081324
+89.144.233.115 2 8 94049 20151011202221
+83.215.121.109 4 16 99958 20151010135636
+91.115.150.179 3 15 165010 20151002214106
+85.236.234.174 3 10 116617 20151011134225
+77.119.130.6 2 8 94049 20151011132539
+89.144.239.45 2 8 94428 20151011215658
+212.183.76.54 4 10 105867 20151011094014
+54.87.96.136 3 9 118151 20151007161857
+77.119.128.139 2 8 94317 20151011224450 20151011224447 /fonts/glyphicons-halflings-regular.woff
+77.242.68.219 2 8 94165 20151002111344
+194.118.96.6 3 9 100717 20151011221313
+123.125.125.30 2 4 29040 20151004215801
+104.197.55.82 1 1 21357 20151005174726
+212.183.78.65 3 9 99958 20151011122631
+212.95.7.135 3 9 117369 20151010115139
+178.191.108.181 6 30 330021 20151011204853
+91.115.136.143 2 8 94317 20151011220413
+80.121.73.203 1 1 6177 20151011225606 20151011225606 /
+192.164.244.135 2 8 91180 20151008220900
+91.115.146.84 4 10 106217 20151011084349
+5.104.217.117 3 9 100190 20151011092219
+77.242.65.70 6 12 110735 20151011110205
+77.119.128.217 2 8 94166 20151011153411
+104.197.75.86 1 1 21356 20151006174747
+91.141.3.247 2 8 91180 20151009201846
+136.243.17.161 1 1 21167 20151011032818
+178.212.23.107 2 8 94317 20151011214228
+84.145.28.65 3 9 97207 20151008102959
+192.164.31.26 2 8 94317 20151011215706
+178.165.129.67 3 9 100034 20151003132004
+106.120.188.160 2 8 112126 20151001211755
+178.115.130.208 2 8 94049 20151007103703
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20151001 19 55 598124 8
+20151002 12 42 493260 8
+20151003 28 82 781694 9
+20151004 27 119 1260043 14
+20151005 35 95 961354 13
+20151006 30 85 1049154 12
+20151007 23 83 928659 11
+20151008 38 132 1465905 20
+20151009 22 70 762600 11
+20151010 52 137 1556183 17
+20151011 217 755 7945597 86
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 9
+2mn-5mn 6
+0s-30s 158
+30s-2mn 14
+15mn-30mn 6
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/ 272 1946426 200 77
+/fonts/glyphicons-halflings-regular.woff 117 2448600 0 70
+/fonts/glyphicons-halflings-regular.eot 35 711725 0 22
+/news.php 28 262970 4 10
+/index.php 13 124361 0 5
+/calendar.php 11 52014 1 3
+/members.php 10 105077 2 5
+/sponsors.php 9 168225 2 3
+/fonts/glyphicons-halflings-regular.ttf 8 330240 0 6
+END_SIDER

@@ -41,6 +41,13 @@
 			</li>
 			<li>
 				<br />
+				<a href="./social.php" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>
+					SOCIAL
+				</a>
+			</li>
+			<li>
+				<br />
 				<a href="./sponsors.php" data-toggle="collapse" data-target=".nav-collapse">
 					<span class="glyphicon glyphicon-star" aria-hidden="true"></span>
 					SPONSOREN

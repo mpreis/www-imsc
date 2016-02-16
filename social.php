@@ -5,11 +5,11 @@
  	 */
 	namespace IMSC;
 
-	use \IMSC\php\MobileDetect;
 	use \IMSC\php\Content;
+	use \IMSC\php\MobileDetect;
 
-	require_once 'php/MobileDetect.php';
 	require_once 'php/Content.php';
+	require_once 'php/MobileDetect.php';
 
 	$content = new Content();
 	$detect = new MobileDetect();
@@ -18,37 +18,38 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:fb="http://ogp.me/ns/fb#">
 	<head>
-		<title>IMSC | News</title>
+		<title>IMSC | Social</title>
 		<!-- ************************************************************************************ -->
 		<!-- * META DATA / STYLES -->
 		<!-- ************************************************************************************ -->
-		<?php require_once './common/headinc.php'; ?>
+		<?php require_once 'common/headinc.php'; ?>
 	</head>
 
 	<body>
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
-		<?php require_once './common/nav.php'; ?>
+		<?php require_once 'common/nav.php'; ?>
 
 		<!-- ************************************************************************************ -->
-		<!-- * HOME -->
+		<!-- * NEWS -->
 		<!-- ************************************************************************************ -->
-		<section class="my_section" id="news" >
+		<section class="my_section" id="social">
 			<?php 
 				$content->printBackground();
-				$content->printContent(Content::NEWS); 
+				$content->printContent(Content::FACEBOOK);
 			?>
-		</section><!-- end section home -->
+		</section><!-- end section news -->
 		
 		<!-- ************************************************************************************ -->
 		<!-- * CONTACT / FOOTER -->
 		<!-- ************************************************************************************ -->
-		<?php require_once './common/footer.php'; ?>
+		<?php require_once 'common/footer.php'; ?>
 
 		<!-- ************************************************************************************ -->
 		<!-- * ADDITIONAL CONTENT -->
 		<!-- ************************************************************************************ -->
-		<?php require_once './common/addcont.php'; ?>
+		<?php require_once 'common/addcont.php'; ?>
+
 	</body>
 </html>

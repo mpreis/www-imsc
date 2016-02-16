@@ -5,16 +5,13 @@
  	 */
 	namespace IMSC;
 
-	use \IMSC\php\HtmlTags;
 	use \IMSC\php\MobileDetect;
-	use \IMSC\php\Facebook\Informations;
+	use \IMSC\php\Content;
 
-	require_once 'php/HtmlTags.php';
 	require_once 'php/MobileDetect.php';
-	require_once 'php/Facebook/Informations.php';
+	require_once 'php/Content.php';
 
-	$htmltags = new HtmlTags();
-	$fb_infos = new Informations();
+	$content = new Content();
 	$detect = new MobileDetect();
 ?>
 
@@ -25,59 +22,33 @@
 		<!-- ************************************************************************************ -->
 		<!-- * META DATA / STYLES -->
 		<!-- ************************************************************************************ -->
-		<?php require_once 'headinc.php'; ?>
-
-		<style>
-		    .google-maps {
-		        position: relative;
-		        padding-bottom: 50%; // This is the aspect ratio
-		        height: 0;
-		        overflow: hidden;
-		    }
-		    .google-maps iframe {
-		        position: absolute;
-		        top: 0;
-		        left: 0;
-		        width: 100% !important;
-		        height: 75% !important;
-		    }
-		</style>
-
+		<?php require_once './common/headinc.php'; ?>
 	</head>
 
-	<body onresize="resizeSections('home')">
+	<body>
 		<!-- ************************************************************************************ -->
 		<!-- * NAVIGATION BAR -->
 		<!-- ************************************************************************************ -->
-		<?php require_once 'nav.php'; ?>
+		<?php require_once './common/nav.php'; ?>
 
 		<!-- ************************************************************************************ -->
 		<!-- * HOME -->
 		<!-- ************************************************************************************ -->
 		<section class="my_section" id="home" >
-			<?php print( $htmltags->getHomeBackground() ); ?>
-			<div class="container">
-				<div id="fb-feeds" class="row">
-					<div class="col-sm-12">
-						<div class="fb-feed-background">&nbsp;</div>
-						<div class="my_section fb-feed text-center">
-							<h1>Innviertler Motor Sport Club</h1>
-							<?php print($fb_infos->getAbout()); ?>
-							<br />
-						</div>
-					</div>
-				</div>
-				<?php require_once 'content_home.php'; ?>
+			<?php 
+				$content->printBackground();
+				$content->printContent(Content::HOME); 
+			?>
 		</section><!-- end section home -->
 		
 		<!-- ************************************************************************************ -->
 		<!-- * CONTACT / FOOTER -->
 		<!-- ************************************************************************************ -->
-		<?php require_once 'footer.php'; ?>
+		<?php require_once './common/footer.php'; ?>
 
 		<!-- ************************************************************************************ -->
 		<!-- * ADDITIONAL CONTENT -->
 		<!-- ************************************************************************************ -->
-		<?php require_once 'addcont.php'; ?>
+		<?php require_once './common/addcont.php'; ?>
 	</body>
 </html>

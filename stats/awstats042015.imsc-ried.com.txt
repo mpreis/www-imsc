@@ -1,0 +1,1060 @@
+AWSTATS DATA FILE 7.3 (build 20140126)
+# If you remove this file, all statistics for date 201504 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.imsc-ried.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1996                
+POS_TIME 2672                
+POS_VISITOR 24754               
+POS_DAY 35321               
+POS_DOMAIN 3536                
+POS_LOGIN 4008                
+POS_ROBOT 4163                
+POS_WORMS 5379                
+POS_EMAILSENDER 5510                
+POS_EMAILRECEIVER 5653                
+POS_SESSION 36151               
+POS_SIDER 36355               
+POS_FILETYPES 5788                
+POS_DOWNLOADS 6032                
+POS_OS 6229                
+POS_BROWSER 6516                
+POS_SCREENSIZE 7943                
+POS_UNKNOWNREFERER 8017                
+POS_UNKNOWNREFERERBROWSER 9039                
+POS_ORIGIN 9523                
+POS_SEREFERRALS 9666                
+POS_PAGEREFS 9854                
+POS_SEARCHWORDS 10361               
+POS_KEYWORDS 10580               
+POS_MISC 2336                
+POS_ERRORS 10719               
+POS_CLUSTER 3864                
+POS_SIDER_404 10830               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20150501001828 83 16602 36159362284
+FirstTime 20150401114906
+LastTime 20150430213712
+LastUpdate 20150502000849 83 81 0 1 0
+TotalVisits 287                 
+TotalUnique 233                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 278                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 22 77 3831749 43 70 1751618
+1 5 7 602172 17 31 2144180
+2 7 7 102996 23 38 1370014
+3 2 3 359799 28 71 2189620
+4 2 3 280595 25 82 6410493
+5 3 10 292589 34 91 5023486
+6 5 16 1715264 23 48 1963206
+7 11 20 637475 43 63 3088490
+8 18 68 4892592 47 92 3230870
+9 21 77 5768112 24 59 2553725
+10 27 100 5826072 40 60 541933
+11 44 119 4178163 38 68 2677320
+12 38 169 10270770 21 36 1552123
+13 37 153 10927842 38 62 3116155
+14 14 45 1948127 20 46 3013231
+15 44 168 11576543 16 48 3041401
+16 11 52 2895214 14 24 1854631
+17 22 67 3786512 208 286 2480606
+18 35 107 4908494 22 57 3242553
+19 40 179 12438039 20 44 1943309
+20 66 352 23535941 18 42 1949810
+21 64 264 13830843 32 64 4973280
+22 47 257 12425322 17 37 2783550
+23 22 119 6657553 15 75 3507108
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 17
+at 325 1932 110523520
+de 94 258 22551242
+us 88 104 5223426
+cn 31 31 359974
+ru 21 27 556155
+nl 11 12 348261
+fr 11 11 122888
+ua 5 5 41507
+it 5 5 47221
+jp 3 3 52867
+ph 2 11 717587
+kr 3 13 1203382
+ar 0 1 4290
+a2 2 11 701800
+eu 3 12 696976
+sk 1 1 14568
+bg 2 2 8246
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 30
+googlebot 158 2826993 20150430141854 0
+bingbot 134 5938310 20150430163613 0
+yandex 124 30317477 20150430194016 0
+bot[\s_+:,\.\;\/\\-] 40 435030 20150430131731 0
+facebook 35 11110734 20150429082930 0
+baiduspider 28 2198750 20150428235817 0
+mj12bot 25 277022 20150417090825 0
+no_user_agent 24 349644 20150430131042 0
+^java\/[0-9] 22 88644 20150424220024 0
+seznambot 21 3515653 20150430151340 0
+exabot 5 20614 20150421062509 0
+googlebot\-image 9 753325 20150430071513 0
+bingpreview 11 808131 20150428000658 0
+php 1 4124 20150428201543 0
+mail\.ru 4 13876 20150415154656 0
+ips\-agent 7 117354 20150402210719 0
+ahrefsbot 18 1747874 20150427121654 0
+slurp 8 535254 20150429224836 0
+searchmetricsbot 18 307838 20150429132453 0
+360spider 11 45357 20150430004522 0
+surveybot 2 8248 20150419211319 0
+titan 2 202420 20150425003826 0
+favicon 1 14569 20150407205652 0
+bbot 15 3476986 20150429050551 0
+spbot 12 48043 20150418143939 0
+wget 1 253450 20150421131114 0
+sogou 19 78336 20150430191615 0
+msnbot\-media 1 180268 20150429063051 0
+nutch 1 4123 20150430092918 0
+crawl 2 17815 20150420020812 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+css 602 4421286 0 0
+eot 37 732060 0 0
+png 228 45620964 0 0
+pdf 39 12943762 0 0
+woff 60 1352560 0 0
+php 156 1567969 0 0
+html 354 2390058 0 0
+jpg 363 65475114 0 0
+js 600 8670137 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/docs/slm_gesamt.pdf 32 4 8642282
+/docs/ooe_gesamt.pdf 21 1 5575900
+/docs/erg_08_imsc_ried.pdf 13 0 4570189
+/docs/slm_gesamt_klassen.pdf 8 0 6859712
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 16
+linuxandroid 95 15
+winxp 133 77
+winlong 40 29
+ios_iphone 88 18
+winunknown 1 1
+win2003 10 6
+macosx9 1032 162
+win8 6 5
+ios_ipad 41 8
+macosx5 1 1
+linux 31 22
+win7 570 154
+macosx 57 11
+Unknown 53 42
+win8.1 282 52
+macosx8 4 4
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 74
+msie6.0 27 27
+firefox28.0 2 2
+chrome27.0.1453.94 1 1
+chrome41.0.2272.96 22 4
+chrome36.0.1944.0 1 1
+chrome5.0.375.99 3 3
+chrome39.0.2171.95 22 22
+firefox4.0 1 1
+firefox18.0 2 1
+safari5.0.6 1 1
+chrome7.0.517.44 2 2
+alcatel 2 0
+chrome5.0.342.1 6 6
+firefox2.0.0.13 2 2
+safari5.0.2 1 1
+firefox1.0.4 13 13
+msie8.0 57 33
+chrome24.0.1290.1 1 1
+chrome42.0.2311.90 114 28
+chrome39.0.2171.65 1 1
+msie7.0 18 14
+chrome27.0.1453.93 1 1
+chrome37.0.2062.120 1 1
+firefox23.0 2 2
+chrome39.0.2171.71 1 1
+netscape 1 0
+chrome15.0.864.0 1 1
+firefox21.0 12 9
+safari6.0 2 0
+chrome15.0.874.120 1 1
+firefox12.0 2 2
+safari7.0.6 1024 154
+mozilla 102 23
+firefox14.0.1 3 2
+chrome37.0.0.0 2 0
+safari8.0.2 11 2
+firefox3.6.3 1 1
+firefox19.0 1 1
+firefox36.0 15 3
+firefox35.0 34 8
+safari 25 6
+firefox15.0.1 1 1
+safari7.0 61 12
+chrome34.0.1847.76 12 3
+firefox5.0 6 6
+chrome29.0.1547.57 6 3
+android 42 5
+chrome36.0.1985.125 7 7
+firefox3.5.3 1 1
+chrome28.0.1468.0 1 1
+chrome26.0.1410.58 1 1
+firefox31.0 31 8
+chrome33.0.0.0 12 2
+safari8.0 41 8
+msie9.0 59 15
+firefox37.0.2 1 0
+Unknown 31 31
+chrome30.0.1599.101 1 1
+firefox11.0 2 1
+chrome30.0.0.0 2 0
+firefox17.0 1 0
+chrome41.0.2272.118 94 15
+opera28.0.1750.51 1 0
+msie11.0 345 73
+chrome18.0.1025.133 1 1
+firefox37.0 130 23
+firefox3.6.28 1 1
+chrome25.0.1364.172 1 0
+msie10.0 4 1
+firefox21.0.1 1 1
+safari6.0.2 3 3
+safari6.0.3 1 0
+chrome23.0.1271.97 1 0
+firefox3.5 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 13
+Mozilla 20150407181835
+Mozilla/5.0_(compatible;_Googlebot/2.1;__http://www.google.com/bot.html) 20150424061945
+rootlink 20150415230143
+Mozilla/5.0_(Android;_Tablet;_rv:37.0.2)_Gecko/37.0.2_Firefox/37.0.2 20150419182525
+Mozilla/5.0_(compatible;_DomainAppender_/1.0;__http://www.profound.net/domainappender) 20150402005429
+Mozilla/5.0_(compatible;_Lipperhey-Kaus-Australis/5.0;__https://www.lipperhey.com/en/about/) 20150425213229
+qingdao_bieshu_chushou_&#38738;_&#23707;_&#21035;_&#22661;_&#20986;_&#21806;_qingdao_villa_for_sale_http://www.dahoms.com 20150412144146
+Mozilla/5.0_(Android;_Tablet;_rv:37.0)_Gecko/37.0_Firefox/37.0 20150419182522
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150404013237
+Hivemind 20150422212024
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20150416223719
+Mozilla/4.0_(compatible;_Synapse) 20150425053055
+NerdyBot 20150430184203
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 6
+Hivemind 20150422212024
+Porkbun/Mustache_(Website_Analysis;_http://porkbun.com;_tech@porkbun.com) 20150404013237
+rootlink 20150415230143
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20150416223719
+NerdyBot 20150430184203
+qingdao_bieshu_chushou_&#38738;_&#23707;_&#21035;_&#22661;_&#20986;_&#21806;_qingdao_villa_for_sale_http://www.dahoms.com 20150412144146
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 342 417
+From1 2 2
+From2 46 75
+From3 32 32
+From4 185 1918
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 4
+google 42 71
+search 1 1
+bing 2 2
+yandex 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 9
+http://www.ooe-cup.at/links.html 14 14
+http://www.slm-autoslalom.at/cms/vereine 10 10
+http://rootlink.org.ru/com/imsc-ried.com.seo 2 2
+http://www.msc-schloessl.com/links/index.php 1 1
+http://import-leasing.com/index.php 1 1
+http://hvd-store.com 1 1
+http://www.kc-motorsport.at 1 1
+http://l.facebook.com/l.php 1 1
+http://ried.at/system/web/gelbeseite.aspx 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+klub+imsc 1
+tot 1
+robert+kreuzer+google+ooe+cup 1
+msc+innviertel 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 10
+google 1
+innviertel 1
+cup 1
+msc 1
+klub 1
+ooe 1
+imsc 1
+kreuzer 1
+tot 1
+robert 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 2 393
+206 1 4124
+404 795 159914
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 317
+/old/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wordpress/ 1 -
+/admin.php 8 -
+/uploads/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/phpcms/ 1 -
+/Editor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/new_gb/help/images/usage/3.3.gif 1 -
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/fckeditor/fckeditor.js 3 -
+/common/common.js 1 -
+/Images/login/lefttu.jpg 1 -
+/Images/login/mainlogo.gif 1 -
+/xmlrpc.php 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/old/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/member/space/company/info.txt 1 -
+/manager/fckeditor/editor/dialog/fck_about.html 1 -
+/siteserver/upgrade/default.aspx 1 -
+/v2/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/FCKeditor/editor/filemanager/connectors/test.html 4 -
+/administrator/manifests/files/joomla.xml 1 -
+/\" 2 -
+/_fckeditor/fckeditor.js 2 http://imsc-ried.com
+/html/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/index.cgi 1 -
+/cms/wp-login.php 2 -
+/shop/index.php/admin 1 http://www.imsc-ried.com/shop/index.php/admin
+/moadmin.php 2 http://imsc-ried.com
+/doku.php 1 -
+/js/transport.js 2 http://imsc-ried.com
+/administrator/ 4 -
+/wp-config.php.bak 1 -
+/biz/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/editor/filemanager/browser/default/connectors/test.html 1 -
+/scripts/ajax/fckeditor/editor/dialog/fck_about.html 1 -
+/docs.css 1 -
+/v1/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/webadmin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/inc/rsd.php 1 -
+/admin/inc/xml.xslt 1 -
+/wp-login.php 23 -
+/app/common/fckeditor/editor/dialog/fck_about.html 1 -
+/editor/filemanager/upload/test.html 1 -
+/app/webroot/js/fckeditor/editor/dialog/fck_about.html 1 -
+/administrator/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/UserCenter/css/admin/bgimg/admin_all_bg.png 1 -
+/bencandy.php 1 -
+/jcms/index_jcms.jsp 1 -
+/shop/ 3 -
+/data 1 -
+/Images/login/biaoti.jpg 1 -
+/webeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/system/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/blog/xmlrpc.php 1 -
+/system/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/license.txt 1 -
+/catalog/view/javascript/common.js 2 http://imsc-ried.com
+/verycms/ 1 -
+/magmi_1/web/magmi.php 1 http://www.imsc-ried.com/magmi_1/web/magmi.php
+/plug/publish 1 -
+/editor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/cmseasy/ 1 -
+/cgi/index.cgi 1 -
+/history.txt 1 -
+/admin/fckeditor/fckeditor.js 2 http://imsc-ried.com
+/tpl/login/user/images/login_bg_1.jpg 1 -
+/fck/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/deptWebsiteAction.do 1 -
+/admin/editors/fckeditor/editor/filemanager/upload/test.html 1 -
+/webmail/ 3 -
+/plus/sitemap.html 1 -
+/dede/ 1 -
+/readme.html 1 -
+/system/language/zh-cn.xml 1 -
+/includes/general.js 5 -
+/dedecms/ 1 -
+/fckeditor/editor/filemanager/upload/test.html 1 -
+/default/css/em_css.css 1 -
+/includes/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/jcms/index.jsp 1 -
+/system/skins/default/system.login.htm 1 -
+/app/images/login/toplogo.gif 1 -
+/editor/js/fckeditorcode_ie.js 1 -
+/Template/Default/Skin/user/images/login_back.jpg 1 -
+/mail/ 3 -
+/administrator/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/robots.txt 302 -
+/Admin/fCKeditor/editor/filemanager/connectors/test.html 3 -
+/app/home/skins/default/style.css 1 -
+/lib/fckeditor/editor/dialog/fck_about.html 1 -
+/OLD/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/images/hwem.css 1 -
+/events/694923657260183/ 5 -
+/new_magmi/web/magmi.php 1 http://www.imsc-ried.com/new_magmi/web/magmi.php
+/alimail/ 1 -
+/wordpress/wp-login.php 9 -
+/magmi_2/web/magmi.php 1 http://www.imsc-ried.com/magmi_2/web/magmi.php
+/data/fckeditor/editor/dialog/fck_about.html 1 -
+/console/js/CWCMDialogHead.js 1 -
+/zcms/ 1 -
+/plugins/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/include/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/editor/filemanager/browser/default/connectors/test.html 1 -
+/Search.html 1 -
+/Prompt/images/P_Wrong.gif 1 -
+/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/webmanage/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/phpmoadmin/moadmin.php 2 http://imsc-ried.com
+/v3/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/template/home.htm 1 -
+/default/images/logo.gif 1 -
+/FCKeditor/fckeditor.js 2 http://imsc-ried.com
+/bitrix/admin/index.php 1 -
+/admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/m 2 -
+/plus/rssmap.html 1 -
+/js/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/admin/fckeditor/editor/filemanager/connectors/test.html 1 -
+/sys/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/magmi1/web/magmi.php 1 http://www.imsc-ried.com/magmi1/web/magmi.php
+/Admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/v3/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fangmail/ 1 -
+/manage/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/moadmin/moadmin.php 2 http://imsc-ried.com
+/adm/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/js/tools.js 2 http://imsc-ried.com
+/global/editors/fckeditor/editor/dialog/fck_about.html 1 -
+/images/login/eyoumail.gif 1 -
+/wp-includes/css/buttons.css 2 http://imsc-ried.com
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/test.html 1 -
+/ckeditor/ckeditor.js 1 -
+/Install/logo.gif 1 -
+/blog/ 3 -
+/upload/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/next/img/logo.gif 1 -
+/wp/ 1 -
+/includes/fckeditor/editor/dialog/fck_about.html 1 -
+/digg.php 1 -
+/shell/log.php 1 http://www.imsc-ried.com/shell/log.php
+/maintlogin.jsp 1 -
+/Administrator/FCKeditor/fckeditor.js 2 http://imsc-ried.com
+/inc/Templates/rss.xslt 1 -
+/core/model/phpthumb/fonts/readme.txt 1 -
+/plugins/fckeditor/editor/dialog/fck_about.html 1 -
+/biz/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/include/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/extman/default/images/logo.gif 1 -
+/admin 1 -
+/master/login.aspx 1 -
+/include/fckeditor/editor/dialog/fck_about.html 1 -
+/admin/login.aspx 1 -
+/app/js/fckeditor/editor/dialog/fck_about.html 1 -
+/console/include/not_login.htm 1 -
+/fckeditor/editor/js/fckeditorcode_ie.js 2 -
+/stylesheet.css 1 -
+/Help 1 -
+///www.youtube.com/embed/INdVRC2nqzM 2 -
+/feed.asp 1 -
+/shops/ 3 -
+/Admin/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/drupal/ 1 -
+/coremail/common/help/images/helplogo.gif 1 -
+/siteserver/login.aspx 1 -
+/images/login/logo.gif 1 -
+/templates/cn/template.xml 2 http://imsc-ried.com
+/help/ch_gb/images/help-title.gif 1 -
+/slm_gesamt.pdf 8 -
+/blank.html 1 -
+/magmi_nw/web/magmi.php 1 http://www.imsc-ried.com/magmi_nw/web/magmi.php
+/Administrator/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/blog 1 http://imsc-ried.com/blog
+/admin/wp-login.php 2 -
+/magmi2/web/magmi.php 1 http://www.imsc-ried.com/magmi2/web/magmi.php
+/wcm/ 1 -
+/admin/start/index.php 1 -
+/FCK/fckeditor.js 1 -
+/js/lib/fckeditor/editor/dialog/fck_about.html 1 -
+/admin/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-content 1 -
+/joomla/ 1 -
+/Administrator/fckeditor/fckeditor.js 2 http://imsc-ried.com
+/sys/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/magmi/web/magmi.php 2 http://www.imsc-ried.com/magmi/web/magmi.php
+/aus_08_imsc_ried.pdf 3 -
+/magmi_new/web/magmi.php 1 http://www.imsc-ried.com/magmi_new/web/magmi.php
+/whir_system/login.aspx 1 -
+/ch/ 1 -
+/extmail/ 1 -
+/application/fckeditor/editor/dialog/fck_about.html 1 -
+/plugins/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/images/branding/logo.gif 1 -
+/ecshop/ 1 -
+/app/js/source/wcmlib/WCMConstants.js 1 -
+/jxcms/ 1 -
+/Admin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/__fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/eshop/ 3 -
+/_fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/v2/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/wp-login/ 8 -
+/data/admin/ver.txt 1 -
+/admin/js/fckeditor/editor/dialog/fck_about.html 1 -
+/coremail/common/help/images/helplogo_zh.gif 1 -
+/admin/js/fckeditor/fckeditor.js 2 http://imsc-ried.com
+/wp-includes/wlwmanifest.xml 2 http://imsc-ried.com
+/js/fckeditor/fckeditor.js 2 http://imsc-ried.com
+/Fckeditor/editor/filemanager/browser/default/connectors/test.html 3 -
+/e/master/login.aspx 1 -
+/js/mage/cookies.js 2 http://imsc-ried.com
+/skin/frontend/default/modern/css/styles.css 1 -
+/metinfo/ 1 -
+/admin/FCKeditor/editor/filemanager/upload/test.html 1 -
+/FCKEditorV2/fckeditor.js 2 http://imsc-ried.com
+/kesion/ 1 -
+/section/wp-login.php 2 -
+/images/login/icon-up.gif 1 -
+/mall/ 3 -
+/weblog/ 3 -
+/store/index.php/admin 1 http://www.imsc-ried.com/store/index.php/admin
+/FCK/editor/js/fckeditorcode_ie.js 1 -
+/administrator/index.php 11 -
+/fckeditor/editor/dialog/fck_about.html 1 -
+/plug-ins/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/Editor/editor/filemanager/connectors/test.html 3 -
+/kingcms/ 1 -
+/html/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/install 1 -
+/images/default/post_bt.gif 1 -
+/empirecms/ 1 -
+/wp-cron.php 1 -
+/fckeditor.js 3 -
+/scripts/fckeditor/editor/dialog/fck_about.html 1 -
+/fckeditor/license.txt 1 -
+/js/fckeditor/editor/dialog/fck_about.html 1 -
+/fckeditor/fckconfig.js 1 -
+/ycportal/webpublish/module.main 1 -
+/admin/FCKeditor/editor/filemanager/connectors/test.html 1 -
+/whir_system/module/security/login.aspx 1 -
+/plug-ins/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/user 1 -
+/old/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/aspcms/ 1 -
+/editors/fckeditor/editor/filemanager/upload/test.html 1 -
+/console/js/CTRSRequestParam.js 1 -
+/admin/index.php 2 -
+/changelog.txt 1 -
+/app/images/login/logo.png 1 -
+/includes/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/inc/playerKinds.xml 1 -
+/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/Editor/editor/filemanager/browser/default/connectors/test.html 3 -
+/wp-admin/wp-login.php 2 -
+/admin/editor/filemanager/upload/test.html 1 -
+/include/fckeditor/fckeditor.js 2 http://imsc-ried.com
+/list.php 1 -
+/webmanage/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/api/api_user.xml 1 -
+/login/Jeecms.do 1 -
+/templets/default/style/dedecms.css 2 http://imsc-ried.com
+/OLD/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/template/default/common/footer.htm 2 http://imsc-ried.com
+/blog/wp-login.php 9 -
+/ycportal/js/wbTextBox/showimg.jsp 1 -
+/FCKeditor/editor/filemanager/upload/test.html 1 -
+/admin/editor/fckeditor.js 2 http://imsc-ried.com
+/slm_gesamt_klassen.pdf 3 -
+/ymail/images/index_r1_c4.jpg 1 -
+/oecms/ 1 -
+/erg_08_imsc_ried.pdf 7 -
+/fck/editor/dialog/fck_about.html 1 -
+/Administrator/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/web2/login_template/1.files/Logo1.jpg 1 -
+/site/wp-login.php 8 -
+/admin/fck/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/editor/fckeditor.js 2 http://imsc-ried.com
+/console/auth/reg_newuser.jsp 1 -
+/misc/drupal.js 1 -
+/v1/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/rss.php 1 -
+/WebAdmin/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/backend/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/administrator/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/Error.aspx 1 -
+/manage/fckeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/backend/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/fckeditor/editor/filemanager/connectors/test.html 1 -
+/Administrator/FCKeditor/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/maxcms/ 1 -
+/images/login9/login_33.jpg 1 -
+//www.youtube.com/embed/INdVRC2nqzM 1 -
+/helpnew/faq/faq_simple_zh_CN.jsp 1 -
+/admin/template/article_more/config.htm 1 -
+/fck/fckeditor/editor/dialog/fck_about.html 1 -
+/adm/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/common/help/images/helplogo.gif 1 -
+/wp/wp-login.php 9 -
+/zblog/ 1 -
+/foosun/ 1 -
+/CHANGELOG.txt 1 -
+/OLD/editor/filemanager/browser/default/connectors/php/connector.php 1 -
+/ooe_gesamt.pdf 2 -
+/fck/fckeditor.js 2 http://imsc-ried.com
+/common/fckeditor/fckeditor.js 2 http://imsc-ried.com
+/lazycms/ 1 -
+/app/login.jsp 1 -
+/common/help/images/helplogo_zh.gif 1 -
+/coremail/ 1 -
+/plus/heightsearch.php 1 -
+/system/Login.aspx 1 -
+/tpl/user/tpl1/css/skins/blue.css 1 -
+/cms/ 3 -
+/auth/login 2 -
+/Ntalker/lawfirm.aspx 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 278
+213.174.230.149 22 100 2805983 20150428123307
+80.120.170.183 14 42 3932612 20150420140706
+64.79.100.40 12 12 48049 20150424220023
+178.190.16.96 11 82 3081802 20150428203318
+64.79.100.52 10 10 40593 20150416005722
+62.47.137.1 9 63 1793609 20150401221740
+194.118.141.42 9 30 808527 20150409225340
+52.5.148.103 9 9 37109 20150405113109
+217.196.144.124 8 34 3537102 20150424161120
+178.190.165.181 8 57 2033960 20150419212411
+52.5.161.158 1 1 14568 20150408222346
+192.109.190.88 4 22 1472032 20150429125348
+90.146.53.38 3 13 882887 20150402171459
+62.47.248.78 5 27 1102511 20150424234300
+188.23.125.128 3 17 625331 20150430002512
+80.122.52.102 3 13 948611 20150410102829
+194.39.218.10 2 11 682407 20150413145911
+80.122.80.82 2 11 735358 20150414155026
+194.166.81.137 3 23 650666 20150424175431
+104.197.24.171 1 1 14568 20150402184315
+62.140.132.9 0 1 194435 
+188.106.107.254 2 2 51695 20150405083832
+212.17.110.171 0 1 351553 
+84.181.101.23 2 2 11125 20150427203607
+148.251.11.211 1 1 14568 20150408230014
+194.166.82.242 5 35 1567901 20150417224446
+91.207.7.54 1 1 4124 20150401114906
+107.178.208.47 1 1 14569 20150430184203
+104.197.46.93 1 1 14568 20150422184159
+38.100.21.66 6 10 233255 20150423155412
+88.73.22.194 2 2 25487 20150424024538
+188.226.232.87 1 1 4123 20150416223719
+77.119.128.112 3 28 3636856 20150408204953
+188.23.123.103 4 20 1071478 20150421221612
+46.151.52.12 1 1 14569 20150429191555
+62.47.140.166 2 11 701800 20150413081106
+144.76.185.173 0 1 261902 
+188.23.20.153 1 1 3993 20150426165200
+157.55.39.21 0 2 36576 
+130.211.175.37 1 1 14568 20150426184142
+85.214.11.209 1 1 4121 20150416123112
+54.149.107.194 1 1 14569 20150404013237
+129.27.182.32 0 1 180268 
+79.197.214.218 1 1 10919 20150405083751
+93.82.67.10 3 13 903107 20150429203548
+178.165.130.139 2 11 734271 20150426192813
+188.23.123.20 2 15 348398 20150410202036
+5.9.145.132 1 3 438902 20150410100718
+52.4.150.238 0 1 351553 
+52.5.81.194 0 1 253450 
+212.183.77.131 2 10 259020 20150426100206
+23.251.154.226 1 1 14568 20150428184120
+101.66.213.230 6 6 82810 20150411111536
+62.68.218.229 2 11 746033 20150422090208
+62.178.170.27 2 10 259020 20150419085004
+104.197.17.136 1 1 14569 20150401184251
+83.236.139.211 3 12 979733 20150424095242
+188.21.37.230 0 2 327196 
+52.5.80.170 1 1 14569 20150423044408
+54.183.249.250 1 1 14569 20150402005429
+62.218.135.34 3 26 3080201 20150420155811
+150.70.173.46 1 1 34174 20150406190621
+54.84.80.249 1 1 4124 20150404215823
+176.195.26.172 2 8 290800 20150406134603
+31.193.163.232 7 43 3765320 20150423091059
+188.22.34.95 3 23 619698 20150415215635
+188.143.232.19 6 6 102417 20150410075149
+188.143.232.72 6 6 102743 20150418150911
+90.146.49.145 2 12 1243698 20150422213753
+104.197.11.22 1 1 14568 20150404184251
+83.215.117.137 2 11 766059 20150410193504
+146.148.81.139 1 1 14569 20150405184354
+104.154.64.221 1 1 14569 20150413183812
+193.106.19.62 0 1 261902 
+178.115.130.255 0 2 327196 
+107.178.209.176 1 1 14569 20150406184219
+80.110.79.110 0 1 193498 
+213.239.211.141 6 6 102414 20150407151740
+88.117.59.245 1 8 295669 20150418085316
+104.197.9.109 1 1 14568 20150419184440
+93.212.218.28 1 2 299703 20150424215745
+52.4.116.143 2 2 29138 20150402221945
+80.142.200.78 1 2 213827 20150430203044
+84.181.123.38 2 12 650833 20150409203712
+104.154.91.120 1 1 14568 20150411184135
+94.126.96.126 6 15 775612 20150429095047
+84.181.97.163 1 3 262310 20150428215826
+91.141.3.212 0 1 442780 
+62.47.233.206 2 11 984861 20150419195724
+62.46.208.147 6 36 1512709 20150413210750
+122.13.2.164 6 6 82811 20150417115554
+93.212.214.15 2 6 666056 20150419202755
+52.10.87.145 1 1 14569 20150424202341
+52.6.77.242 0 1 857464 
+141.201.12.241 3 12 463109 20150428130840
+96.227.124.38 1 1 14568 20150417195521
+146.148.72.37 1 1 14569 20150403184320
+207.46.13.149 0 1 7283 
+148.251.124.42 1 2 276471 20150410065930
+109.239.167.26 0 2 506900 
+5.9.106.81 1 1 14568 20150408203257
+104.154.85.66 1 1 14568 20150412184109
+104.197.0.17 1 1 14569 20150429184142
+188.22.21.243 2 12 1177051 20150414131503
+88.217.180.184 0 1 261902 
+87.185.78.109 4 29 3517027 20150426083400
+88.117.61.248 2 16 775156 20150430123418
+213.162.68.58 0 1 4290 
+95.129.204.59 0 1 351553 
+144.76.201.69 1 2 268019 20150411160924
+46.229.170.197 1 1 14569 20150415173806
+52.24.21.131 1 1 0 20150430213712
+217.12.206.140 2 2 8246 20150427193733
+111.68.50.102 2 11 717587 20150418061350
+87.177.202.119 0 3 392732 
+188.165.234.68 6 6 102272 20150421121348
+90.146.129.229 2 12 935857 20150417130632
+70.39.186.138 2 11 701800 20150427150523
+77.242.79.171 2 11 701800 20150419182522
+62.47.138.142 1 8 214835 20150410164629
+188.164.131.200 1 1 14569 20150411205017
+194.118.51.246 0 1 442780 
+62.46.213.54 1 7 68924 20150414225929
+5.189.144.88 1 1 14568 20150430174233
+194.166.170.241 5 14 425563 20150414202024
+62.47.255.89 2 16 491490 20150424000831
+217.251.101.239 2 11 744160 20150406161602
+54.145.205.11 1 1 14568 20150423175351
+62.47.34.159 3 12 756766 20150424182257
+86.32.52.11 0 2 447070 
+130.211.103.14 1 1 14568 20150425053055
+212.152.155.62 0 1 4290 
+146.148.40.0 1 1 14569 20150427184144
+188.22.41.155 0 1 261902 
+104.197.32.250 1 1 14568 20150418184302
+62.46.210.68 1 8 333513 20150408183722
+94.131.14.16 1 1 4123 20150421022219
+178.189.214.183 2 13 1497622 20150428194141
+213.174.254.3 5 43 3588959 20150420203854
+93.82.74.235 5 39 1331134 20150412001806
+85.14.243.23 2 2 25487 20150403122407
+190.220.16.72 0 1 4290 
+83.191.119.166 0 1 253450 
+52.5.117.206 0 1 261902 
+84.181.114.185 1 2 213827 20150423214837
+213.162.68.25 0 2 447070 
+80.142.219.59 1 2 262310 20150420000149
+104.154.49.88 1 1 14568 20150407184303
+101.66.211.240 1 1 14568 20150404125224
+178.18.141.110 1 1 4123 20150415130817
+194.118.107.35 5 22 17541 20150419144424
+80.108.218.154 2 11 741769 20150430000934
+58.237.16.102 2 12 1188813 20150422104856
+134.249.53.85 1 1 14568 20150425204742
+193.192.58.164 6 6 102272 20150423193624
+144.76.155.8 3 6 753028 20150425111146
+188.22.32.86 7 54 1431290 20150406224152
+84.132.45.1 1 1 14569 20150424024122
+212.183.73.151 2 11 735358 20150425150119
+91.112.239.34 2 11 682407 20150415091516
+104.197.53.201 1 1 14569 20150424184107
+84.191.33.74 1 1 10666 20150405083727
+52.4.131.184 0 1 351553 
+54.158.111.148 1 1 4123 20150422212024
+89.144.192.78 2 12 1175153 20150409204148
+88.117.82.207 1 7 68925 20150403220929
+213.162.68.5 2 11 701800 20150420135516
+5.9.17.118 1 2 268019 20150410065936
+104.197.32.237 1 1 14568 20150425184206
+95.37.109.153 1 1 14568 20150424132115
+77.242.79.60 6 22 3014963 20150425195117
+81.16.104.191 3 12 841896 20150429192042
+185.58.204.15 1 1 4123 20150404085633
+150.70.173.54 1 1 14569 20150422090334
+91.113.5.51 6 39 945771 20150423213340
+91.113.7.182 4 32 1085883 20150422205752
+109.43.3.213 4 29 2986380 20150412203340
+178.190.165.205 1 8 223663 20150430123636
+178.190.20.54 4 31 900940 20150403204614
+95.241.177.53 1 1 4124 20150418010834
+213.23.84.205 4 16 878004 20150417114503
+188.164.131.250 1 1 14568 20150411204925
+72.46.152.69 1 1 14568 20150408012840
+52.6.71.174 0 1 253450 
+87.123.116.166 1 1 10666 20150424024500
+91.115.87.109 2 11 685225 20150417104825
+91.141.4.137 0 1 261902 
+78.52.150.171 1 1 30630 20150424024357
+62.46.211.210 6 37 1539026 20150412223337
+194.166.84.92 4 27 1405213 20150416221823
+92.225.11.57 1 1 17521 20150424024606
+62.47.250.18 1 1 3993 20150418125002
+185.48.117.124 1 1 10666 20150430010827
+176.9.113.45 1 1 0 20150409005520
+178.115.129.72 0 1 253450 
+88.117.119.221 5 35 1584660 20150420214636
+194.166.83.89 0 1 198297 
+123.156.83.107 7 7 97380 20150415104607
+89.144.195.81 2 11 800918 20150406201736
+80.142.223.61 1 1 4123 20150425204941
+95.141.35.157 2 2 13960 20150428174713
+101.66.194.9 1 1 14569 20150409130111
+173.252.112.117 0 1 253450 
+199.19.249.196 6 6 107697 20150429125348
+80.142.204.137 5 21 2599196 20150426203659
+188.22.42.246 4 26 1092555 20150426233445
+194.118.94.230 0 2 447070 
+49.254.183.172 1 1 14569 20150417092902
+146.148.35.71 1 1 14568 20150415184237
+80.120.21.238 2 11 831909 20150423161759
+39.65.220.197 1 1 9836 20150412144146
+80.130.160.4 0 1 261902 
+185.48.119.54 1 1 34441 20150430011506
+185.71.255.101 3 27 3082130 20150422230344
+193.154.62.108 2 11 701800 20150406175239
+52.5.158.248 4 4 16494 20150406120101
+178.191.139.209 2 24 2717336 20150407121717
+83.216.194.27 0 1 4290 
+178.165.130.123 1 1 3993 20150428103111
+183.60.244.49 7 7 28863 20150401172552
+52.6.115.66 0 1 261902 
+93.196.113.217 1 1 14569 20150405083720
+86.56.206.77 3 25 2441053 20150401125733
+185.48.117.202 1 1 10919 20150430123355
+113.35.251.98 1 1 4124 20150404072710
+148.251.75.46 1 2 270971 20150426213453
+178.112.108.242 0 2 447070 
+52.6.58.249 1 1 14568 20150426093620
+80.142.215.81 1 2 158862 20150421222712
+58.20.54.248 1 1 14568 20150424213632
+52.5.167.252 0 1 857464 
+194.118.103.213 2 11 749018 20150425134124
+178.191.140.89 4 31 966276 20150429182020
+93.82.9.250 3 20 1448001 20150411212134
+91.113.4.114 5 28 1330005 20150403232201
+66.249.92.8 0 1 442780 
+185.48.116.36 1 1 17521 20150430102614
+144.76.63.199 1 1 4124 20150415140102
+188.23.127.232 6 38 739276 20150426001328
+62.46.210.182 1 8 278628 20150408224623
+95.213.161.146 1 1 14568 20150413222511
+195.154.241.109 4 4 16494 20150427145555
+91.128.205.116 2 11 741175 20150420110359
+46.29.2.50 1 1 14568 20150408173206
+128.68.218.129 2 2 8244 20150415230143
+93.82.222.206 2 11 737302 20150415120304
+112.90.37.227 1 1 14569 20150417062833
+62.47.37.156 0 1 4290 
+188.22.110.21 1 7 68923 20150407235922
+84.146.242.224 1 1 3093 20150405071148
+91.113.6.238 2 11 694053 20150404230738
+107.178.210.9 1 1 14568 20150414184205
+108.59.84.215 1 1 14568 20150408175003
+89.31.57.5 1 1 14568 20150402090507
+188.93.212.226 1 1 14569 20150408134458
+82.192.74.234 8 8 131012 20150425213230
+217.12.202.39 2 2 8246 20150424110339
+104.197.45.197 1 1 14569 20150421184524
+138.128.2.235 1 1 4123 20150417080649
+80.108.45.250 0 1 442780 
+194.118.22.241 1 1 3993 20150422115450
+93.82.77.136 3 20 1544540 20150403000055
+77.6.144.34 1 1 14568 20150405083728
+212.95.7.121 0 1 180268 
+62.210.209.22 1 1 4122 20150412161304
+148.251.69.136 2 3 293992 20150404213232
+88.117.61.0 5 28 1446301 20150405223900
+185.71.255.194 2 11 680213 20150406191503
+93.82.78.246 1 7 68924 20150402164042
+93.212.216.172 1 2 299703 20150420224223
+84.115.164.233 2 10 261816 20150426073531
+188.45.33.149 0 1 253450 
+212.95.7.192 2 11 701800 20150418135243
+93.186.202.244 0 1 261902 
+80.142.202.63 1 2 217823 20150429234931
+188.23.18.242 2 11 753014 20150411101014
+91.141.0.46 5 29 3124499 20150422200706
+130.211.136.215 1 1 14568 20150409175023
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20150401 21 100 4991190 7
+20150402 10 34 1831938 7
+20150403 15 81 3330632 7
+20150404 11 20 786342 9
+20150405 22 48 2312461 10
+20150406 23 114 5161488 12
+20150407 10 41 3861373 4
+20150408 12 54 5821893 10
+20150409 16 59 3115397 7
+20150410 17 58 2599200 9
+20150411 18 66 3542151 8
+20150412 16 87 5596979 8
+20150413 14 63 3225844 8
+20150414 16 72 3929068 8
+20150415 23 63 2668809 13
+20150416 18 42 1724199 7
+20150417 23 84 4197627 9
+20150418 14 39 1840484 7
+20150419 25 159 10090911 11
+20150420 40 180 12996883 13
+20150421 21 75 4351965 8
+20150422 22 127 10508309 11
+20150423 26 92 4200016 9
+20150424 50 155 8612781 21
+20150425 28 92 6590963 10
+20150426 24 123 10393817 12
+20150427 16 82 4317621 7
+20150428 17 77 3197422 11
+20150429 25 99 5238501 12
+20150430 14 53 2652514 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 11
+0s-30s 233
+15mn-30mn 9
+30s-2mn 16
+2mn-5mn 8
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 13
+/ 354 2390058 263 176
+/fonts/glyphicons-halflings-regular.woff 60 1352560 0 36
+/news.php 43 620153 7 16
+/fonts/glyphicons-halflings-regular.eot 37 732060 0 23
+/members.php 28 276015 8 13
+/index.php 25 196829 1 8
+/calendar.php 20 142946 3 8
+/sponsors.php 18 131245 5 4
+/./index.php 5 51952 0 1
+/./sponsors.php 5 38182 0 0
+/./members.php 5 59055 0 2
+/./calendar.php 5 37831 0 0
+/./news.php 2 13761 0 0
+END_SIDER
