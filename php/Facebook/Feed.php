@@ -77,6 +77,9 @@ class Feed
 		$msg = preg_replace('"\b(http://\S+)"', '<a href="$1">$1</a>', $this->backingData->message);
 		$cap = preg_replace('"\b(http://\S+)"', '<a href="$1">$1</a>', $this->backingData->caption);
 		$des = preg_replace('"\b(http://\S+)"', '<a href="$1">$1</a>', $this->backingData->description);
+		$msg = preg_replace('"\b(https://\S+)"', '<a href="$1">$1</a>', $msg);
+		$cap = preg_replace('"\b(https://\S+)"', '<a href="$1">$1</a>', $cap);
+		$des = preg_replace('"\b(https://\S+)"', '<a href="$1">$1</a>', $des);
 		//$sty = preg_replace('"\b(http://\S+)"', '<a href="$1">$1</a>', $this->backingData->story);
 		
 		$msg = nl2br($msg);

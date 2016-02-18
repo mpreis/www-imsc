@@ -58,7 +58,7 @@
         			<!-- left box -->
         			<h2>Pr&auml;sident</h2>
         			<div class="col-sm-6">
-								<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/kraxenberg_franz.jpg" 
+								<a href="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/persons/kraxenberger_franz.jpg" 
 									data-toggle="lightbox" data-gallery="multiimages"
 									data-title="Pr&auml;sident: Franz Kraxenberger">
 									<img class="img-rounded img-responsive" 

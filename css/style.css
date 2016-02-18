@@ -122,7 +122,7 @@ section a {
 	font-weight: normal;
 	line-height: 1.428571429;
 	text-align: center;
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 	vertical-align: middle;
 	cursor: pointer;
 	background-image: none;
@@ -135,6 +135,22 @@ section a {
 	user-select: none;
 
 	margin: 0.25em;
+
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+
+  /* Adds a hyphen where the word breaks, if supported (No Blink) */
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 section a:hover, section a:focus {
 	color: white;
@@ -274,6 +290,7 @@ body > header .header-background {
 #sponsors,
 #calendar,
 #members {
+  background-color: #beac89;
 	background-size: cover;
 	opacity: 90;
   filter: alpha(opacity=9000);
@@ -574,6 +591,8 @@ body > header .header-background {
 		width:280px;
 		height:165px !important;
 	}
+  .my-brand-img { width:70px; }
+  .my-brand-text { margin-left:20px !important; }
 }
 
 /* videos facebook news feed */
@@ -582,12 +601,6 @@ body > header .header-background {
 		width:250px;
 		height:135px !important;
 	}
-}
-
-/* brand hack: nesassery, because navigation overlaps brand -> shrink brand */
-@media (max-width: 840px) {
-	.my-brand-img { width:70px; }
-	.my-brand-text { margin-left:10px; }		
 }
 
 /* videos facebook news feed */
@@ -601,46 +614,40 @@ body > header .header-background {
 /* mobile/small devices: replace bg-imgs by colors */
 @media (max-width: 767px) {
 	body > section,
-    header,
-    footer {
+  header,
+  footer {
 		padding-right: 5px;
 		padding-left: 5px;
-    }
+  }
 	
-   #header {
+  #header {
 		padding-left: 20px;
 		padding-right: 20px;
 		-webkit-box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		box-sizing: border-box;
-    }
+   }
 	
-	.my_section { 
-		padding-bottom: 70px;
-    }
-	.my_section .fb-feed{ 
-		padding-top: 30px !important;
-    }
-    .my_section .player { margin: 40px 0 45px; }
+	.my_section { padding-bottom: 70px; }
+	.my_section .fb-feed { padding-top: 30px !important; }
+  .my_section .player { margin: 40px 0 45px; }
     
 	.logos {
 		padding-top: 20px;
 		padding-bottom: 20px;
-    }
+  }
 	
-	.cal_events {
+	.cal_events, .cal {
 	   width:350px; 
-		 height:250px;
+		 height:350px;
 	}
-	.cal {
-		width:350px; 
-		height:350px;	
-	}
-	
-  .footer .additional-links {
-		clear: both;
-		text-align: left;
-   }
+
+  .fb-feed-video {
+    width:420px;
+    height:315px !important;
+  }
+  .img-rounded { height:200px; width:auto;}
+
 	
 	#home .background, 
 	#news .background,
@@ -649,88 +656,38 @@ body > header .header-background {
 	#calendar .background,
 	#members .background
 	{ background: #beac89 !important; /* imsc-gold */ }
-	
-	.fb-feed-video {
-		width:420px;
-		height:315px !important;
-	}
 }
 
-/* mobile/smaller devices (e.g. iphone4): shink headline */
 @media (max-width: 480px) {	
-  .my_section {
-    	padding-bottom: 70px;
- 	 }
-	.my_section .fb-feed{ 
+  .my_section { padding-bottom: 70px; }
+  .my_section .player { height: 160px; }
+  .my_section .fb-feed{ 
 		padding-top: 30px !important;
-    }
-  	.my_section h3 {
-    	font-size: 26px;
-    	font-weight: normal;
-  	}
-    .my_section .player {
-		height: 160px;
-    }
-	
-    .logos { display: none; }
-	.img-thumbnail { height:120px; width:auto;}
-	
-    .footer {
-		padding-top: 28px;
-		padding-bottom: 28px;
-    }
-    .footer > .container > * {
-		float: none !important;
-		*zoom: 1;
-    }
-    .footer > .container > *:before,
-    .footer > .container > *:after {
-		content: " ";   /* 1 */
-		display: table; /* 2 */
-    }
-    .footer > .container > *:after { clear: both; }
-    .footer > .container > *:before,
-    .footer > .container > *:after {
-		display: table;
-		content: "";
-		line-height: 0;
-    }
-    .footer > .container > *:after { clear: both; }
-    .footer nav ul li { float: none; margin: 18px 0 0; }
-    .footer nav ul li:first-child { margin-top: 0; }
-    .footer .social-btns { margin: 25px 0 10px; }
-	
-	.fb-feed-video {
-		width:280px;
-		height:215px !important;
-	}
+    padding-left:0 !important;
+    padding-right:0 !important;
+    margin:0 !important;
+  }
+  .cal_events, .cal{
+    width:300px; 
+    height:300px;
+  }
+  .fb-feed-video {
+    width:280px;
+    height:215px !important;
+  }
+  .img-rounded { height:120px; width:auto;}
+  .logos { display: none; }
 }
 
 @media (max-width: 350px) {
-	.cal_events {
-	     width:292px; 
-		 height:242px;
+	.cal_events, .cal{
+    width:250px; 
+		height:250px;
 	}
-	.cal_div_events {
-     	width:300px; 
-	 	height:250px;
-	}
-	.cal {
-		width:292px; 
-		height:292px;	
-	}
-	.cal_div_month {
-		width:300px; 
-		height:300px;
-	}
-	.img-thumbnail { height:90px; width:auto;}
-	
-	.fb-feed-video {
-		width:220px;
-		height:157px !important;
-	}
-	
-	.navbar-brand-text {
-		left: 80px;
-	}
+  .fb-feed-video {
+    width:220px;
+    height:157px !important;
+  }
+	.img-rounded { height:90px; width:auto; }
+	.navbar-brand-text { left: 80px; }
 }
