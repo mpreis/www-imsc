@@ -1,7 +1,5 @@
 <?php
 namespace IMSC\php;
-use \IMSC\php\Facebook\Feeds;
-require_once 'Facebook/Feeds.php';
 
 /**
  *
@@ -9,12 +7,11 @@ require_once 'Facebook/Feeds.php';
  */
 class Content
 {
-  const NR_OF_FACEBOOK_FEEDS_SHOWN = 5;
+  const SRC_HOME = './content/home/*.html';
   const SRC_NEWS = './content/news/*.html';
   const SRC_SPONSORS = './content/sponsors.csv';
   const NEWS = 0;
   const HOME = 1;
-  const FACEBOOK = 2;
   const SPONSORS = 3;
   const CALENDAR = 4;
 
@@ -24,22 +21,14 @@ class Content
        case self::NEWS:
          $title = 'News';
          $subtitle = '';
-         $content = self::getNews(self::NEWS);
+         $content = self::getNews(self::SRC_NEWS);
          break;
 
        case self::HOME:
          $title = 'Innviertler Motor-Sport-Club';
          $subtitle = 'Motorsport zum greifen nahe.';
-         $content = self::getNews(self::HOME);
+         $content = self::getHome(self::SRC_HOME);
          break;
-
-        case self::FACEBOOK:
-          $title = 'Facebook';
-          $subtitle = 
-            '<a href="https://www.facebook.com/imsc.ried">https://www.facebook.com/imsc.ried</a>
-             <br>(Auch ohne Facebook-Account!!!).';
-          $content = self::getFacebookFeed();
-          break;
 
         case self::SPONSORS:
           $title = 'Sponsoren';
@@ -48,7 +37,7 @@ class Content
           break;
 
         case self::CALENDAR:
-          $title = 'Kalendar';
+          $title = 'Kalender';
           $subtitle = 'Alle Termine auf einen Blick auch auf deinem Smartphone.';
           $content = self::getCalendar();
           break;
@@ -75,21 +64,38 @@ class Content
       '</div>'                                            ;
   }
 
-  private function getNews($what)
+  private function getHome($dir) 
   {
-    $files = glob(self::SRC_NEWS); // put all files in an array 
+    $files = glob($dir);
+    usort($files, create_function('$a,$b', 'return filemtime($a)<filemtime($b);'));
+    $file = $files[0];
+    return '<div id="fb-feeds" class="row">'                    .   // open new row
+              '<div class="col-sm-6">'                          .   // open 1st box
+                '<div class="fb-feed-background">&nbsp;</div>'  .   // print background div
+                '<div class="my_section fb-feed">'              .   // print content div    
+                  date ("d. F Y, H:i", filemtime($file))        .   // print current date
+                  file_get_contents($file)                      .   // print content of file
+                '</div>'                                        .   // close content div
+              '</div>'                                          .   // close 1st box
+              '<div class="col-sm-5 col-sm-offset-1">'          .   // open 2nd box
+                '<div class="fb-feed-background">&nbsp;</div>'  .   // print background div
+                '<div class="my_section fb-feed">'              .   // print content div 
+                  '<div class="fb-page" data-href="https://www.facebook.com/imsc.ried/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/imsc.ried/"><a href="https://www.facebook.com/imsc.ried/">IMSC - Innviertler Motor Sport Club</a></blockquote></div></div>' .
+                '</div>'                                        .   // close content div
+              '</div>'                                          .   // close 2nd box
+            '</div>'                                            ;   // close row
+
+  }
+
+  private function getNews($dir)
+  {
+    $files = glob($dir); // put all files in an array 
     usort($files, create_function('$a,$b', 'return filemtime($a)<filemtime($b);'));
 
     $news = '';
     $i = 0;
     foreach($files as $file) 
     { 
-        // skip the first two news
-        if($what == self::NEWS && $i < 2) {
-          $i++;
-          continue;
-        }
-
         if($i%2 == 0)
           $news .= 
             '<div id="fb-feeds" class="row">'             .   // open new row
@@ -111,106 +117,8 @@ class Content
           $news .= '</div>'                               ;   // close row      
 
         $i++;
-        // only display the first two news
-        if($what == self::HOME && $i == 2)
-          break;
     }
     return $news;
-  } 
-
-  private function getFacebookFeed()
-  {
-    $f = new Feeds();
-    $data = $f->getFeeds();
-    $i = 0;
-    foreach ($data as &$feed)
-    {
-      if($i == self::NR_OF_FACEBOOK_FEEDS_SHOWN)              // show only the last entries
-        break;
-
-      if($i%2 == 0)
-          $feeds .= 
-            '<div id="fb-feeds" class="row">'             .   // open new row
-              '<div class="col-sm-6">'                    ;   // open 1st box
-        else                
-          $feeds .= 
-              '<div class="col-sm-5 col-sm-offset-1">'    ;   // open 2nd box
-        
-        $feeds .= 
-          '<div class="fb-feed-background">&nbsp;</div>'  .   // print background div
-          '<div class="my_section fb-feed">'              .   // print content div    
-              $feed->getDate() . '<br><br>'               ;   // print current date
-        
-        // set content
-        // set message
-        $feeds .= $feed->getMessage();
-
-        // set images
-        $feeds .= self::getFacebookFeedContentImages($feed->getCoverImg()); 
-
-        // set videos
-        $feeds .= self::getFacebookFeedContentVideos($feed->getSource());
-
-        
-        $feeds .= 
-            '</div>'                                      .   // close content div
-          '</div>';                                       ;   // close box div
-
-        if($i%2 != 0)
-          $feeds .= '</div>'                              ;   // close row      
-
-        $i++;
-
-    }
-    return $feeds;
-  }
-
-  private function getFacebookFeedContentImages($coverImgs)
-  {
-    $imgGallery = '';
-    $imgCover = '';
-    foreach($coverImgs as $imgsrc)
-    {
-      if(strcmp($imgCover,'') == 0)
-      {
-        $imgCover .= '<a href="' . $imgsrc . '" class="col-sm-8" '
-              .'data-toggle="lightbox" data-gallery="multiimages">'
-              . '<img src="' . $imgsrc . '" class="img-thumbnail img-responsive center-block" />'
-            . '</a>';
-      }
-      else
-      {
-        $imgGallery .= '<a href="' . $imgsrc . '" class="col-sm-2" '
-              .'data-toggle="lightbox" data-gallery="multiimages">'
-              . '<img src="' . $imgsrc . '" class="img-thumbnail img-responsive center-block" />'
-            . '</a>';
-      }
-    }
-    return $imgGallery;
-  }
-
-  private function getFacebookFeedContentVideos($srcs) 
-  {
-    $output .= '';
-    foreach($srcs as $src)
-    {
-      if($src == null || strcmp($src, "") == 0) continue;
-        
-      $video_src = str_replace("autoplay=1", "autoplay=0", $src);
-      $output .= 
-        '<object class="fb-feed-video center-block">
-          <param name="movie" value="' . $video_src . '"></param>
-          <param name="allowFullScreen" value="true"></param>
-          <param name="allowscriptaccess" value="always"></param>
-          <embed src="' . $video_src . '" 
-            type="application/x-shockwave-flash" class="fb-feed-video center-block" 
-            allowscriptaccess="always" 
-            allowfullscreen="true">
-          </embed>
-          </object>';
-      $output .= '<br />';
-    }
-    return $output;
   }
 
   private function getSponsors()
