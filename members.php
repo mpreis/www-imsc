@@ -5,13 +5,10 @@
  	 */
 	namespace IMSC;
 	use \IMSC\php\Content;
-	use \IMSC\php\MobileDetect;
 
 	require_once 'php/Content.php';
-	require_once 'php/MobileDetect.php';
 
 	$content = new Content();
-	$detect = new MobileDetect();
 ?>
 
 <!DOCTYPE html>
