@@ -11,12 +11,7 @@
 		</button>
 		<a class="navbar-brand brand" href="./index.php">
 				<img src="https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/favicon.png" class="navbar-brand-img my-brand-img" />
-				<div class="navbar-brand-text my-brand-text">
-					<?php  
-						if($detect->isMobile()) echo 'IMSC';
-						else echo 'Innviertler<br />Motor Sport Club';
-					?>
-				</div>
+				<div class="navbar-brand-text my-brand-text">IMSC</div>
 		</a>
 	</div>
 	<div id="navbarCollapse" class="collapse navbar-collapse pull-right">

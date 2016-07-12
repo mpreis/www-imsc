@@ -210,11 +210,8 @@ class Content
     $nrImgs = 20;
     $bgImg = '';
     $path = 'https://raw.githubusercontent.com/mpreis/www-imsc/master/imgs/bg/section_home_';
-    $detect = new MobileDetect();
-    if(!$detect->isMobile()) {
-      $bgImgIdx = rand(0, $nrImgs);
-      $bgImg = 'style="background-image: url(\'' . $path . $bgImgIdx . '.jpg\');"';
-    }
+    $bgImgIdx = rand(0, $nrImgs);
+    $bgImg = 'style="background-image: url(\'' . $path . $bgImgIdx . '.jpg\');"';
     return $bgImg ;
   }
 
